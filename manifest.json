@@ -1,6 +1,9 @@
 {
   "name": "Fleuriste",
   "version": "0.1.0",
+  "description": "A modular roleplay framework built for vivid, concise prose, independent characters, lasting consequences, and secrets that bloom in their own time.",
+  "coverAsset": "assets/fleuriste-cover.webp",
+  "coverUrl": "https://raw.githubusercontent.com/cLonata/Lumiverse-Fleuriste/main/assets/fleuriste-cover.webp",
   "upstream": {
     "file": "base/Atelier_v3.3_updated-v9.json",
     "name": "Atelier 3.3",

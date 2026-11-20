@@ -10,6 +10,17 @@ test('source inventory and native outputs validate', () => {
   assert.deepEqual(validate(), { blocks:142, regex:47, active:100001 });
 });
 
+test('preset metadata compiles from manifest and cover asset exists', () => {
+  const manifest = readJson('manifest.json');
+  const loom = compile(manifest).loom;
+  assert.equal(manifest.description, "Fleuriste is a modular roleplay framework built on Atelier's storytelling foundation. Vivid, concise prose meets a living world of independent characters, lasting consequences, and secrets that bloom in their own time.");
+  assert.equal(loom.description, manifest.description);
+  assert.equal(loom.coverUrl, manifest.coverUrl);
+  assert.equal(new URL(loom.coverUrl).protocol, 'https:');
+  assert.ok(fs.statSync(path.join(root, manifest.coverAsset)).isFile());
+  assert.deepEqual(readJson(manifest.output.loom), loom);
+});
+
 test('build is deterministic and block edits remain isolated', () => {
   const manifest = readJson('manifest.json');
   const first = compile(manifest);

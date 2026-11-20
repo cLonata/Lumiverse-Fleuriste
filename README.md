@@ -8,6 +8,7 @@ Fleuriste is a modular, lossless source project for Atelier 3.3 Revision 9. It b
 - `src/core`, `preferences`, `runtime`, `planning`, and `formatting` hold one exact UTF-8 prompt body per `.txt` file. Edit these files to change prompt content; macro syntax is copied as text and never evaluated by the build.
 - `src/regex/` holds one editable SillyTavern source script per JSON file. Edit its `findRegex`, `replaceString`, flags, placement, targeting, and other fields there. Edit the matching manifest regex entry's `enabled` or `name` for effective state or display name.
 - `manifest.json` owns identities, display names, metadata, settings, source order configurations, and output paths. Edit a block's `name`, `role`, or `enabled` there. For a block present in the active order, edit that order entry's `enabled` value to change its effective enabled state. Its initial value comes from Atelier's `prompt_order`, which can differ from the prompt definition.
+- `manifest.json` also owns the Loom `description`, `coverAsset`, and public `coverUrl`. The build copies the description and URL into every Loom export; validation checks that the local WebP exists and that its raw GitHub URL matches.
 - `src/simulation/` contains empty folders for future NPC thoughts, secrets, agendas, and GM Notebook modules. Add those as separate manifest entries later; upstream prompt files need no edits.
 
 ## Ordering

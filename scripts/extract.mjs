@@ -7,6 +7,7 @@ const source = sourceFile();
 const data = readJson(source);
 const manifestPath = path.join(root, 'manifest.json');
 if (fs.existsSync(manifestPath) && !force) throw new Error('manifest.json exists; extraction would replace modular metadata. Use --force deliberately.');
+const existingMetadata = fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath, 'utf8')) : {};
 const used = new Set();
 const sections = ['core','preferences','runtime','planning','formatting'];
 function section(p) {
@@ -42,7 +43,9 @@ const regex = data.extensions.regex_scripts.map((r, index) => {
 });
 const { prompts, prompt_order, extensions, ...settings } = data;
 const manifest = {
-  name:'Fleuriste', version:'0.1.0', upstream:{ file:source, name:'Atelier 3.3', revision:'9', sha256:sha(fs.readFileSync(path.join(root, source))) },
+  name:'Fleuriste', version:'0.1.0',
+  description:existingMetadata.description || '', coverAsset:existingMetadata.coverAsset || '', coverUrl:existingMetadata.coverUrl || '',
+  upstream:{ file:source, name:'Atelier 3.3', revision:'9', sha256:sha(fs.readFileSync(path.join(root, source))) },
   activeCharacterId:100001,
   promptOrders:prompt_order.map(o => ({ characterId:o.character_id, entries:o.order.map(e => ({ id:e.identifier, enabled:e.enabled })) })),
   blocks, regex, settings,

@@ -1,8 +1,8 @@
 {
   "id": "008628cf-6289-5310-a86a-37b289991979",
   "name": "Fleuriste",
-  "description": "Modular Atelier 3.3 Revision 9 foundation",
-  "coverUrl": null,
+  "description": "Fleuriste is a modular roleplay framework built on Atelier's storytelling foundation. Vivid, concise prose meets a living world of independent characters, lasting consequences, and secrets that bloom in their own time.",
+  "coverUrl": "https://raw.githubusercontent.com/cLonata/Lumiverse-Fleuriste/main/assets/fleuriste-cover.webp",
   "presetVersion": "0.1.0",
   "lumihubMeta": null,
   "passthroughMetadata": {},

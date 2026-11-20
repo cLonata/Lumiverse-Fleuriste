@@ -14,7 +14,7 @@ export function compile(manifest = readJson('manifest.json')) {
   const s = manifest.settings;
   const loom = {
     id:stableUuid('fleuriste:loom'), name:manifest.name,
-    description:'Modular Atelier 3.3 Revision 9 foundation', coverUrl:null,
+    description:manifest.description, coverUrl:manifest.coverUrl,
     presetVersion:manifest.version, lumihubMeta:null, passthroughMetadata:{},
     schemaVersion:1, createdAt:0, updatedAt:0, blocks,
     source:{ type:'fleuriste', slug:null, importedVersion:manifest.upstream.revision, importedName:manifest.upstream.name, importedAt:0 },
@@ -47,6 +47,8 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   fs.mkdirSync(path.join(root, 'dist'), { recursive:true });
   for (const file of fs.readdirSync(path.join(root,'dist'))) if (file.endsWith('.json') && !Object.values(manifest.output).some(x => path.basename(x) === file)) fs.rmSync(path.join(root,'dist',file));
   writeJson(manifest.output.loom, loom);
-  writeJson(manifest.output.regex, regex);
+  const regexPath = path.join(root, manifest.output.regex);
+  const regexJson = JSON.stringify(regex, null, 2) + '\n';
+  if (!fs.existsSync(regexPath) || fs.readFileSync(regexPath, 'utf8') !== regexJson) writeJson(manifest.output.regex, regex);
   console.log(`Built ${loom.blocks.length} Loom blocks and ${regex.scripts.length} regex scripts`);
 }

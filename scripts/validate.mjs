@@ -8,6 +8,14 @@ import { compile } from './build.mjs';
 export function validate({ baseline = false } = {}) {
   const m = readJson('manifest.json');
   assert.equal(m.name, 'Fleuriste');
+  assert.equal(typeof m.description, 'string');
+  assert.ok(m.description.length > 0);
+  assert.equal(typeof m.coverAsset, 'string');
+  assert.match(m.coverAsset, /^assets\/[A-Za-z0-9._-]+\.webp$/);
+  assert.ok(fs.statSync(path.join(root, m.coverAsset)).isFile());
+  const coverUrl = new URL(m.coverUrl);
+  assert.equal(coverUrl.protocol, 'https:');
+  assert.equal(coverUrl.href, `https://raw.githubusercontent.com/cLonata/Lumiverse-Fleuriste/main/${m.coverAsset}`);
   assert.equal(m.activeCharacterId, 100001);
   assert.equal(new Set(m.blocks.map(x => x.id)).size, m.blocks.length);
   assert.equal(new Set(m.regex.map(x => x.id)).size, m.regex.length);
@@ -40,6 +48,8 @@ export function validate({ baseline = false } = {}) {
   }
   const { loom, regex } = compile(m);
   assert.equal(loom.schemaVersion, 1);
+  assert.equal(loom.description, m.description);
+  assert.equal(loom.coverUrl, m.coverUrl);
   assert.equal(typeof loom.id, 'string');
   assert.equal(loom.blocks.length, m.blocks.length);
   assert.equal(new Set(loom.blocks.map(x => x.id)).size, loom.blocks.length);
