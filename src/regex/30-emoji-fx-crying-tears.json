@@ -1,0 +1,17 @@
+{
+  "id": "01598cc1-7fa1-40ff-8b3e-bb3969106ac1",
+  "scriptName": "Emoji FX - Crying/Tears",
+  "findRegex": "/(😭|😢|🥺)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:tremble 0.5s ease-in-out infinite;filter:drop-shadow(0 0 3px #4169e1);\">$1</span><style>@keyframes tremble{0%,100%{transform:translateY(0)}25%{transform:translateY(-1px)}75%{transform:translateY(1px)}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

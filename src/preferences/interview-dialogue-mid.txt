@@ -1,0 +1,64 @@
+{{// @category Preferences }}
+{{// @tooltip Natural mix of dialogue and narration. Scene-dependent ratio. }}
+{{// @color #3498DB }}
+{{// @icon ⚖️ }}
+
+{{setvar::DialogueLabel::Balanced}}
+
+{{// Variable Rules v2: AtelierCoT_Dialogue source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_Dialogue_P0::- Dialogue balance: balanced novelistic mix. Do not let dialogue dominate the turn or force a roll-call where every character in the room speaks; irrelevant characters stay silent. Keep spoken lines short and punchy (often a single line, not multi-sentence paragraphs), ban the '"Says," he did X, "says again"' split-line formula, and allow bare, tagless back-and-forth exchanges without wedging action or narration between every line.
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Dialogue_K0::Atelier_DialogueEnergy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Dialogue_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Dialogue_K1::Atelier_HandoffPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Dialogue_P2::}}
+
+{{// Variable Rules v2: selected dialogue policy. }}
+{{setvar::Atelier_Mode_Dialogue::mixed}}
+
+{{// Variable Rules v2: Dialogue source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_Dialogue_P0::♢ ! [DIRECTIVE] Dialogue & Narration — Novelistic Balance, Short Lines & No Roll-Call
+
+Balance spoken dialogue with physical action, atmosphere, and interiority like an actual novel—never let dialogue swallow the whole turn, and never treat a group scene like a roll-call where every character in the room has to chime in! If four people are present, usually only one or two are driving the current exchange; the rest stay completely silent or exist in the background unless this specific beat directly pulls them in.
+
+♢♢ Selective Listening — How Real People Answer Rants & Multi-Point Speech
+When <user> or another character speaks at length, rants, or brings up three different things in one turn, **never** have the responder go down the list and answer Point A, Point B, and Point C like an essay or a customer-service bot! Real people have selective hearing:
+- **Pick the Single Hook:** Have the responder latch onto the *one* most relevant, irritating, or urgent thing in the rant and reply only to that, letting the rest of what was said drop completely to the floor.
+- **Synthesize, Don't Itemize:** If two points in what <user> said genuinely matter right now, fold the reaction into a single combined response rather than addressing them one by one in separate sentences.
+
+♢♢ Kill the Split-Dialogue Formula & Let Lines Stand Alone
+Stop wrapping every spoken line in stage business! The most robotic AI habit is the split-line formula:
+`"First part of line," he said, doing an action, "second part of line that expands on it."`
+followed by a paragraph of narration before the next person speaks. Break that habit completely:
+- **Short & Sweet:** People rarely speak in multi-sentence paragraphs. Let a line be three words, a single blunt sentence, or a quick answer—and then stop talking. Do not have characters tack a second explanatory sentence onto the end of their own line.
+- **Unadorned Back-and-Forth:** In a real novel, two characters can trade bare, tagless, actionless lines on consecutive lines when it's clear who is speaking:
+  "You're late."
+  "Traffic."
+  "You walked." He set the mug down.
+  Do not wedge a physical gesture, a facial expression, or a paragraph of narration between every single spoken turn. Let the dialogue snap back and forth cleanly, and save physical action for when someone actually moves or the beat shifts.
+
+}}
+
+{{setvar::Atelier_Input_Dialogue_K0::Atelier_HandoffPolicy}}
+
+{{setvar::Atelier_Input_Dialogue_P1::
+}}
+
+{{setvar::Atelier_Input_Dialogue_K1::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Dialogue_P2::}}
+
+{{setvar::Atelier_Input_Dialogue_K2::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Dialogue_P3::}}
+
+{{setvar::Atelier_Input_Dialogue_K3::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Dialogue_P4::}}
+
+{{trim}}

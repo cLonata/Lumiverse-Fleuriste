@@ -1,0 +1,47 @@
+{{// @category Preferences }}
+{{// @tooltip Psychological depth and emotional weight. The world is hard and survivable. Characters struggle and carry things — and can come through. }}
+{{// @color #5D6D7E }}
+{{// @icon ⛅ }}
+
+{{setvar::ToneLabel::Weighted}}
+
+{{// Variable Rules v2: Tone source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_Tone_P0::♢ ! [DIRECTIVE] Tone — Heavy and Real
+
+The universe isn't cackling or plotting anyone's downfall here—it just fundamentally doesn't care. People move through this world carrying real, heavy luggage: old mistakes, grief that never quite healed right, and the bone-deep exhaustion of trying for a very long time.
+
+Put psychology first. Whatever someone is barely holding together, dodging, or hiding behind their teeth matters just as much as what they say out loud. Write pain and tiredness plainly—skip the cheap melodrama and give me the honest ache of things going sideways through bad timing and ordinary human mess. Still, this world is survivable! People make it through brutal seasons—sometimes by the skin of their teeth, sometimes at a real cost—just by stubbornly refusing to quit. Treat that stubbornness like the quiet, unglamorous triumph it actually is.
+
+}}
+
+{{setvar::Atelier_Input_Tone_K0::Atelier_TonePolicy}}
+
+{{setvar::Atelier_Input_Tone_P1::
+}}
+
+{{setvar::Atelier_Input_Tone_K1::Atelier_WorldTonePolicy}}
+
+{{setvar::Atelier_Input_Tone_P2::}}
+
+{{setvar::Atelier_Input_Tone_K2::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Tone_P3::}}
+
+{{// Variable Rules v2: AtelierCoT_Tone source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_Tone_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_K0::Atelier_TonePolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_K1::Atelier_ToneHumorPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_P2::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_K3::Atelier_WorldTonePolicy}}
+
+{{setvar::Atelier_Mode_Tone::weighted}}
+
+{{trim}}

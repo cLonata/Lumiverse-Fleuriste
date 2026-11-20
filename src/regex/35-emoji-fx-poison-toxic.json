@@ -1,0 +1,17 @@
+{
+  "id": "ff0b3789-85e5-49b3-af74-aa1ba68e50a5",
+  "scriptName": "Emoji FX - Poison/Toxic",
+  "findRegex": "/(🧪)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:toxic 1.5s ease-in-out infinite;filter:drop-shadow(0 0 4px #00ff00);\">$1</span><style>@keyframes toxic{0%,100%{filter:drop-shadow(0 0 3px #00ff00) hue-rotate(0deg)}50%{filter:drop-shadow(0 0 6px #7fff00) hue-rotate(30deg)}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

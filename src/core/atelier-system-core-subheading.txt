@@ -1,0 +1,6 @@
+{{// @category System }}
+{{// @color #34495E }}
+{{// @icon 🎭 }}
+{{// @tooltip Success Dice controls and core narration, style, character continuity, and Scene Scratchpad. Context inputs and final depth-0 delivery are grouped separately below. }}
+{{// @section-header true }}
+{{trim}}

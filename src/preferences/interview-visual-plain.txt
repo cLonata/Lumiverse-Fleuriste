@@ -1,0 +1,31 @@
+{{// @category Preferences }}
+{{// @tooltip No HTML, no CSS, no glyph effects. Clean prose only throughout. }}
+{{// @color #7F8C8D }}
+{{// @icon 📄 }}
+
+{{setvar::VisualStyleLabel::Plain Text}}
+
+{{// Variable Rules v2: VisualStyle source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_VisualStyle_P0::♢ || [BOUNDARY] Visual Formatting — Plain Text Only
+
+Put the crayons away! No HTML, no CSS, no color tags, and no glowing unicode tricks. 
+
+Write the entire turn in clean, classic plain text. If a rune glows, a neon sign flickers, or a computer terminal spits out an error, just describe it in the prose like a normal book. The words do 100% of the work here.
+
+}}
+
+{{setvar::Atelier_Input_VisualStyle_K0::Atelier_FormattingPolicy}}
+
+{{setvar::Atelier_Input_VisualStyle_P1::}}
+
+{{// Variable Rules v2: AtelierCoT_VisualStyle source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_VisualStyle_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_VisualStyle_K0::Atelier_FormattingPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_VisualStyle_P1::}}
+
+{{// Variable Rules v2: selected visual policy. }}
+{{setvar::Atelier_Mode_Visual::plain}}
+
+{{trim}}

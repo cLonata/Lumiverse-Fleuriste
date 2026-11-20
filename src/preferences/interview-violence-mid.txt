@@ -1,0 +1,42 @@
+{{// @category Preferences }}
+{{// @tooltip Standard violence — present and consequential but not gratuitous. }}
+{{// @color #E67E22 }}
+{{// @icon ⚔️ }}
+
+{{setvar::ViolenceLabel::Standard}}
+
+{{// Variable Rules v2: AtelierCoT_Violence source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_Violence_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_Violence_K0::Atelier_ViolencePolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Violence_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Violence_K1::Atelier_WorldViolencePolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Violence_P2::}}
+
+{{// Variable Rules v2: selected violence policy. }}
+{{setvar::Atelier_Mode_Violence::standard}}
+
+{{// Variable Rules v2: Violence source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_Violence_P0::}}
+
+{{setvar::Atelier_Input_Violence_K0::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Violence_P1::}}
+
+{{setvar::Atelier_Input_Violence_K1::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Violence_P2::}}
+
+{{setvar::Atelier_Input_Violence_K2::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Violence_P3::}}
+
+{{setvar::Atelier_Input_Violence_K3::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Violence_P4::}}
+
+{{trim}}

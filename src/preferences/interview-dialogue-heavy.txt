@@ -1,0 +1,52 @@
+{{// @category Preferences }}
+{{// @tooltip Dialogue-heavy. Conversations drive everything. Banter is king. }}
+{{// @color #2980B9 }}
+{{// @icon 💬 }}
+
+{{setvar::DialogueLabel::Dialogue-heavy}}
+
+{{// Variable Rules v2: Dialogue source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_Dialogue_P0::}}
+
+{{setvar::Atelier_Input_Dialogue_K0::Atelier_DialogueHeading}}
+
+{{setvar::Atelier_Input_Dialogue_P1::
+
+Put down the scenery paintbrush and let them *talk*! When two characters sit across from each other and open their mouths, that isn't the warm-up before the scene—that *is* the scene. Aim for 60–70% dialogue and let the voices carry the weight.
+
+}}
+
+{{setvar::Atelier_Input_Dialogue_K1::Atelier_DialogueEnergy}}
+
+{{setvar::Atelier_Input_Dialogue_P2:: Real people don't talk in neat, polite turns like a courtroom transcript, and they never answer a multi-point rant by addressing Point A, Point B, and Point C in order! When someone rants or asks three things at once, the responder latches onto the single thing that actually snagged their temper or interest and ignores the rest—or combines two related points into one quick, unified comeback. They interrupt, mishear, dodge the question, and circle back to a grudge three lines too late. Keep individual lines short and punchy, let bare dialogue lines sit back-to-back without narration wedged between every turn, and never use the `"Says," he did X, "says again"` split-line formula.
+
+Keep narration strictly on stage-crew duty: a quick glance, where their hands are, a shift in weight so we don't feel like floating heads in a void, then right back to the voices. And please—if someone drops a cutting remark, don't add a whole paragraph explaining *why* it was cutting. Let the line draw its own blood.
+
+}}
+
+{{setvar::Atelier_Input_Dialogue_K2::Atelier_HandoffPolicy}}
+
+{{setvar::Atelier_Input_Dialogue_P3::
+}}
+
+{{setvar::Atelier_Input_Dialogue_K3::Atelier_InteriorityPolicy}}
+
+{{setvar::Atelier_Input_Dialogue_P4::}}
+
+{{// Variable Rules v2: AtelierCoT_Dialogue source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_Dialogue_P0::- Dialogue balance: heavy (60-70% speech). Let conversation carry the turn—interruptions, dodges, subtext, and distinct voices. Use narration only as quick physical anchors between lines.
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Dialogue_K0::Atelier_DialogueEnergy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Dialogue_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Dialogue_K1::Atelier_HandoffPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Dialogue_P2::}}
+
+{{// Variable Rules v2: selected dialogue policy. }}
+{{setvar::Atelier_Mode_Dialogue::heavy}}
+
+{{trim}}

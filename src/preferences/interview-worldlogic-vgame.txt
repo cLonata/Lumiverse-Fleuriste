@@ -1,0 +1,70 @@
+{{// @category Preferences }}
+{{// @tooltip RPG/game logic. Stats exist, death has rules, NPCs have roles, quests are real. }}
+{{// @color #27AE60 }}
+{{// @icon 🎮 }}
+
+{{setvar::WorldLogicLabel::Game Logic}}
+
+{{// Variable Rules v2: WorldLogic source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_WorldLogic_P0::♢ ! [DIRECTIVE] World Logic — RPG Systems & Clean Kill-Feeds (Video Game)
+
+The world is built like a classic RPG under the hood, and you can feel the systems clicking! Everyone has a build, a weight class, and an inventory limit—a squishy glass-cannon mage isn't going to brute-force a frontline tank in a hallway without getting pasted.
+
+Progression, loot, and zones are real. Starting-town thugs are warmup fodder; endgame bosses in the cursed citadel will wipe the floor with you until you've leveled your gear or allies. Quests have clear stages, locked chests exist to be cracked open, and resources (mana, potions, ammo, coin) actually run dry if you spam them.
+
+Most importantly: leave the moralizing at the door! In video game mode, mooks are mooks. Bandits don't get tragic ten-minute backstories about their starving kids, and if <user> is playing a vampire or an assassin, let them hunt without making every target sob like a kicked puppy. Keep the action moving!
+
+}}
+
+{{setvar::Atelier_Input_WorldLogic_K0::Atelier_PhysicsPolicy}}
+
+{{setvar::Atelier_Input_WorldLogic_P1::}}
+
+{{setvar::Atelier_Input_WorldLogic_K1::Atelier_Empty}}
+
+{{setvar::Atelier_Input_WorldLogic_P2::}}
+
+{{setvar::Atelier_Input_WorldLogic_K3::Atelier_Empty}}
+
+{{setvar::GenreStyleBiasLabel::Game Logic}}
+
+{{// Variable Rules v2: GenreStyleBias source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_GenreStyleBias_P0::♢ @ [LENS] Genre Style Bias — Game Logic
+Default register pull: Living Contemporary, Transparent Kinetic, Rough Skeptic, and Conversational Suspicion, with Plain Uncanny or Elevated Chronicle for boss arenas, cursed relics, and deep lore. Keep objectives, encounter layouts, loot, risks, and rewards crystal clear—while making sure NPCs still act like real people with jobs and motives, never robotic quest-dispensers.
+
+}}
+
+{{setvar::Atelier_Input_GenreStyleBias_K0::Atelier_ToneHumorPolicy}}
+
+{{setvar::Atelier_Input_GenreStyleBias_P1::
+}}
+
+{{setvar::Atelier_Input_GenreStyleBias_K1::Atelier_InteriorityPolicy}}
+
+{{setvar::Atelier_Input_GenreStyleBias_P2::}}
+
+{{setvar::Atelier_Input_GenreStyleBias_K4::Atelier_Empty}}
+
+{{// Variable Rules v2: AtelierCoT_WorldLogic source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_P0::- World logic: video game. Check character build, encounter clarity, resources, loot/rewards, zone difficulty, and clean genre morality without turning NPCs into lifeless vending machines.
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_K0::Atelier_PhysicsPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_K1::Atelier_TransitionPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_P2::}}
+{{// Variable Rules v2: AtelierCoT_GenreStyleBias source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_GenreStyleBias_P0::- Genre style bias: game logic. Favor Transparent Kinetic for combat, Rough Skeptic for systems/economy, and Living Contemporary for character beats.
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_GenreStyleBias_K0::Atelier_ToneHumorPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_GenreStyleBias_P1::}}
+
+{{setvar::Atelier_Mode_World::game}}
+
+{{trim}}

@@ -1,0 +1,17 @@
+{
+  "id": "ebaea293-f859-55ef-8017-4b5509b07026",
+  "scriptName": "Atelier Commands · 01 literal opening braces",
+  "findRegex": "/(?=\\{)(?<=(?<![\\s\\S])(?:```(?!`)[\\s\\S]*?```|~~~(?!~)[\\s\\S]*?~~~|``(?!`)[^`]*``|`(?!`)[^`\\r\\n]*`|\"(?:\\\\.|[^\"\\\\])*\"|“[^”]*”|[^`\"~“])*^[\\t ]*(?:!atelier|!nemo)\\b[^\\r\\n]*)\\{/gim",
+  "replaceString": "&#123;",
+  "trimStrings": [],
+  "placement": [
+    1
+  ],
+  "disabled": false,
+  "markdownOnly": false,
+  "promptOnly": true,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

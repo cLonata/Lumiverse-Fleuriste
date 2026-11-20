@@ -1,0 +1,17 @@
+{
+  "id": "fd225a5f-3110-485f-a17e-f2db23950fbe",
+  "scriptName": "Emoji FX - Lightning/Power",
+  "findRegex": "/(⚡|🔮)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:zap 0.2s ease-in-out infinite alternate;filter:drop-shadow(0 0 5px #00bfff);\">$1</span><style>@keyframes zap{0%{transform:scale(1);filter:drop-shadow(0 0 3px #00bfff)}100%{transform:scale(1.1);filter:drop-shadow(0 0 8px #00bfff)}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

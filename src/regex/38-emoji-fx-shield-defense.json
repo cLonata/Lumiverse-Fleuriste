@@ -1,0 +1,17 @@
+{
+  "id": "6a1331da-2d71-4ec0-87e5-7e81b48e24f8",
+  "scriptName": "Emoji FX - Shield/Defense",
+  "findRegex": "/(🛡️|🔰)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:fortify 1s ease-in-out;filter:drop-shadow(0 0 4px #4a90d9);\">$1</span><style>@keyframes fortify{0%{transform:scale(0.9);opacity:0.7}50%{transform:scale(1.1);opacity:1}100%{transform:scale(1)}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

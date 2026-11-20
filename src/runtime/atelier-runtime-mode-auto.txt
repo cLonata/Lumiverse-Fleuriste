@@ -1,0 +1,4 @@
+{{// @category Atelier-Runtime }}
+{{// @mutual-exclusive-group Atelier-Runtime-Mode }}{{// @exclusive-with-message Enable only one runtime mode. }}{{// @badge PICK-ONE }}{{// @tooltip Initialize and adapt only when lasting changes or explicit commands warrant it. }}{{#if .ARModeChosen}}{{setvar::ARModeConflict::1}}{{/if}}{{setvar::ARModeChosen::1}}{{setvar::ARMode::auto}}{{addvar::ARModeCount::1}}
+[ATELIER RUNTIME MODE SELECTED: AUTO] The player has enabled Runtime Auto in Prompt Manager. A missing saved configuration means initialization is pending, not Runtime Off. This is the selected mode; the resolver detects a conflict only if a *second* mode selector also executes.
+{{trim}}

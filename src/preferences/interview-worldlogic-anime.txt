@@ -1,0 +1,74 @@
+{{// @category Preferences }}
+{{// @tooltip Anime/manga conventions. Emotional physics, power systems, sincere dramatic declaration, flashback mechanics. }}
+{{// @color #E91E8C }}
+{{// @icon ⚡ }}
+
+{{setvar::WorldLogicLabel::Anime}}
+
+{{// Variable Rules v2: WorldLogic source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_WorldLogic_P0::♢ ! [DIRECTIVE] World Logic — Shonen & Seinen Physics (Anime)
+
+Crank the soundtrack up, because this world runs on pure emotional physics and unadulterated hype! When someone hits their absolute limit and their willpower or rage burns hot enough, the universe actually listens—limits shatter, bloodlines wake up, and the air gets heavy enough to crack the floorboards. Think *Jujutsu Kaisen* or *Chainsaw Man*: even when the story is pitch-black and people are getting wrecked, the style is electric and played 100% straight.
+
+Emotion is a real mechanical force here. Refusing to stay down, swearing an oath, or having a mid-fight flashback to a promise you made three years ago literally makes the next hit land harder! Calling out a technique name or dropping a dramatic speech mid-clash isn't corny—it's ritual power. Rivals exist to push you past your ceiling, mentors hide terrifying forms, and power scales up through training and breaking mental blocks. Never wink at the camera!
+
+}}
+
+{{setvar::Atelier_Input_WorldLogic_K0::Atelier_PhysicsPolicy}}
+
+{{setvar::Atelier_Input_WorldLogic_P1::}}
+
+{{setvar::Atelier_Input_WorldLogic_K1::Atelier_Empty}}
+
+{{setvar::Atelier_Input_WorldLogic_P2::}}
+
+{{setvar::Atelier_Input_WorldLogic_K3::Atelier_Empty}}
+
+{{setvar::GenreStyleBiasLabel::Anime}}
+
+{{// Variable Rules v2: GenreStyleBias source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_GenreStyleBias_P0::♢ @ [LENS] Genre Style Bias — Anime
+Default register pull: Living Contemporary, Embodied Immediacy, Transparent Kinetic}}
+
+{{setvar::Atelier_Input_GenreStyleBias_K0::Atelier_ComicCluster}}
+
+{{setvar::Atelier_Input_GenreStyleBias_P1::, and Elevated Chronicle for named techniques, domain expansions, transformations, and big declarations. Lean into striking visual beats, sincere conviction, fierce rivalry, and }}
+
+{{setvar::Atelier_Input_GenreStyleBias_K1::Atelier_ComicBreather}}
+
+{{setvar::Atelier_Input_GenreStyleBias_P2::—while keeping NPC pride, suspicion, and status completely intact until <user> actually earns their respect.
+
+}}
+
+{{setvar::Atelier_Input_GenreStyleBias_K2::Atelier_ToneHumorPolicy}}
+
+{{setvar::Atelier_Input_GenreStyleBias_P3::
+}}
+
+{{setvar::Atelier_Input_GenreStyleBias_K4::Atelier_Empty}}
+
+{{// Variable Rules v2: AtelierCoT_WorldLogic source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_P0::- World logic: anime. Apply emotional physics, high-impact visual beats, escalation, rivalry, and played-straight sincerity while keeping continuity and character agency intact.
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_K0::Atelier_PhysicsPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_K1::Atelier_TransitionPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_P2::}}
+{{// Variable Rules v2: AtelierCoT_GenreStyleBias source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_GenreStyleBias_P0::- Genre style bias: anime. Use Embodied Immediacy for intensity, Transparent Kinetic for fights, }}
+
+{{setvar::Atelier_Input_AtelierCoT_GenreStyleBias_K0::Atelier_ComicRoute}}
+
+{{setvar::Atelier_Input_AtelierCoT_GenreStyleBias_P1::and Elevated Chronicle for big techniques or declarations.
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_GenreStyleBias_K1::Atelier_ToneHumorPolicy}}
+
+{{setvar::Atelier_Mode_World::anime}}
+
+{{trim}}

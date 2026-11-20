@@ -1,0 +1,17 @@
+{
+  "id": "bb974b95-b66d-4331-8654-ef67bc9e1584",
+  "scriptName": "Emoji FX - Skull/Death",
+  "findRegex": "/(💀|☠️)/g",
+  "replaceString": "<span style=\"display:inline-block;filter:drop-shadow(0 0 4px #8b0000);animation:haunt 2s ease-in-out infinite;\">$1</span><style>@keyframes haunt{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.7;transform:scale(1.05)}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

@@ -1,0 +1,9 @@
+{{// @category Preferences }}
+{{// @tooltip Story planning: independent NPC turns and existing causes generate the developments; craft shapes their presentation without choosing motives for a desired payoff. Uses the shared NPC decision and resolution pass. Select one focus. }}
+{{// @color #8E44AD }}
+{{// @icon 📖 }}
+
+{{setvar::AtelierCoTLabel::Story (narrative)}}
+
+{{setvar::AtelierCoTChoice::story}}
+{{trim}}

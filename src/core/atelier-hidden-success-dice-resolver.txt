@@ -1,0 +1,32 @@
+{{// @category System }}
+{{// @hidden }}
+{{// @tooltip Applies Nemo-compatible three-slot d100 Success Dice only when exactly one Hidden or Visible selector is enabled and the current turn is a new story continuation, not a held command or unfinished-generation continuation. One bank per assembled reply; roll values are delivered ONLY to the depth-0 assistant instructions. }}
+{{// @icon 🎲 }}
+{{// @badge AUTO }}
+{{setvar::ASDActive::}}
+{{setvar::ASDGenerationType::{{lastGenerationType}}}}
+{{setvar::ASDRollUser::}}
+{{setvar::ASDRollNPC::}}
+{{setvar::ASDRollFlex::}}
+{{setvar::ASDDiceInputs::}}
+{{#if .ASDSelected}}
+{{#if {{.ASDModeCount == 1}}}}
+{{#if .ACRHold}}
+{{// Held reference task: no roll, no scene time, no action to adjudicate. }}
+{{else}}
+{{setvar::ASDActive::1}}
+{{#if {{.ASDGenerationType == continue}}}}
+{{#setvar::ASDDiceInputs}}CONTINUATION: No fresh dice were drawn. Continue the unfinished reply using already established attempt outcomes, action boundaries and physical continuity. Never reroll an unresolved action by restarting its prose. If no prior dice result for a genuinely new uncertainty is available in accepted context, resolve by established plausibility; do not claim an ST roll.{{/setvar}}
+{{else}}
+{{setvar::ASDRollUser::{{roll:1d100}}}}
+{{setvar::ASDRollNPC::{{roll:1d100}}}}
+{{setvar::ASDRollFlex::{{roll:1d100}}}}
+{{#setvar::ASDDiceInputs}}THIS STORY REPLY'S THREE INDEPENDENT D100 INPUTS (INTERNAL ONLY)
+User={{getvar::ASDRollUser}}
+Primary NPC={{getvar::ASDRollNPC}}
+Flex={{getvar::ASDRollFlex}}
+END INPUTS. Values are raw dice only, not a command to perform an action, invent a check, or change a settled result. The selected Hidden/Visible contract controls presentation of actually resolved checks; unused dice are never displayed.{{/setvar}}
+{{/if}}
+{{/if}}
+{{/if}}
+{{/if}}{{trim}}

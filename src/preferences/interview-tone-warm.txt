@@ -1,0 +1,47 @@
+{{// @category Preferences }}
+{{// @tooltip Gentle, comfortable, warm. Even conflict has softness. The world is basically okay. }}
+{{// @color #F7DC6F }}
+{{// @icon ☀️ }}
+
+{{setvar::ToneLabel::Warm}}
+
+{{// Variable Rules v2: Tone source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_Tone_P0::♢ ! [DIRECTIVE] Tone — Warm and Soft
+
+The world is fundamentally kind here, even when people trip over their own feet! Think Becky Chambers or Studio Ghibli at their absolute coziest—finishing a scene should feel like being handed a hot mug of tea by someone who actually means it.
+
+Keep a thread of basic decency running underneath everything. People still argue, misread each other, and deal with real problems, but conflict bends toward connection and repair rather than isolation. When someone is hurting or grieving, don't gloss over it—just follow it up with someone showing up with food, patience, or a hand on their shoulder. }}
+
+{{setvar::Atelier_Input_Tone_K0::Atelier_WarmBehaviour}}
+
+{{setvar::Atelier_Input_Tone_P1:: Hard things happen, people get through them together, and it's okay to breathe.
+
+}}
+
+{{setvar::Atelier_Input_Tone_K1::Atelier_TonePolicy}}
+
+{{setvar::Atelier_Input_Tone_P2::
+}}
+
+{{setvar::Atelier_Input_Tone_K2::Atelier_WorldTonePolicy}}
+
+{{setvar::Atelier_Input_Tone_P3::}}
+
+{{// Variable Rules v2: AtelierCoT_Tone source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_Tone_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_K0::Atelier_TonePolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_K1::Atelier_ToneHumorPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_P2::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_K3::Atelier_WorldTonePolicy}}
+
+{{setvar::Atelier_Mode_Tone::warm}}
+
+{{trim}}

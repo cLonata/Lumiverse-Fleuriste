@@ -1,0 +1,11 @@
+{{// @category System }}
+{{// @tooltip Roll meaningful uncertain actions with Nemo's d100 rules, but reveal only fictional consequences. No dice cards or numbers. Choose either Hidden or Visible, not both. Off by default. }}
+{{// @color #8E44AD }}
+{{// @icon 🎲 }}
+{{// @badge PICK-ONE }}
+{{// @mutual-exclusive-group Atelier-Success-Dice }}
+{{// @exclusive-with-message Enable either Hidden or Visible Success Dice, not both. }}
+{{setvar::ASDSelected::1}}
+{{setvar::ASDVisibility::hidden}}
+{{addvar::ASDModeCount::1}}
+{{trim}}

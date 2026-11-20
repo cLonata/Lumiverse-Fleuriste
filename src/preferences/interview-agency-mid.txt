@@ -1,0 +1,25 @@
+{{// @category Preferences }}
+{{// @tooltip Balanced collaboration. AI and user share narrative momentum naturally. }}
+{{// @color #1ABC9C }}
+{{// @icon 🤝 }}
+
+{{setvar::AgencyLabel::Collaborative}}
+
+{{setvar::Agency::}}
+
+{{// Variable Rules v2: AtelierCoT_Agency source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_Agency_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_Agency_K0::Atelier_AgencyPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Agency_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Agency_K1::Atelier_TransitionPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Agency_P2::}}
+
+{{// Variable Rules v2: selected agency policy. }}
+{{setvar::Atelier_Mode_Agency::collaborative}}
+
+{{trim}}

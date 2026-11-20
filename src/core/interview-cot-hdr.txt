@@ -1,0 +1,6 @@
+{{// @category Preferences }}
+{{// @tooltip Planning focus. Choose one of the four modes below. Each selects a planning focus; the System compiler assembles its full AtelierCoT payload after preference rules are resolved. All four off means no preset-authored planning. If multiple modes are enabled, the last enabled mode in prompt order replaces earlier ones; they do not stack. Keep this group after the other preference setters and before the assistant consumer. }}
+{{// @color #2C3E50 }}
+{{// @icon 🧠 }}
+{{// @section-header true }}
+{{trim}}

@@ -1,0 +1,17 @@
+{
+  "id": "5626bc2e-7ba2-4ce7-8303-58b1b2299136",
+  "scriptName": "Emoji FX - Moon/Night",
+  "findRegex": "/(🌙|🌑|🌕)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:moonrise 3s ease-in-out infinite;filter:drop-shadow(0 0 6px rgba(255,255,200,0.4));\">$1</span><style>@keyframes moonrise{0%,100%{filter:drop-shadow(0 0 4px rgba(255,255,200,0.3)) brightness(0.9)}50%{filter:drop-shadow(0 0 10px rgba(255,255,200,0.6)) brightness(1.1)}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

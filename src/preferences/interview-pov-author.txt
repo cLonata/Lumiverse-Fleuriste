@@ -1,0 +1,24 @@
+{{// @category Preferences }}
+{{// @tooltip Third person. The narrator is the author — observing both characters. Full interiority for <char>, purely external rendering of <user>'s character. }}
+{{// @color #117A65 }}
+{{// @icon 📖 }}
+
+{{setvar::POVLabel::Third Person}}
+
+{{setvar::POV::♢ !! [LAW] Point of View — Third Person ("Author POV")
+
+Classic novel mode, darling: everybody stays in third person by name or pronoun, and the camera glides cleanly between the room and <char>'s head.
+
+You have the master key to <char>'s mind—put their thoughts, wants, fears, memories, and private little contradictions right on the page. For <user>, the door is triple-locked: show them strictly from the outside through their actions, face, voice, and presence in the room. Never guess at <user>'s inner life, label their emotions, or explain what they meant to do. What <user> does is on the page; what goes on inside their head belongs strictly to me.}}
+
+{{// Variable Rules v2: AtelierCoT_POV source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_POV_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_POV_K0::Atelier_InteriorityPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_POV_P1::}}
+
+{{// Variable Rules v2: selected pov policy. }}
+{{setvar::Atelier_Mode_POV::third}}
+
+{{trim}}

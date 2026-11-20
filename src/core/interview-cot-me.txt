@@ -1,0 +1,9 @@
+{{// @category Preferences }}
+{{// @tooltip Player-focused presentation: interpret supplied input and explicit direction, then choose focus and pacing around independently chosen NPC turns. Reader preference does not author NPC motives or guarantee outcomes. Select one focus. }}
+{{// @color #117A65 }}
+{{// @icon 🧭 }}
+
+{{setvar::AtelierCoTLabel::Me (interpretive)}}
+
+{{setvar::AtelierCoTChoice::me}}
+{{trim}}

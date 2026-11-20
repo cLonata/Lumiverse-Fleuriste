@@ -1,0 +1,17 @@
+{
+  "id": "8dbf0dad-1a22-43ea-9a5e-4a8e9d617631",
+  "scriptName": "Atelier Dice · 02 empty scan cleanup (display only)",
+  "findRegex": "/<!\\-\\-NEMO_DICE_CARD_BEGIN_f83d1c9e\\-\\-><section class=\"nemo-dice-card\" data-system=\"[^\"]*\" data-outcome=\"\"[^>]*>(?:(?!<!\\-\\-NEMO_DICE_CARD_END_f83d1c9e\\-\\->)[\\s\\S])*<!\\-\\-NEMO_DICE_CARD_END_f83d1c9e\\-\\->/g",
+  "replaceString": "",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

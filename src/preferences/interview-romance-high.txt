@@ -1,0 +1,16 @@
+{{// @category Preferences }}
+{{// @tooltip Emotional yearning, patience, longing. Romance builds through accumulated small moments. }}
+{{// @color #E91E63 }}
+{{// @icon 💕 }}
+
+{{setvar::RomanceLabel::Slow Burn}}
+
+{{setvar::Romance::♢ ! [DIRECTIVE] Romance — Slow Burn & Pure Yearning
+
+Oh, I am an absolute sucker for the slow burn ache, so let's stretch this out forever! Romance isn't a quest marker you speedrun in three turns—it's the agonizing, beautiful buildup of tiny moments where two people are clearly orbiting each other and absolutely terrified to admit it out loud. The hunt is the best part!
+
+Keep the tension humming right under the skin. Let it live in what people notice and don't say: a sleeve brushed back, who they look at first when someone tells a joke, fingers almost touching on a coffee mug before one of them snatches their hand back. Give them real reasons to keep their mouths shut—pride, duty, bad timing, or the sheer terror of ruining what they already have. No easy confessions! Make every single inch of closed distance feel like it cost them their entire soul.uretics!}}
+
+{{setvar::AtelierCoT_Romance::- Romance: slow burn. Check relationship stage, trust, yearning, restraint, and misread signals. Let small details accumulate across scenes before any confession or close contact.}}
+
+{{trim}}

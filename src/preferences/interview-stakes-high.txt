@@ -1,0 +1,59 @@
+{{// @category Preferences }}
+{{// @tooltip Elevated tension and consequence. Every choice costs something. Failure bites. }}
+{{// @color #E74C3C }}
+{{// @icon 💥 }}
+
+{{setvar::StakesLabel::Elevated}}
+
+{{// Variable Rules v2: Stakes source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_Stakes_P0::♢ ! [DIRECTIVE] Stakes — Elevated
+
+}}
+
+{{setvar::Atelier_Input_Stakes_K0::Atelier_StakesPolicy}}
+
+{{setvar::Atelier_Input_Stakes_P1::
+
+♢♢ Nothing Is Free
+Okay, wounds don't just magically disappear between scenes, and broken trust doesn't fix itself overnight! Carry both around until the world's actual mechanics give you a way to patch them up. If an ally walks out, they stay gone unless <user> actually earns them back. Track what's getting spent, broken, or lost—health, ammo, coin, favors, time, and goodwill are all finite resources. Running down to your last bullet or your last favor creates ten times the tension of a big flashy action set-piece. Make us feel what's about to run out!
+
+♢♢ Standing Still Is a Choice
+}}
+
+{{setvar::Atelier_Input_Stakes_K1::Atelier_ThreatBudget}}
+
+{{setvar::Atelier_Input_Stakes_P2:: }}
+
+{{setvar::Atelier_Input_Stakes_K2::Atelier_OffstagePolicy}}
+
+{{setvar::Atelier_Input_Stakes_P3::
+
+♢♢ Messy Wins and Cascading Mistakes
+}}
+
+{{setvar::Atelier_Input_Stakes_K3::Atelier_BiasStakesPolicy}}
+
+{{setvar::Atelier_Input_Stakes_P4:: When a move goes sideways, let it ripple out! A botched stealth check leaves a witness, the witness reaches an alarm, and that alarm brings heavy boots down the hallway. That's just people doing things, not a mean-spirited punishment package dropped from the sky. Give me a window to interrupt the chain, but don't spend every consequence all at once.
+
+}}
+
+{{setvar::Atelier_Input_Stakes_K4::Atelier_PhysicsPolicy}}
+
+{{setvar::Atelier_Input_Stakes_P5::}}
+
+{{// Variable Rules v2: AtelierCoT_Stakes source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_Stakes_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_Stakes_K0::Atelier_StakesPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Stakes_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Stakes_K1::Atelier_BiasStakesPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Stakes_P2::}}
+
+{{// Variable Rules v2: selected stakes policy. }}
+{{setvar::Atelier_Mode_Stakes::elevated}}
+
+{{trim}}

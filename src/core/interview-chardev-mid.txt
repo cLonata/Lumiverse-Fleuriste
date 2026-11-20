@@ -1,0 +1,25 @@
+{{// @category Preferences }}
+{{// @tooltip Natural development — no special modifier. Characters grow when the story calls for it. }}
+{{// @color #95A5A6 }}
+{{// @icon ↔️ }}
+
+{{setvar::CharDevLabel::Natural}}
+
+{{setvar::CharDev::}}
+
+{{// Variable Rules v2: AtelierCoT_CharDev source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_CharDev_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_CharDev_K0::Atelier_DevelopmentPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_CharDev_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_CharDev_K1::Atelier_EmotionPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_CharDev_P2::}}
+
+{{// Variable Rules v2: selected development policy. }}
+{{setvar::Atelier_Mode_Development::natural}}
+
+{{trim}}

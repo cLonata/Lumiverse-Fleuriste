@@ -1,0 +1,9 @@
+{{// @category Preferences }}
+{{// @tooltip Character planning: independent first-person NPC turns grounded in their thoughts, feelings, beliefs, strengths, weaknesses, relationships and objectives. Deepens psychology and voice without making every choice a reaction to the player. Select one focus. }}
+{{// @color #1A5276 }}
+{{// @icon 🎭 }}
+
+{{setvar::AtelierCoTLabel::Characters (psychology and embodiment)}}
+
+{{setvar::AtelierCoTChoice::characters}}
+{{trim}}

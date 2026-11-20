@@ -1,0 +1,17 @@
+{
+  "id": "b94d51f9-696f-431f-9f32-44d3f3495704",
+  "scriptName": "Emoji FX - Chains/Bondage",
+  "findRegex": "/(⛓️|🔗)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:rattle 0.3s ease-in-out infinite alternate;filter:drop-shadow(0 0 2px #808080);\">$1</span><style>@keyframes rattle{0%{transform:rotate(-2deg)}100%{transform:rotate(2deg)}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

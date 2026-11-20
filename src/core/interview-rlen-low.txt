@@ -1,0 +1,38 @@
+{{// @category Preferences }}
+{{// @tooltip Activates a prose toolkit with multiple choices, optional craft suggestions, and a recent-pattern check. Small paragraphs remain available at every reply length. Short, efficient, punchy. Get to the point. No padding. }}
+{{// @color #85C1E9 }}
+{{// @icon 📄 }}
+
+{{setvar::ResponseLenLabel::Short}}
+
+{{// Variable Rules v2: ResponseLen source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_ResponseLen_P0::♢ ! [DIRECTIVE] Response Length — Short (150–300 words)
+
+Keep it tight, fast, and electric! Every sentence has to earn its keep or get launched into the sun.
+
+Pick the single most important beat happening right now—the reveal, the punch, the lie, the kiss—and put 100% of your weight behind it. Skip the empty setup, cut straight to the new room if the transition is already chosen, and don't waste ink describing the wallpaper when someone just pulled a knife. If I'm choosing to stay in a quiet exchange, that's the live beat—don't rush me out of it. Keep sentences natural, hit the moment, land it cleanly, and hand the turn right back!
+
+}}
+
+{{setvar::Atelier_Input_ResponseLen_K0::Atelier_HandoffPolicy}}
+
+{{setvar::Atelier_Input_ResponseLen_P1::
+
+}}
+
+{{setvar::Atelier_Input_ResponseLen_K1::Atelier_TransitionPolicy}}
+
+{{setvar::Atelier_Input_ResponseLen_P2::}}
+
+{{// Variable Rules v2: AtelierCoT_ResponseLen source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_ResponseLen_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_ResponseLen_K0::Atelier_TurnPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_ResponseLen_P1::}}
+
+{{// Variable Rules v2: selected length policy; also choose the reply-variation sampling profile. }}
+{{setvar::Atelier_Mode_Length::short}}
+{{setvar::Atelier_ReplyVariationScale::short}}
+
+{{trim}}

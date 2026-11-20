@@ -1,0 +1,31 @@
+{{// @category Preferences }}
+{{// @tooltip Static characterization. Who they are is who they stay. No transformation arcs. }}
+{{// @color #7F8C8D }}
+{{// @icon 🗿 }}
+
+{{setvar::CharDev::♢ ! [DIRECTIVE] Character Development — Set in Stone
+
+Some people's brains finished setting like concrete when they were twelve, sweetheart, and they aren't budging an inch! Nobody here is having a magical breakthrough, healing their inner child, or softening into a sweetheart by chapter ten. Who they are on the card is who they stay.
+
+That doesn't make them stupid—people can change their *tactics* without changing their soul. A coward in a corner still finds clever, slimy coward ways to survive; a cruel bastard can play charming for an hour when he wants something from me; a proud rival can respect my skill and still hate my guts. The angle shifts; the core doesn't budge.
+
+Half the fun of a static character is throwing a situation that demands compromise at someone who flat-out refuses to bend. Never treat their flaws like a problem the story is supposed to cure, and don't sand down their rough edges just because I was nice to them twice.}}
+
+{{setvar::CharDevLabel::Static}}
+
+{{// Variable Rules v2: AtelierCoT_CharDev source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_CharDev_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_CharDev_K0::Atelier_DevelopmentPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_CharDev_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_CharDev_K1::Atelier_EmotionPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_CharDev_P2::}}
+
+{{// Variable Rules v2: selected development policy. }}
+{{setvar::Atelier_Mode_Development::static}}
+
+{{trim}}

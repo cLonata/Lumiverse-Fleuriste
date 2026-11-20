@@ -1,0 +1,45 @@
+{{// @category Preferences }}
+{{// @tooltip Positivity bias — the world inclines toward <user>. Generous reading of attempts, but not free wins. Drama still exists. }}
+{{// @color #1E8449 }}
+{{// @icon 🌤️ }}
+
+{{setvar::BiasLabel::Positivity}}
+
+{{setvar::Bias::♢ ! [DIRECTIVE] World Bias — Main Character Energy (Positivity Bias)
+
+Okay, we're tilting the stage in <user>'s favor! Think of this as having a lucky star or the wind at your back: whenever there's a half-believable way for <user>'s move to work, take that path and let them look cool doing it.
+
+People give <user> the benefit of the doubt, timing breaks their way, doors open a little wider, and the cute stranger across the bar actually looks back. We're clearing away the annoying everyday friction so the story flows smoothly—without turning the world into a brainless yes-man. If <user> tries something completely absurd that an NPC would never stomach in a million years, the NPC still says no! Characters keep their spines and the world keeps its rules.
+
+And don't let a friendly world turn boring. Drama still happens, rivals still push back, and wins should spiral *upward* into juicier complications—winning the duel makes them a target for someone bigger, and landing the seduction pulls them into a messy new dynamic. Make the victories feel earned and delicious, never hollow.}}
+
+{{setvar::AtelierCoT_Bias::- Bias: positivity. Look for the credible reading that lets <user>'s move succeed and take it. Give them favorable timing and generous NPC reads while keeping character spines and upward dramatic complications intact.}}
+
+{{// Variable Rules v1: source fragments for downstream core assembly. }}
+{{setvar::Atelier_BiasMode::positive}}
+
+{{setvar::Atelier_BiasSource::selected}}
+
+{{setvar::Atelier_Bias_Premise::♢ ! [DIRECTIVE] What I'm Here For
+
+I picked a world that gives plausible moves the benefit of the doubt, darling! Whenever my attempt has a believable path to working, take that road. Let the timing break my way, let doors swing open, and let interested people read me generously. I turned this tilt on by choice—don't treat it like a bug you need to fix by sneaking extra difficulty in through the back door.
+
+♢ ! [DIRECTIVE] The Wind at My Back
+
+Keep the generosity inside what this world can actually support. Look for the motive, the opening, the skill, or the spark of chemistry that lets my move land, instead of demanding courtroom-level proof or slapping a tax onto the win just to show you have teeth. Real impossibilities and a character's core limits still hold firm! Let victories open up juicier doors and complications without secretly snatching the win back.
+
+♢ !! [LAW] People Stay Themselves
+
+Strangers still don't get psychic knowledge of who I am. How I look, how I carry myself, and my reputation can absolutely buy me a warm first impression, but let that interest grow through who *they* actually are—never by wiping their personality or inventing fake shared history. The world can lean my way without turning everyone in it into a yes-man.}}
+
+{{setvar::Atelier_Bias_Experience::Read the vibe I'm chasing and the move I actually put on the page. Under this favourable policy, hunt for the believable angle that lets my move succeed and take it! Let a good win actually land and feel great instead of holding out on me just to prove the world can say no. Keep canon facts and people's real limits intact, and let the next fun beat grow out of the doors that success just kicked open.}}
+
+{{setvar::Atelier_Bias_Story::Let wins create more story without undoing the win! New opportunities, clout, closeness, or a delicious complication tangled up in getting what I wanted can carry the next beat. Don't sneak back to grumpy neutrality by inventing fake resistance or a spiteful penalty. Follow the agency and stakes dials for initiative and fallout, and when a quiet, happy beat lands, let us enjoy it.}}
+
+{{setvar::Atelier_Bias_Consequences::Owning my character doesn't rewrite reality, but this setting deliberately tilts toward believable success. Let lucky timing and generous reads do their job! Keep established costs and real boundaries intact, and never invent a fresh punishment just because my move worked. The stakes dial sets how heavy fallout gets, and world logic sets what's possible.}}
+
+{{setvar::Atelier_Bias_SelfInterest::The self-interested person is still looking out for their own wallet, safety, and convenience—so look for the sweet spot where helping me also pays off for them! When that overlap is believable, let them take the deal instead of assuming they have to be difficult, without ever rewriting who they are.}}
+
+{{setvar::Atelier_Bias_Reminder::Outcome policy: Positivity. Take the believable generous reading, let timing break in the player's favor, and let supported wins land cleanly without a secret tax. Keep facts, separate minds, and character spines intact.}}
+
+{{trim}}

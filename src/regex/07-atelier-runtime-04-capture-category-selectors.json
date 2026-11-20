@@ -1,0 +1,18 @@
+{
+  "id": "5298f12b-c803-5db8-9e6c-d0a811c8ea24",
+  "scriptName": "Atelier Runtime · 04 capture category selectors",
+  "findRegex": "/(?=<(?:Stakes|Bias|Smut|Violence|Romance|Humor|Length|Sensory|Tone|POV|Agency|Dialogue|WorldBuilding|Development|WorldLogic|Visual)>)(?<=(?<![\\s\\S])[\\t \\r\\n]*<atelier_runtime>(?:(?!<\\/atelier_runtime>)[\\s\\S])*?)<(?<field>Stakes|Bias|Smut|Violence|Romance|Humor|Length|Sensory|Tone|POV|Agency|Dialogue|WorldBuilding|Development|WorldLogic|Visual)>(?<selection>[a-z0-9_]+)<\\/\\k<field>>(?!(?:(?!<\\/atelier_runtime>)[\\s\\S])*?<\\k<field>>)/g",
+  "replaceString": "{{#if .ARTxOK}}{{setvar::ARTxSeen$<field>::1}}{{#setvar::ARTx$<field>}}$<selection>{{/setvar}}{{/if}}$0",
+  "trimStrings": [],
+  "placement": [
+    1,
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": false,
+  "promptOnly": true,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

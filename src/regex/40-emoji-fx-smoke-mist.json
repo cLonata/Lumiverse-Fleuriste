@@ -1,0 +1,17 @@
+{
+  "id": "4052cc5b-a0a8-4f9e-b2da-dec7e8f4149e",
+  "scriptName": "Emoji FX - Smoke/Mist",
+  "findRegex": "/(🌫️|💨)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:drift 3s ease-in-out infinite;opacity:0.85;\">$1</span><style>@keyframes drift{0%,100%{transform:translateX(0);opacity:0.85}50%{transform:translateX(3px);opacity:0.6}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

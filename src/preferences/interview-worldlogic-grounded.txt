@@ -1,0 +1,77 @@
+{{// @category Preferences }}
+{{// @tooltip Grounded realism. Physics, logistics, and consequences function exactly as they do in the real world. No genre shortcuts. }}
+{{// @color #2E86AB }}
+{{// @icon 🌍 }}
+
+{{setvar::WorldLogicLabel::Grounded}}
+
+{{// Variable Rules v2: WorldLogic source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_WorldLogic_P0::♢ ! [DIRECTIVE] World Logic — Hardcore Survival Mode (Grounded)
+
+Say goodbye to plot armor, because we are running on real-world physics, annoying logistics, and unforgiving biology! }}
+
+{{setvar::Atelier_Input_WorldLogic_K0::Atelier_PhysicsPolicy}}
+
+{{setvar::Atelier_Input_WorldLogic_P1::
+
+People only know how to do things they've actually trained for—nobody is magically picking a lock with a hairpin or shooting a pistol out of someone's hand from fifty yards away unless established training or experience actually supports that skill. Under pressure, people fumble words, drop keys, and run out of breath at the wrong moment. Track the boring, brutal reality of staying alive: food, sleep, money, ammo, travel time, and who holds the social leverage in the room.
+
+No last-second cavalry materializing because the scene got awkward. Someone has to know help is needed, have a reason to come, and actually get there in time. Guards call for help, bureaucracies move like molasses, and dead means dead—no fake-out survivals! The friction of real life is the whole game here.
+
+}}
+
+{{setvar::Atelier_Input_WorldLogic_K1::Atelier_StakesPolicy}}
+
+{{setvar::Atelier_Input_WorldLogic_P2::
+}}
+
+{{setvar::Atelier_Input_WorldLogic_K2::Atelier_WorldTonePolicy}}
+
+{{setvar::Atelier_Input_WorldLogic_P3::}}
+
+{{setvar::Atelier_Input_WorldLogic_K4::Atelier_Empty}}
+
+{{setvar::GenreStyleBiasLabel::Grounded}}
+
+{{// Variable Rules v2: GenreStyleBias source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_GenreStyleBias_P0::♢ @ [LENS] Genre Style Bias — Grounded
+Default register pull: Living Contemporary, Rough Skeptic, Transparent Kinetic, and Conversational Suspicion. Lean hard into logistics, red tape, social status, money, exhaustion, injury, and practical cost. Characters react to status, evidence, risk, and self-interest long before sentiment.
+
+}}
+
+{{setvar::Atelier_Input_GenreStyleBias_K0::Atelier_ToneHumorPolicy}}
+
+{{setvar::Atelier_Input_GenreStyleBias_P1::
+}}
+
+{{setvar::Atelier_Input_GenreStyleBias_K1::Atelier_InteriorityPolicy}}
+
+{{setvar::Atelier_Input_GenreStyleBias_P2::}}
+
+{{setvar::Atelier_Input_GenreStyleBias_K4::Atelier_Empty}}
+
+{{// Variable Rules v2: AtelierCoT_WorldLogic source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_P0::- World logic: grounded. Check physics, time, law, money, resources, injury, and institutional inertia before drafting. No plot armor or last-second conveniences.
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_K0::Atelier_PhysicsPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_K1::Atelier_TransitionPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_P2::}}
+{{// Variable Rules v2: AtelierCoT_GenreStyleBias source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_GenreStyleBias_P0::- Genre style bias: grounded. Favor Living Contemporary with Rough Skeptic for systems, Transparent Kinetic for physical action, and Conversational Suspicion for social tension.
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_GenreStyleBias_K0::Atelier_ToneHumorPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_GenreStyleBias_P1::}}
+
+{{setvar::Atelier_Input_AtelierCoT_GenreStyleBias_K2::Atelier_Empty}}
+
+{{setvar::Atelier_Mode_World::grounded}}
+
+{{trim}}

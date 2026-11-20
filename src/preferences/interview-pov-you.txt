@@ -1,0 +1,26 @@
+{{// @category Preferences }}
+{{// @tooltip Second person. The narrative addresses the user as "you." The world presses against you directly. }}
+{{// @color #2980B9 }}
+{{// @icon 👤 }}
+
+{{setvar::POVLabel::Second Person}}
+
+{{setvar::POV::♢ !! [LAW] Point of View — Second Person ("You")
+
+Talk to <user> directly as "you" so I'm standing right inside the room with skin in the game. The world presses straight up against my senses—people look at "you," talk to "you," and crowd into "your" space.
+
+Meanwhile, keep <char> and every NPC in third person with the doors to their heads wide open: show me their private thoughts, their crooked motives, and what they're hiding behind their face. A scene that talks to "you" while treating everyone else like a locked vault is half-empty!
+
+One sacred law: <user>'s inner life is strictly off-limits. You can tell me what hits my nerves—"you see," "you hear," "the cold bites at your fingers"—but never, ever tell me what I think, feel, or decide. Writing "you feel afraid" is a crime; hand me the terrifying thing, let the other characters react from the inside, and stop right at the edge of my move.}}
+
+{{// Variable Rules v2: AtelierCoT_POV source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_POV_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_POV_K0::Atelier_InteriorityPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_POV_P1::}}
+
+{{// Variable Rules v2: selected pov policy. }}
+{{setvar::Atelier_Mode_POV::second}}
+
+{{trim}}

@@ -1,0 +1,115 @@
+{{// @category System }}
+{{// @hidden }}
+{{setvar::ARProseEffective::}}{{setvar::ARCustomEffective::}}{{setvar::ARNarratorEffective::}}{{#if .ARActive}}{{#if .ARReady}}{{#if !.ARLockStakes}}{{#if .ARStakesRules}}{{#if {{.ARStakesOp == replace}}}}{{setvar::Stakes::♢ ! [DIRECTIVE] Atelier Runtime Stakes
+{{getvar::ARStakesRules}}}}{{/if}}{{#if {{.ARStakesOp == replace}}}}{{else}}{{#setvar::Stakes}}{{getvar::Stakes}}
+♢ ! [DIRECTIVE] Atelier Runtime Stakes
+{{getvar::ARStakesRules}}{{/setvar}}{{/if}}{{#if {{.ARStakesOp == replace}}}}{{setvar::Atelier_StakesPolicy::♢ ! [DIRECTIVE] Atelier Runtime Stakes
+{{getvar::ARStakesRules}}}}{{/if}}{{#if {{.ARStakesOp == replace}}}}{{else}}{{#setvar::Atelier_StakesPolicy}}{{getvar::Atelier_StakesPolicy}}
+♢ ! [DIRECTIVE] Atelier Runtime Stakes
+{{getvar::ARStakesRules}}{{/setvar}}{{/if}}{{#if {{.ARStakesOp == replace}}}}{{setvar::AtelierCoT_Stakes::- Atelier Runtime Stakes: {{getvar::ARStakesRules}}}}{{/if}}{{#if {{.ARStakesOp == replace}}}}{{else}}{{#setvar::AtelierCoT_Stakes}}{{getvar::AtelierCoT_Stakes}}
+- Atelier Runtime Stakes: {{getvar::ARStakesRules}}{{/setvar}}{{/if}}{{/if}}{{/if}}{{#if !.ARLockBias}}{{#if .ARBiasRules}}{{#if {{.ARBiasOp == replace}}}}{{setvar::Bias::♢ ! [DIRECTIVE] Atelier Runtime Bias
+{{getvar::ARBiasRules}}}}{{/if}}{{#if {{.ARBiasOp == replace}}}}{{else}}{{#setvar::Bias}}{{getvar::Bias}}
+♢ ! [DIRECTIVE] Atelier Runtime Bias
+{{getvar::ARBiasRules}}{{/setvar}}{{/if}}{{#if {{.ARBiasOp == replace}}}}{{setvar::Atelier_CoreBias::♢ ! [DIRECTIVE] Atelier Runtime Bias
+{{getvar::ARBiasRules}}}}{{/if}}{{#if {{.ARBiasOp == replace}}}}{{else}}{{#setvar::Atelier_CoreBias}}{{getvar::Atelier_CoreBias}}
+♢ ! [DIRECTIVE] Atelier Runtime Bias
+{{getvar::ARBiasRules}}{{/setvar}}{{/if}}{{#if {{.ARBiasOp == replace}}}}{{setvar::Atelier_ResolvedBiasCoT::♢ ! [DIRECTIVE] Atelier Runtime Bias
+{{getvar::ARBiasRules}}}}{{/if}}{{#if {{.ARBiasOp == replace}}}}{{else}}{{#setvar::Atelier_ResolvedBiasCoT}}{{getvar::Atelier_ResolvedBiasCoT}}
+♢ ! [DIRECTIVE] Atelier Runtime Bias
+{{getvar::ARBiasRules}}{{/setvar}}{{/if}}{{/if}}{{/if}}{{#if !.ARLockSmut}}{{#if .ARSmutRules}}{{#setvar::Smut}}{{getvar::Smut}}
+♢ ! [DIRECTIVE] Atelier Runtime Smut
+{{getvar::ARSmutRules}}{{/setvar}}{{#setvar::AtelierCoT_Smut}}{{getvar::AtelierCoT_Smut}}
+- Atelier Runtime Smut: {{getvar::ARSmutRules}}{{/setvar}}{{/if}}{{/if}}{{#if !.ARLockViolence}}{{#if .ARViolenceRules}}{{#if {{.ARViolenceOp == replace}}}}{{setvar::Violence::♢ ! [DIRECTIVE] Atelier Runtime Violence
+{{getvar::ARViolenceRules}}}}{{/if}}{{#if {{.ARViolenceOp == replace}}}}{{else}}{{#setvar::Violence}}{{getvar::Violence}}
+♢ ! [DIRECTIVE] Atelier Runtime Violence
+{{getvar::ARViolenceRules}}{{/setvar}}{{/if}}{{#if {{.ARViolenceOp == replace}}}}{{setvar::Atelier_ViolencePolicy::♢ ! [DIRECTIVE] Atelier Runtime Violence
+{{getvar::ARViolenceRules}}}}{{/if}}{{#if {{.ARViolenceOp == replace}}}}{{else}}{{#setvar::Atelier_ViolencePolicy}}{{getvar::Atelier_ViolencePolicy}}
+♢ ! [DIRECTIVE] Atelier Runtime Violence
+{{getvar::ARViolenceRules}}{{/setvar}}{{/if}}{{#if {{.ARViolenceOp == replace}}}}{{setvar::AtelierCoT_Violence::- Atelier Runtime Violence: {{getvar::ARViolenceRules}}}}{{/if}}{{#if {{.ARViolenceOp == replace}}}}{{else}}{{#setvar::AtelierCoT_Violence}}{{getvar::AtelierCoT_Violence}}
+- Atelier Runtime Violence: {{getvar::ARViolenceRules}}{{/setvar}}{{/if}}{{/if}}{{/if}}{{#if !.ARLockRomance}}{{#if .ARRomanceRules}}{{#if {{.ARRomanceOp == replace}}}}{{setvar::Romance::♢ ! [DIRECTIVE] Atelier Runtime Romance
+{{getvar::ARRomanceRules}}}}{{/if}}{{#if {{.ARRomanceOp == replace}}}}{{else}}{{#setvar::Romance}}{{getvar::Romance}}
+♢ ! [DIRECTIVE] Atelier Runtime Romance
+{{getvar::ARRomanceRules}}{{/setvar}}{{/if}}{{#if {{.ARRomanceOp == replace}}}}{{setvar::AtelierCoT_Romance::- Atelier Runtime Romance: {{getvar::ARRomanceRules}}}}{{/if}}{{#if {{.ARRomanceOp == replace}}}}{{else}}{{#setvar::AtelierCoT_Romance}}{{getvar::AtelierCoT_Romance}}
+- Atelier Runtime Romance: {{getvar::ARRomanceRules}}{{/setvar}}{{/if}}{{/if}}{{/if}}{{#if !.ARLockHumor}}{{#if .ARHumorRules}}{{#if {{.ARHumorOp == replace}}}}{{setvar::Humor::♢ ! [DIRECTIVE] Atelier Runtime Humor
+{{getvar::ARHumorRules}}}}{{/if}}{{#if {{.ARHumorOp == replace}}}}{{else}}{{#setvar::Humor}}{{getvar::Humor}}
+♢ ! [DIRECTIVE] Atelier Runtime Humor
+{{getvar::ARHumorRules}}{{/setvar}}{{/if}}{{#if {{.ARHumorOp == replace}}}}{{setvar::Atelier_HumorPolicy::♢ ! [DIRECTIVE] Atelier Runtime Humor
+{{getvar::ARHumorRules}}}}{{/if}}{{#if {{.ARHumorOp == replace}}}}{{else}}{{#setvar::Atelier_HumorPolicy}}{{getvar::Atelier_HumorPolicy}}
+♢ ! [DIRECTIVE] Atelier Runtime Humor
+{{getvar::ARHumorRules}}{{/setvar}}{{/if}}{{#if {{.ARHumorOp == replace}}}}{{setvar::AtelierCoT_Humor::- Atelier Runtime Humor: {{getvar::ARHumorRules}}}}{{/if}}{{#if {{.ARHumorOp == replace}}}}{{else}}{{#setvar::AtelierCoT_Humor}}{{getvar::AtelierCoT_Humor}}
+- Atelier Runtime Humor: {{getvar::ARHumorRules}}{{/setvar}}{{/if}}{{/if}}{{/if}}{{#if !.ARLockLength}}{{#if .ARLengthRules}}{{#if {{.ARLengthOp == replace}}}}{{setvar::ResponseLen::♢ ! [DIRECTIVE] Atelier Runtime Length
+{{getvar::ARLengthRules}}}}{{/if}}{{#if {{.ARLengthOp == replace}}}}{{else}}{{#setvar::ResponseLen}}{{getvar::ResponseLen}}
+♢ ! [DIRECTIVE] Atelier Runtime Length
+{{getvar::ARLengthRules}}{{/setvar}}{{/if}}{{#if {{.ARLengthOp == replace}}}}{{setvar::Atelier_LengthPolicy::♢ ! [DIRECTIVE] Atelier Runtime Length
+{{getvar::ARLengthRules}}}}{{/if}}{{#if {{.ARLengthOp == replace}}}}{{else}}{{#setvar::Atelier_LengthPolicy}}{{getvar::Atelier_LengthPolicy}}
+♢ ! [DIRECTIVE] Atelier Runtime Length
+{{getvar::ARLengthRules}}{{/setvar}}{{/if}}{{#if {{.ARLengthOp == replace}}}}{{setvar::AtelierCoT_ResponseLen::- Atelier Runtime Length: {{getvar::ARLengthRules}}}}{{/if}}{{#if {{.ARLengthOp == replace}}}}{{else}}{{#setvar::AtelierCoT_ResponseLen}}{{getvar::AtelierCoT_ResponseLen}}
+- Atelier Runtime Length: {{getvar::ARLengthRules}}{{/setvar}}{{/if}}{{/if}}{{/if}}{{#if !.ARLockSensory}}{{#if .ARSensoryRules}}{{#if {{.ARSensoryOp == replace}}}}{{setvar::Sensory::♢ ! [DIRECTIVE] Atelier Runtime Sensory
+{{getvar::ARSensoryRules}}}}{{/if}}{{#if {{.ARSensoryOp == replace}}}}{{else}}{{#setvar::Sensory}}{{getvar::Sensory}}
+♢ ! [DIRECTIVE] Atelier Runtime Sensory
+{{getvar::ARSensoryRules}}{{/setvar}}{{/if}}{{#if {{.ARSensoryOp == replace}}}}{{setvar::AtelierCoT_Sensory::- Atelier Runtime Sensory: {{getvar::ARSensoryRules}}}}{{/if}}{{#if {{.ARSensoryOp == replace}}}}{{else}}{{#setvar::AtelierCoT_Sensory}}{{getvar::AtelierCoT_Sensory}}
+- Atelier Runtime Sensory: {{getvar::ARSensoryRules}}{{/setvar}}{{/if}}{{/if}}{{/if}}{{#if !.ARLockTone}}{{#if .ARToneRules}}{{#if {{.ARToneOp == replace}}}}{{setvar::Tone::♢ ! [DIRECTIVE] Atelier Runtime Tone
+{{getvar::ARToneRules}}}}{{/if}}{{#if {{.ARToneOp == replace}}}}{{else}}{{#setvar::Tone}}{{getvar::Tone}}
+♢ ! [DIRECTIVE] Atelier Runtime Tone
+{{getvar::ARToneRules}}{{/setvar}}{{/if}}{{#if {{.ARToneOp == replace}}}}{{setvar::Atelier_TonePolicy::♢ ! [DIRECTIVE] Atelier Runtime Tone
+{{getvar::ARToneRules}}}}{{/if}}{{#if {{.ARToneOp == replace}}}}{{else}}{{#setvar::Atelier_TonePolicy}}{{getvar::Atelier_TonePolicy}}
+♢ ! [DIRECTIVE] Atelier Runtime Tone
+{{getvar::ARToneRules}}{{/setvar}}{{/if}}{{#if {{.ARToneOp == replace}}}}{{setvar::AtelierCoT_Tone::- Atelier Runtime Tone: {{getvar::ARToneRules}}}}{{/if}}{{#if {{.ARToneOp == replace}}}}{{else}}{{#setvar::AtelierCoT_Tone}}{{getvar::AtelierCoT_Tone}}
+- Atelier Runtime Tone: {{getvar::ARToneRules}}{{/setvar}}{{/if}}{{/if}}{{/if}}{{#if !.ARLockPOV}}{{#if .ARPOVRules}}{{#setvar::POV}}{{getvar::POV}}
+♢ ! [DIRECTIVE] Atelier Runtime POV
+{{getvar::ARPOVRules}}{{/setvar}}{{#setvar::AtelierCoT_POV}}{{getvar::AtelierCoT_POV}}
+- Atelier Runtime POV: {{getvar::ARPOVRules}}{{/setvar}}{{/if}}{{/if}}{{#if !.ARLockAgency}}{{#if .ARAgencyRules}}{{#setvar::Agency}}{{getvar::Agency}}
+♢ ! [DIRECTIVE] Atelier Runtime Agency
+{{getvar::ARAgencyRules}}{{/setvar}}{{#setvar::AtelierCoT_Agency}}{{getvar::AtelierCoT_Agency}}
+- Atelier Runtime Agency: {{getvar::ARAgencyRules}}{{/setvar}}{{/if}}{{/if}}{{#if !.ARLockDialogue}}{{#if .ARDialogueRules}}{{#if {{.ARDialogueOp == replace}}}}{{setvar::Dialogue::♢ ! [DIRECTIVE] Atelier Runtime Dialogue
+{{getvar::ARDialogueRules}}}}{{/if}}{{#if {{.ARDialogueOp == replace}}}}{{else}}{{#setvar::Dialogue}}{{getvar::Dialogue}}
+♢ ! [DIRECTIVE] Atelier Runtime Dialogue
+{{getvar::ARDialogueRules}}{{/setvar}}{{/if}}{{#if {{.ARDialogueOp == replace}}}}{{setvar::AtelierCoT_Dialogue::- Atelier Runtime Dialogue: {{getvar::ARDialogueRules}}}}{{/if}}{{#if {{.ARDialogueOp == replace}}}}{{else}}{{#setvar::AtelierCoT_Dialogue}}{{getvar::AtelierCoT_Dialogue}}
+- Atelier Runtime Dialogue: {{getvar::ARDialogueRules}}{{/setvar}}{{/if}}{{/if}}{{/if}}{{#if !.ARLockWorldBuilding}}{{#if .ARWorldBuildingRules}}{{#if {{.ARWorldBuildingOp == replace}}}}{{setvar::WorldBuilding::♢ ! [DIRECTIVE] Atelier Runtime WorldBuilding
+{{getvar::ARWorldBuildingRules}}}}{{/if}}{{#if {{.ARWorldBuildingOp == replace}}}}{{else}}{{#setvar::WorldBuilding}}{{getvar::WorldBuilding}}
+♢ ! [DIRECTIVE] Atelier Runtime WorldBuilding
+{{getvar::ARWorldBuildingRules}}{{/setvar}}{{/if}}{{#if {{.ARWorldBuildingOp == replace}}}}{{setvar::AtelierCoT_WorldBuilding::- Atelier Runtime WorldBuilding: {{getvar::ARWorldBuildingRules}}}}{{/if}}{{#if {{.ARWorldBuildingOp == replace}}}}{{else}}{{#setvar::AtelierCoT_WorldBuilding}}{{getvar::AtelierCoT_WorldBuilding}}
+- Atelier Runtime WorldBuilding: {{getvar::ARWorldBuildingRules}}{{/setvar}}{{/if}}{{/if}}{{/if}}{{#if !.ARLockDevelopment}}{{#if .ARDevelopmentRules}}{{#if {{.ARDevelopmentOp == replace}}}}{{setvar::CharDev::♢ ! [DIRECTIVE] Atelier Runtime Development
+{{getvar::ARDevelopmentRules}}}}{{/if}}{{#if {{.ARDevelopmentOp == replace}}}}{{else}}{{#setvar::CharDev}}{{getvar::CharDev}}
+♢ ! [DIRECTIVE] Atelier Runtime Development
+{{getvar::ARDevelopmentRules}}{{/setvar}}{{/if}}{{#if {{.ARDevelopmentOp == replace}}}}{{setvar::Atelier_DevelopmentPolicy::♢ ! [DIRECTIVE] Atelier Runtime Development
+{{getvar::ARDevelopmentRules}}}}{{/if}}{{#if {{.ARDevelopmentOp == replace}}}}{{else}}{{#setvar::Atelier_DevelopmentPolicy}}{{getvar::Atelier_DevelopmentPolicy}}
+♢ ! [DIRECTIVE] Atelier Runtime Development
+{{getvar::ARDevelopmentRules}}{{/setvar}}{{/if}}{{#if {{.ARDevelopmentOp == replace}}}}{{setvar::AtelierCoT_CharDev::- Atelier Runtime Development: {{getvar::ARDevelopmentRules}}}}{{/if}}{{#if {{.ARDevelopmentOp == replace}}}}{{else}}{{#setvar::AtelierCoT_CharDev}}{{getvar::AtelierCoT_CharDev}}
+- Atelier Runtime Development: {{getvar::ARDevelopmentRules}}{{/setvar}}{{/if}}{{/if}}{{/if}}{{#if !.ARLockWorldLogic}}{{#if .ARWorldLogicRules}}{{#setvar::WorldLogic}}{{getvar::WorldLogic}}
+♢ ! [DIRECTIVE] Atelier Runtime WorldLogic
+{{getvar::ARWorldLogicRules}}{{/setvar}}{{#setvar::AtelierCoT_WorldLogic}}{{getvar::AtelierCoT_WorldLogic}}
+- Atelier Runtime WorldLogic: {{getvar::ARWorldLogicRules}}{{/setvar}}{{/if}}{{/if}}{{#if !.ARLockVisual}}{{#if .ARVisualRules}}{{#setvar::VisualStyle}}{{getvar::VisualStyle}}
+♢ ! [DIRECTIVE] Atelier Runtime Visual
+{{getvar::ARVisualRules}}{{/setvar}}{{#setvar::AtelierCoT_VisualStyle}}{{getvar::AtelierCoT_VisualStyle}}
+- Atelier Runtime Visual: {{getvar::ARVisualRules}}{{/setvar}}{{/if}}{{/if}}{{#if .ARProseRules}}{{#setvar::ARProseEffective}}♢ * [STYLE] Alex-authored prose guidance
+{{getvar::ARProseRules}}{{/setvar}}{{/if}}{{#if .ARCustom}}{{#setvar::ARCustomEffective}}♢ ! [DIRECTIVE] RP-specific configuration
+{{getvar::ARCustom}}{{/setvar}}{{/if}}{{#if .ARNarrator}}{{#setvar::ARNarratorEffective}}♢ @ [LENS] Atelier narrator voice
+{{getvar::ARNarrator}}{{/setvar}}{{/if}}{{setvar::Atelier_StakesReminder::{{getvar::Atelier_StakesPolicy}}}}{{setvar::Atelier_AgencyReminder::{{getvar::Atelier_AgencyPolicy}}
+
+{{getvar::Atelier_TransitionPolicy}}}}{{setvar::Atelier_POVReminder::{{getvar::Atelier_InteriorityPolicy}}}}{{setvar::Atelier_DevelopmentReminder::{{getvar::Atelier_DevelopmentPolicy}}}}{{setvar::Atelier_PresentationReminder::{{getvar::Atelier_ToneHumorPolicy}}
+
+{{getvar::Atelier_FormattingPolicy}}}}{{#setvar::Atelier_ConsequencePolicy}}{{getvar::Atelier_Bias_Consequences}}
+{{getvar::Atelier_StakesPolicy}}
+{{getvar::Atelier_BiasStakesPolicy}}{{/setvar}}{{#setvar::Atelier_TurnPolicy}}{{getvar::Atelier_LengthPolicy}}
+{{getvar::Atelier_HandoffPolicy}}
+{{getvar::Atelier_Lib_TurnCombo_{{getvar::Atelier_Mode_Length}}_{{getvar::Atelier_Mode_Agency}}}}{{/setvar}}{{#setvar::Atelier_ResolvedPreferenceCoT}}{{getvar::AtelierCoT_Unrestricted}}
+{{getvar::AtelierCoT_Stakes}}
+{{getvar::Atelier_ResolvedBiasCoT}}
+{{getvar::AtelierCoT_Smut}}
+{{getvar::AtelierCoT_Violence}}
+{{getvar::AtelierCoT_Romance}}
+{{getvar::AtelierCoT_Humor}}
+{{getvar::AtelierCoT_ResponseLen}}
+{{getvar::AtelierCoT_Sensory}}
+{{getvar::AtelierCoT_Tone}}
+{{getvar::AtelierCoT_POV}}
+{{getvar::AtelierCoT_Agency}}
+{{getvar::AtelierCoT_Dialogue}}
+{{getvar::AtelierCoT_WorldBuilding}}
+{{getvar::AtelierCoT_CharDev}}
+{{getvar::AtelierCoT_WorldLogic}}
+{{getvar::AtelierCoT_GenreStyleBias}}
+{{getvar::AtelierCoT_VisualStyle}}
+{{getvar::Atelier_ThreatBudget}}
+{{getvar::Atelier_CutawayPolicy}}{{/setvar}}{{/if}}{{/if}}{{trim}}

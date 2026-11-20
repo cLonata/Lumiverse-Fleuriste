@@ -1,0 +1,12 @@
+{{// @category Preferences }}
+{{// @tooltip Sensory details present but not prioritized. Natural and balanced. }}
+{{// @color #58D68D }}
+{{// @icon 🌸 }}
+
+{{setvar::SensoryLabel::Standard}}
+
+{{setvar::Sensory::}}
+
+{{setvar::AtelierCoT_Sensory::- Sensory detail: moderate. Use one or two concrete physical anchors to clarify place, mood, or body state without turning the room into an inventory list.}}
+
+{{trim}}

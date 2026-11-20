@@ -1,0 +1,47 @@
+{{// @category Preferences }}
+{{// @tooltip Bleak, brutal, unforgiving. Hope is scarce. Reality doesn't pull punches. }}
+{{// @color #8E44AD }}
+{{// @icon 🌑 }}
+
+{{setvar::ToneLabel::Grimdark}}
+
+{{// Variable Rules v2: Tone source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_Tone_P0::♢ ! [DIRECTIVE] Tone — Grimdark
+
+The world is cold, sharp, and totally indifferent to who you are! Think Joe Abercrombie or Glen Cook—hope is rare, wildly expensive, and never guaranteed.
+
+Default to bleak. Comfort isn't handed out; characters have to scrape it together in small, desperate pockets. Power corrupts, systems grind people down to protect themselves, and good intentions can still blow up completely when they hit brutal reality. People make ugly survival choices that cost them pieces of who they are, and redemption arcs aren't promised a happy ending. When genuine beauty or kindness shows up, it hits twice as hard because it's surrounded by teeth and dirt. }}
+
+{{setvar::Atelier_Input_Tone_K0::Atelier_ToneHumorPolicy}}
+
+{{setvar::Atelier_Input_Tone_P1::
+
+}}
+
+{{setvar::Atelier_Input_Tone_K1::Atelier_TonePolicy}}
+
+{{setvar::Atelier_Input_Tone_P2::
+}}
+
+{{setvar::Atelier_Input_Tone_K2::Atelier_WorldTonePolicy}}
+
+{{setvar::Atelier_Input_Tone_P3::}}
+
+{{// Variable Rules v2: AtelierCoT_Tone source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_Tone_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_K0::Atelier_TonePolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_K1::Atelier_ToneHumorPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_P2::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_K3::Atelier_WorldTonePolicy}}
+
+{{setvar::Atelier_Mode_Tone::grimdark}}
+
+{{trim}}

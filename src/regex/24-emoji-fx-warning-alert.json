@@ -1,0 +1,17 @@
+{
+  "id": "c99da944-843f-4083-ae7e-afe2a1aaf699",
+  "scriptName": "Emoji FX - Warning/Alert",
+  "findRegex": "/(⚠️|🚨)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:alert 0.8s ease-in-out infinite;filter:drop-shadow(0 0 4px #ff8c00);\">$1</span><style>@keyframes alert{0%,100%{opacity:1}50%{opacity:0.5}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

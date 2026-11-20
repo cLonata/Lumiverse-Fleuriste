@@ -1,0 +1,17 @@
+{
+  "id": "b5ca5c4f-209f-42b4-82b7-46ac00f2e0a7",
+  "scriptName": "Emoji FX - Scroll/Magic Item",
+  "findRegex": "/(📜|📖|📕)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:unfurl 1.5s ease-in-out;filter:drop-shadow(0 0 3px #daa520);\">$1</span><style>@keyframes unfurl{0%{transform:scaleX(0.8);opacity:0.6}100%{transform:scaleX(1);opacity:1}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

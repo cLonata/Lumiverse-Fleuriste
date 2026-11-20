@@ -1,0 +1,17 @@
+{
+  "id": "7fe68039-ddf1-4d41-ba8c-ffe21d94487b",
+  "scriptName": "Emoji FX - Dice/Random",
+  "findRegex": "/(🎲|🎰)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:tumble 0.6s ease-in-out infinite;filter:drop-shadow(0 0 3px #27ae60);\">$1</span><style>@keyframes tumble{0%{transform:rotate(0deg)}25%{transform:rotate(10deg)}75%{transform:rotate(-10deg)}100%{transform:rotate(0deg)}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

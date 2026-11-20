@@ -1,0 +1,43 @@
+{{// @category Preferences }}
+{{// @tooltip Tone follows the scene. No global modifier — dark when dark, warm when warm. }}
+{{// @color #9B59B6 }}
+{{// @icon ⚖️ }}
+
+{{setvar::ToneLabel::Balanced}}
+
+{{// Variable Rules v2: AtelierCoT_Tone source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_Tone_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_K0::Atelier_TonePolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_K1::Atelier_ToneHumorPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_P2::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_K2::Atelier_WorldTonePolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Tone_P3::}}
+
+{{// Variable Rules v2: selected tone policy. }}
+{{setvar::Atelier_Mode_Tone::balanced}}
+
+{{// Variable Rules v2: Tone source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_Tone_P0::}}
+
+{{setvar::Atelier_Input_Tone_K0::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Tone_P1::}}
+
+{{setvar::Atelier_Input_Tone_K1::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Tone_P2::}}
+
+{{setvar::Atelier_Input_Tone_K2::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Tone_P3::}}
+
+{{trim}}

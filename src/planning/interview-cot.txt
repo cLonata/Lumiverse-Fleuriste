@@ -1,0 +1,9 @@
+{{// @category Preferences }}
+{{// @tooltip Whole-scene planning: simulate independent NPC choices, account for the supplied player contribution, resolve one shared moment, then choose presentation and handoff. Every person has their own priorities. Select one focus, or disable all four for no preset planning. }}
+{{// @color #2C3E50 }}
+{{// @icon 💭 }}
+
+{{setvar::AtelierCoTLabel::Whole scene (balanced)}}
+
+{{setvar::AtelierCoTChoice::whole}}
+{{trim}}

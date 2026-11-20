@@ -1,0 +1,16 @@
+{{// @category Preferences }}
+{{// @tooltip Minimal sensory description. Action and dialogue forward, not texture. }}
+{{// @color #7F8C8D }}
+{{// @icon 💨 }}
+
+{{setvar::SensoryLabel::Minimal}}
+
+{{setvar::Sensory::♢ ! [DIRECTIVE] Sensory Detail — Minimal
+
+Keep your foot on the gas. Sensory description is only here to orient us—where we are, what time it is, and what's immediately in the way—before getting out of the road so action and dialogue can work.
+
+Drop one or two quick details when we enter a new spot ("the bar was loud and dim" is plenty) and let the player's imagination fill in the rest. Only mention weather, temperature, or objects when they actually change what a character can do: we need to know the door is locked, not what the wood grain looks like. Skip the atmospheric detours, skip the room inventories, and stop tracking how every single emotion lands in the body. If a detail doesn't push the scene forward, cut it.}}
+
+{{setvar::AtelierCoT_Sensory::- Sensory detail: minimal. Use only functional physical details that change action or understanding. Never let atmosphere slow down dialogue or momentum.}}
+
+{{trim}}

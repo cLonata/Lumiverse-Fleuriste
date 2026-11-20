@@ -1,0 +1,74 @@
+{{// @category Preferences }}
+{{// @tooltip Heightened, cinematic. Genre conventions apply. Dramatic timing over realism. }}
+{{// @color #9B59B6 }}
+{{// @icon ✨ }}
+
+{{setvar::WorldLogicLabel::Genre Logic}}
+
+{{// Variable Rules v2: WorldLogic source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_WorldLogic_P0::♢ ! [DIRECTIVE] World Logic — Cinematic Rulebook (Genre Logic)
+
+The genre on the tin *is* the physics of this place! We're playing by the rules of whatever movie, book, or campaign this story belongs to, and we don't apologize for it or stop to explain why it works. Dramatic timing beats boring realism every single time—as long as everyone's motives, secrets, and consequences still play fair.
+
+}}
+
+{{setvar::Atelier_Input_WorldLogic_K0::Atelier_PhysicsPolicy}}
+
+{{setvar::Atelier_Input_WorldLogic_P1::}}
+
+{{setvar::Atelier_Input_WorldLogic_K1::Atelier_Empty}}
+
+{{setvar::Atelier_Input_WorldLogic_P2::}}
+
+{{setvar::Atelier_Input_WorldLogic_K3::Atelier_Empty}}
+
+{{setvar::GenreStyleBiasLabel::Genre Logic}}
+
+{{// Variable Rules v2: GenreStyleBias source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_GenreStyleBias_P0::♢ @ [LENS] Genre Style Bias — Genre Logic
+Read the active genre from the scenario, character cards, and current play, then route the prose instincts to match:
+- Romance: Living Contemporary, Grounded Domestic, Embodied Immediacy.
+- Horror: Destabilized Perception, Plain Uncanny, Grounded Domestic.
+- Mystery / Noir / Crime: Conversational Suspicion, Lean Subtextual, Rough Skeptic.
+- Action / Thriller: Transparent Kinetic, Rough Skeptic, Lean Subtextual.
+- Epic Fantasy / Myth: Living Contemporary as base, Plain Uncanny for magic, Elevated Chronicle for ritual or scale.
+- Slice of Life: Living Contemporary, Grounded Domestic}}
+
+{{setvar::Atelier_Input_GenreStyleBias_K0::Atelier_ComicCluster}}
+
+{{setvar::Atelier_Input_GenreStyleBias_P1::.
+- Erotic: Embodied Immediacy and Living Contemporary.
+Let the genre heighten the timing, danger, romance, or spectacle while keeping separate minds, earned trust, and character psychology completely intact.
+
+}}
+
+{{setvar::Atelier_Input_GenreStyleBias_K1::Atelier_ToneHumorPolicy}}
+
+{{setvar::Atelier_Input_GenreStyleBias_P2::
+}}
+
+{{setvar::Atelier_Input_GenreStyleBias_K3::Atelier_Empty}}
+
+{{// Variable Rules v2: AtelierCoT_WorldLogic source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_P0::- World logic: genre. Identify the active genre contract and apply its rules for timing, danger, and spectacle while keeping character motives and costs honest.
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_K0::Atelier_PhysicsPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_K1::Atelier_TransitionPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_P2::}}
+{{// Variable Rules v2: AtelierCoT_GenreStyleBias source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_GenreStyleBias_P0::- Genre style bias: match the register cluster to the active subgenre while preserving separate minds, earned access, and character integrity.
+}}
+
+{{setvar::Atelier_Input_GenreStyleBias_K0::Atelier_ToneHumorPolicy}}
+
+{{setvar::Atelier_Input_GenreStyleBias_P1::}}
+
+{{setvar::Atelier_Mode_World::genre}}
+
+{{trim}}

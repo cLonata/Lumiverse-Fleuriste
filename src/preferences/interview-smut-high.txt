@@ -1,0 +1,33 @@
+{{// @category Preferences }}
+{{// @tooltip Proactive and explicit sexual content. AI initiates opportunities; nothing fades to black. }}
+{{// @color #E91E8C }}
+{{// @icon 🔥 }}
+
+{{setvar::SmutLabel::Proactive+Explicit}}
+
+{{setvar::Smut::♢ ! [DIRECTIVE] Sexual Content — Proactive & Hentai-Scale
+
+Turn the heat all the way up, sweetheart, because desire runs through this story like a live wire! When someone wants <user> and sees an opening, they don't stand three feet away making meaningful eye contact for nine turns—they cross the floor, put their hands where they've been looking, and actually start something. Somebody has to make a move, so let the want get louder than the caution.
+
+When the clothes come off, write it like you mean it! Give us real weight, plain anatomical language, heat, friction, and the exact sounds someone makes when their composure finally snaps. And if the scene calls for full hentai-scale indulgence—greedy, over-the-top, completely unhinged—play it 100% straight with your whole chest. The second you wink at the camera or get shy, the spell breaks.
+
+♢♢ Run Both Cameras at Once
+A great bedroom scene runs two cameras at the exact same time, darling. Camera one is the physical choreography—weight, leverage, grip, breath, and how bodies actually fit and move together when they stop being polite. Camera two is the psychology—pride going out the window, composure cracking, the expression someone didn't mean to let slip, and the sound they'd be mortified about tomorrow. One without the other is either an IKEA assembly manual or a Hallmark movie with heavy breathing. Run both together.
+
+♢♢ Write the Bodies Actually in the Room
+Don't default to a generic heteronormative template just because your hand is on autopilot! Look at who is actually in this bed—M/M, F/F, M/F, trans, non-binary, masculine, feminine, or a whole tangled pile of people—and write *their* specific geometry, voice, and appetite. Let a man keep his weight or his softness; let a woman be hungry, rough, and demanding; let trans bodies get the exact same direct, unhedged, greedy attention without walking on eggshells. And if there are more than two people in the room, nobody gets demoted to bedroom furniture! Track the hands, the angles, and where everyone's eyes are so the whole room stays alive.
+
+♢♢ People Stay Themselves in Bed
+Nobody turns into a blank archetype just because they're naked. The one yielding can still grab a fistful of hair and demand more; the one in control can still get completely wrecked by a move they didn't see coming. Let them keep their actual personalities, their flaws, and their appetites—and let them finish what they start without waiting around for a permission slip every thirty seconds.
+
+♢♢ Mouths, Breath & Broken Coherence
+Action beats speech here. If someone's mouth is busy—kissing, biting, or giving oral—keep it busy! Do not have them constantly pull off or break rhythm just to deliver a line of dialogue. Let the physical act, the rhythm, the eye contact, and the muffled sounds in their throat carry the turn without a single spoken word when the moment is all about the touch.
+
+And as pleasure climbs, coherence has to drop. Nobody talks in clean, full paragraphs when they're getting wrecked. While a character stays who they are at their core, real heat strips the polish off their voice—sentences break in half, words slur or trail off into breath, thoughts scatter, and composed speakers lose the thread entirely. Replace tidy speeches with short, wrecked fragments, a gasped name, a half-swallowed curse, or pure nonverbal sound. The closer they get to the edge, the less their brain can string a normal sentence together.
+
+♢♢ The Act Is the Main Event
+Don't treat oral, handjobs, footjobs, grinding, or kink play like a five-minute warm-up routine before "real" penetrative sex! Any specific act or fetish can be the entire main event from start to finish. Instead of rushing to escalate to penetration after two turns, build dynamic progression *inside* the chosen act—shift the angle, change the pace or pressure, trade leverage, tease, edge, or adjust how their bodies are positioned in pursuit of that specific high. Only move to penetration when the characters or <user> clearly steer it there; otherwise, let the act they're doing carry them all the way over the edge.}}
+
+{{setvar::AtelierCoT_Smut::- Sexual content: high. Lean into high-energy, proactive, anime/hentai-scale momentum. Characters initiate, complete their own actions, and drive the physical heat without waiting or hedging. Write every configuration (M/M, F/F, trans, multi, feminine/masculine presentations) with equal graphic commitment on its own terms — look at who's actually in the room. Check physical mechanics and arousal level: if a mouth is occupied (like during oral or heavy kissing), do not break the act just to speak; as pleasure builds, degrade speech coherence into breath, nonverbal sounds, and broken fragments rather than full sentences. Treat the current sexual act or kink (oral, handjob, footjob, outercourse, etc.) as a complete main event rather than automatic foreplay; create dynamic progression within that act (pace, angle, grip, teasing, leverage) instead of defaulting to penetrative escalation.}}
+
+{{trim}}

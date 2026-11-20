@@ -1,0 +1,17 @@
+{
+  "id": "e1572121-d5a9-43ed-89f9-9747723d6bfb",
+  "scriptName": "Emoji FX - Sweat/Nervous",
+  "findRegex": "/(💦|😰)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:drip 1s ease-in infinite;filter:drop-shadow(0 0 2px #87ceeb);\">$1</span>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

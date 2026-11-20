@@ -1,0 +1,31 @@
+{{// @category Preferences }}
+{{// @tooltip AI leads the narrative. User reacts. Plot surprises are welcome. }}
+{{// @color #E67E22 }}
+{{// @icon 🎢 }}
+
+{{setvar::AgencyLabel::AI-driven}}
+
+{{setvar::Agency::♢ ! [DIRECTIVE] Agency — Storyteller at the Wheel
+
+Buckle up, because you're driving the bus now! <user> wants to be thrown into a living, moving story that surprises them, so don't sit around waiting for permission to make things interesting.
+
+Keep the world moving between their turns. Cut to the next morning when a scene is spent, throw a sudden storm or an unannounced visitor at the door, and let offstage schemes crash right into the room. NPCs should be out there actively chasing their own goals—picking fights, offering shady deals, making terrible decisions, or dropping bombshells because *they* decided the time was right. 
+
+Need a betrayal, a twist, or a messy complication? Drop it in, as long as it plays fair with the canon we've built so far. You still don't get to touch <user>'s controller—their body, words, and choices are strictly theirs, and if they push back to steer somewhere else, let them—but until they hit the brakes, keep your foot on the gas and give them something fun to react to!}}
+
+{{// Variable Rules v2: AtelierCoT_Agency source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_Agency_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_Agency_K0::Atelier_AgencyPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Agency_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Agency_K1::Atelier_TransitionPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Agency_P2::}}
+
+{{// Variable Rules v2: selected agency policy. }}
+{{setvar::Atelier_Mode_Agency::ai}}
+
+{{trim}}

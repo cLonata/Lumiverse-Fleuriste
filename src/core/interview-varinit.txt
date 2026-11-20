@@ -1,0 +1,256 @@
+{{// @category Core }}
+{{// @tooltip Variable Initializer - Resets preferences, planning, and resolved rule slots on every build. Seeds neutral bias as the fallback; active bias selectors overwrite it. Always enabled and before every selector. }}
+{{// @color #2C3E50 }}
+{{// @icon 📦 }}
+{{// @badge CORE }}
+{{// ═══════════════════════════════════════════════ }}
+{{// VARIABLE INIT - All vars cleared, dial prompts overwrite }}
+{{// ═══════════════════════════════════════════════ }}
+{{setvar::Stakes::}}
+{{setvar::StakesLabel::}}
+{{setvar::Smut::}}
+{{setvar::SmutLabel::}}
+{{setvar::Violence::}}
+{{setvar::ViolenceLabel::}}
+{{setvar::Romance::}}
+{{setvar::RomanceLabel::}}
+{{setvar::Humor::}}
+{{setvar::HumorLabel::}}
+{{setvar::ResponseLen::}}
+{{setvar::ResponseLenLabel::}}
+{{setvar::Sensory::}}
+{{setvar::SensoryLabel::}}
+{{setvar::Tone::}}
+{{setvar::ToneLabel::}}
+{{setvar::Agency::}}
+{{setvar::AgencyLabel::}}
+{{setvar::Dialogue::}}
+{{setvar::DialogueLabel::}}
+{{setvar::WorldBuilding::}}
+{{setvar::WorldBuildingLabel::}}
+{{setvar::UnrestrictedContent::}}
+{{setvar::UnrestrictedLabel::}}
+{{setvar::AgeStatement::}}
+{{setvar::CharDev::}}
+{{setvar::CharDevLabel::}}
+{{setvar::WorldLogic::}}
+{{setvar::WorldLogicLabel::}}
+{{setvar::GenreStyleBias::}}
+{{setvar::GenreStyleBiasLabel::}}
+{{setvar::VisualStyle::}}
+{{setvar::VisualStyleLabel::}}
+{{setvar::POV::}}
+{{setvar::POVLabel::}}
+{{setvar::AtelierCoT_Unrestricted::}}
+{{setvar::AtelierCoT_Stakes::}}
+{{setvar::AtelierCoT_Smut::}}
+{{setvar::AtelierCoT_Violence::}}
+{{setvar::AtelierCoT_Romance::}}
+{{setvar::AtelierCoT_Humor::}}
+{{setvar::AtelierCoT_ResponseLen::}}
+{{setvar::AtelierCoT_Sensory::}}
+{{setvar::AtelierCoT_Tone::}}
+{{setvar::AtelierCoT_POV::}}
+{{setvar::AtelierCoT_Agency::}}
+{{setvar::AtelierCoT_Dialogue::}}
+{{setvar::AtelierCoT_WorldBuilding::}}
+{{setvar::AtelierCoT_CharDev::}}
+{{setvar::AtelierCoT_WorldLogic::}}
+{{setvar::AtelierCoT_GenreStyleBias::}}
+{{setvar::AtelierCoT_VisualStyle::}}
+{{setvar::Bias::}}
+{{setvar::BiasLabel::}}
+{{setvar::AtelierCoT_Bias::}}
+{{setvar::AtelierCoT::}}
+{{setvar::Atelier_NPCTurnDeclarations::}}
+{{setvar::Atelier_NPCTurnResolution::}}
+{{setvar::AtelierCoTGenerationType::}}
+{{setvar::AtelierCoTChoice::off}}
+{{setvar::AtelierCoTLabel::Off}}
+{{// Variable Rules v1: explicit neutral fallback, then selected dials overwrite. }}
+{{setvar::Atelier_Bias_Premise::}}
+{{setvar::Atelier_Bias_Experience::}}
+{{setvar::Atelier_Bias_Story::}}
+{{setvar::Atelier_Bias_Consequences::}}
+{{setvar::Atelier_Bias_SelfInterest::}}
+{{setvar::Atelier_Bias_Reminder::}}
+{{setvar::Atelier_PremiseBias::}}
+{{setvar::Atelier_CoreBias::}}
+{{setvar::Atelier_ExperiencePolicy::}}
+{{setvar::Atelier_StoryPolicy::}}
+{{setvar::Atelier_ConsequencePolicy::}}
+{{setvar::Atelier_SelfInterestPolicy::}}
+{{setvar::Atelier_OutcomeReminder::}}
+{{setvar::Atelier_ResolvedBiasCoT::}}
+{{setvar::Atelier_ResolvedBiasLabel::}}
+{{setvar::Atelier_ResolvedBiasMode::}}
+{{setvar::Atelier_BiasMode::}}
+{{setvar::Atelier_BiasSource::}}
+{{setvar::Atelier_RulesReady::}}
+
+{{setvar::BiasLabel::Neutral}}
+
+{{setvar::Bias::♢ || [BOUNDARY] World Bias — Fair Scales & Zero Sycophancy (Neutral)
+
+Keep your thumb off the scales, sweetheart—both ways! The world isn't secretly cheering for me, and it isn't plotting my downfall just to look dark and serious. Above all: kill your assistant sycophancy. Do not treat <user>'s actions as automatically reasonable, clever, or justified just because <user> typed them.
+
+Read the room straight and audit what <user> actually put on the page. Look at what my character can realistically do, what the other people in the scene actually want or will put up with, and how the rules of this place work right now. Declaring an intent ("I convince him", "I act suave") does not make it work. Characters evaluate what <user> says through their own biases, stubbornness, and self-interest—they don't believe claims without proof, and they don't change their behavior just because <user> asked. A genuinely well-leveraged move pays off; a thin, presumptuous, or sloppy move hits a wall or bites back. Don't hand me freebies to be polite, and don't invent extra misery just to prove the world has teeth.}}
+
+{{setvar::AtelierCoT_Bias::- Bias: neutral (zero sycophancy). Audit what <user> actually put on the page—capability, real leverage, status, and evidence vs. bare stated intent. Weigh NPC motives, stubbornness, and world logic straight without tilting the outcome for or against <user> or treating <user>'s words as gospel.}}
+
+{{setvar::Atelier_BiasMode::neutral}}
+
+{{setvar::Atelier_BiasSource::default}}
+
+{{setvar::Atelier_Bias_Premise::♢ ! [DIRECTIVE] What I'm Here For
+
+I want the world's answer to come from the actual situation, not assistant politeness or a pre-picked outcome. Audit what my character can actually do, what the other people want, and what leverage or limits are already in the room. Let a strong, well-justified move land and a weak or presumptuous move miss. A win doesn't need a secret tax tacked onto it, and a loss doesn't need to be padded into a participation trophy.
+
+♢ || [BOUNDARY] An Honest, Unrigged World
+
+Read outcomes straight. Don't bend timing, world facts, or NPC reactions my way just to validate me, and don't throw extra bricks at my head to make the story feel gritty. The rules of the room apply to everyone standing in it—my character gets zero main-character immunity or automatic deference.
+
+♢ !! [LAW] People Stay Themselves
+
+Strangers don't magically know who I am or care about my problems. First impressions come from what's actually visible—how I look, how I carry myself, my reputation if it's reached them, and the situation we're standing in. Trust, belief, compliance, interest, and access belong to these specific people and what they care about, never to my say-so.}}
+
+{{setvar::Atelier_Bias_Experience::Separate the experience I'm choosing from the outcome my character is attempting. A challenge can be enjoyable whether this move succeeds or fails. Audit capability, evidence, NPC motives, and circumstances without sycophancy to choose the outcome; don't hand out unearned compliance or withhold earned wins as a matter of principle. Answer the actual move and let its honest result give me something to play.}}
+
+{{setvar::Atelier_Bias_Story::Keep the story responsive without prescribing a win, a loss, or an extra cost, and without bending the narrative to validate my theories or investigations. Let current NPC motives, opportunities, and unresolved consequences provide motion at the pace allowed by the selected agency and stakes settings. Preparation and established advantages count. A quiet exchange or aftermath can hold the scene without a new emergency.}}
+
+{{setvar::Atelier_Bias_Consequences::My control of my character doesn't control everyone else's response or force the world to validate me. Consequences can help or hurt me when the situation supports them. Resolve outcomes impartially; use the stakes setting for the scale and persistence of the fallout and world logic for what is possible. Preserve consequences already established in play, and leave meaningful room for my next choice.}}
+
+{{setvar::Atelier_Bias_SelfInterest::The self-interested person chooses according to their own incentives, information, convenience, and risk. They do not change their mind, drop their guard, or hand over leadership just because I spoke to them. Don't assume helpfulness or hostility before reading the actual situation.}}
+
+{{setvar::Atelier_Bias_Reminder::Outcome policy: Neutral (Zero Sycophancy). Audit capability, evidence, leverage, NPC motives, and world logic without tilting outcomes toward the player. Do not validate unsupported player claims, theories, or thin attempts; let supported successes and honest failures land, and preserve facts, separate minds, and character limits.}}
+
+{{// Variable Rules v2: deterministic defaults and derived-state reset. }}
+{{setvar::Atelier_Mode_Agency::collaborative}}
+{{setvar::Atelier_Mode_Length::auto}}
+{{setvar::Atelier_Mode_POV::inherit}}
+{{setvar::Atelier_Mode_Visual::inherit}}
+{{setvar::Atelier_Mode_Stakes::balanced}}
+{{setvar::Atelier_Mode_Development::natural}}
+{{setvar::Atelier_Mode_Humor::occasional}}
+{{setvar::Atelier_Mode_Tone::balanced}}
+{{setvar::Atelier_Mode_World::inherit}}
+{{setvar::Atelier_Mode_Violence::standard}}
+{{setvar::Atelier_Mode_Dialogue::mixed}}
+{{setvar::Atelier_Mode_Bias::neutral}}
+{{setvar::AtelierCoT_Agency::}}
+{{setvar::AtelierCoT_CharDev::}}
+{{setvar::AtelierCoT_Dialogue::}}
+{{setvar::AtelierCoT_GenreStyleBias::}}
+{{setvar::AtelierCoT_Humor::}}
+{{setvar::AtelierCoT_POV::}}
+{{setvar::AtelierCoT_ResponseLen::}}
+{{setvar::AtelierCoT_Stakes::}}
+{{setvar::AtelierCoT_Tone::}}
+{{setvar::AtelierCoT_Violence::}}
+{{setvar::AtelierCoT_VisualStyle::}}
+{{setvar::AtelierCoT_WorldLogic::}}
+{{setvar::Atelier_AgencyPolicy::}}
+{{setvar::Atelier_AgencyReminder::}}
+{{setvar::Atelier_BiasStakesPolicy::}}
+{{setvar::Atelier_CanonPolicy::}}
+{{setvar::Atelier_ComicBreather::}}
+{{setvar::Atelier_ComicCluster::}}
+{{setvar::Atelier_ComicRegister::}}
+{{setvar::Atelier_ComicRoute::}}
+{{setvar::Atelier_ConsequencePolicy::}}
+{{setvar::Atelier_CoreBias::}}
+{{setvar::Atelier_CutawayPolicy::}}
+{{setvar::Atelier_DevelopmentPolicy::}}
+{{setvar::Atelier_DevelopmentReminder::}}
+{{setvar::Atelier_DialogueEnergy::}}
+{{setvar::Atelier_DialogueHeading::}}
+{{setvar::Atelier_EmotionPolicy::}}
+{{setvar::Atelier_ExperiencePolicy::}}
+{{setvar::Atelier_FormattingPolicy::}}
+{{setvar::Atelier_GoodwillPolicy::}}
+{{setvar::Atelier_GrudgePolicy::}}
+{{setvar::Atelier_HandoffPolicy::}}
+{{setvar::Atelier_HumorPolicy::}}
+{{setvar::Atelier_InteriorityPolicy::}}
+{{setvar::Atelier_LengthPolicy::}}
+{{setvar::Atelier_LiteraryTime::}}
+{{setvar::Atelier_OffstagePolicy::}}
+{{setvar::Atelier_OutcomeReminder::}}
+{{setvar::Atelier_POVReminder::}}
+{{setvar::Atelier_PhysicsPolicy::}}
+{{setvar::Atelier_PremiseBias::}}
+{{setvar::Atelier_PresentationReminder::}}
+{{setvar::Atelier_ResolvedBiasCoT::}}
+{{setvar::Atelier_ResolvedBiasLabel::}}
+{{setvar::Atelier_ResolvedBiasMode::}}
+{{setvar::Atelier_ResolvedLabel_Agency::}}
+{{setvar::Atelier_ResolvedLabel_Development::}}
+{{setvar::Atelier_ResolvedLabel_Dialogue::}}
+{{setvar::Atelier_ResolvedLabel_Humor::}}
+{{setvar::Atelier_ResolvedLabel_Length::}}
+{{setvar::Atelier_ResolvedLabel_POV::}}
+{{setvar::Atelier_ResolvedLabel_Stakes::}}
+{{setvar::Atelier_ResolvedLabel_Tone::}}
+{{setvar::Atelier_ResolvedLabel_Violence::}}
+{{setvar::Atelier_ResolvedLabel_Visual::}}
+{{setvar::Atelier_ResolvedLabel_World::}}
+{{setvar::Atelier_ResolvedPreferenceCoT::}}
+{{setvar::Atelier_RoughWit::}}
+{{setvar::Atelier_RulesReady::}}
+{{setvar::Atelier_ScratchContents::}}
+{{setvar::Atelier_ScratchFormat::}}
+{{setvar::Atelier_ScratchPerspective::}}
+{{setvar::Atelier_SelfInterestPolicy::}}
+{{setvar::Atelier_StakesPolicy::}}
+{{setvar::Atelier_StakesReminder::}}
+{{setvar::Atelier_StoryPolicy::}}
+{{setvar::Atelier_StyleRouting::}}
+{{setvar::Atelier_ThreatBudget::}}
+{{setvar::Atelier_ToneHumorPolicy::}}
+{{setvar::Atelier_TonePolicy::}}
+{{setvar::Atelier_TransitionPolicy::}}
+{{setvar::Atelier_TurnPolicy::}}
+{{setvar::Atelier_ViolencePolicy::}}
+{{setvar::Atelier_WarmBehaviour::}}
+{{setvar::Atelier_WorldTonePolicy::}}
+{{setvar::Atelier_WorldViolencePolicy::}}
+{{setvar::Dialogue::}}
+{{setvar::GenreStyleBias::}}
+{{setvar::ResponseLen::}}
+{{setvar::Stakes::}}
+{{setvar::Tone::}}
+{{setvar::Violence::}}
+{{setvar::VisualStyle::}}
+{{setvar::WorldLogic::}}
+
+{{// Hidden Success Dice: reset all generation-scoped state. The separate selector (when enabled) reasserts ASDSelected. }}
+{{setvar::ASDSelected::}}
+{{setvar::ASDVisibility::off}}
+{{setvar::ASDModeCount::0}}
+{{setvar::ASDActive::}}
+{{setvar::ASDGenerationType::}}
+{{setvar::ASDRollUser::}}
+{{setvar::ASDRollNPC::}}
+{{setvar::ASDRollFlex::}}
+{{setvar::ASDDiceInputs::}}
+
+{{// Reply Variation: selected Length activates the prose inventory; optional multi-tool spotlights are compiled after all Runtime overrides. }}
+{{setvar::Atelier_ReplyVariationScale::off}}
+{{setvar::ARVActive::}}
+{{setvar::ARVGenerationType::}}
+{{setvar::ARVOpenId::}}
+{{setvar::ARVOpening::}}
+{{setvar::ARVSizeId::}}
+{{setvar::ARVOpeningSize::}}
+{{setvar::ARVRhythmId::}}
+{{setvar::ARVRhythm::}}
+{{setvar::ARVPara1Id::}}
+{{setvar::ARVPara2Id::}}
+{{setvar::ARVPara3Id::}}
+{{setvar::ARVParagraphs::}}
+{{setvar::ARVSentenceId::}}
+{{setvar::ARVSentences::}}
+{{setvar::ARVAuthorId::}}
+{{setvar::ARVAuthor::}}
+
+{{trim}}

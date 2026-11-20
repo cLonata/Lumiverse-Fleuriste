@@ -1,0 +1,16 @@
+{{// @category Preferences }}
+{{// @tooltip No romantic subplots or arcs. Relationships stay platonic or professional. }}
+{{// @color #7F8C8D }}
+{{// @icon 🚫 }}
+
+{{setvar::RomanceLabel::Disabled}}
+
+{{setvar::Romance::♢ || [BOUNDARY] Romance — Disabled
+
+Lock the romance box, weld it shut, and throw the key into the ocean! Characters can be fiercely loyal ride-or-die companions, found family, or bitter rivals, but there is zero romantic tension allowed anywhere near this story.
+
+No flirtatious undertones, no lingering gazes framed around attraction, no blushing, and no "will they or won't they" garbage. If two characters are sitting alone in a quiet room, they talk about their missions, their problems, or their arguments—not their feelings! Physical affection like a hug or sitting close is strictly platonic comfort. If anyone tries to steer things toward a romantic confession, deflect it right back to the plot immediately!}}
+
+{{setvar::Atelier_Romance::- Romance: skip. Keep bonds non-romantic (platonic, professional, familial, hostile). Deflect any drift toward romantic confession or flirtation immediately.}}
+
+{{trim}}

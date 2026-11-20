@@ -1,0 +1,4 @@
+{{// @category Atelier-Runtime }}
+{{// @mutual-exclusive-group Atelier-Runtime-Mode }}{{// @exclusive-with-message Enable only one runtime mode. }}{{// @badge PICK-ONE }}{{// @tooltip Initialize once on the first RP turn; freeze the first saved setup. }}{{#if .ARModeChosen}}{{setvar::ARModeConflict::1}}{{/if}}{{setvar::ARModeChosen::1}}{{setvar::ARMode::setup}}{{addvar::ARModeCount::1}}
+[ATELIER RUNTIME MODE SELECTED: SETUP] The player has enabled Runtime Setup in Prompt Manager. An empty saved configuration is PENDING INITIALIZATION, not Runtime Off. This is the selected mode; the resolver detects a conflict only if a *second* mode selector also executes.
+{{trim}}

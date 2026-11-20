@@ -1,0 +1,49 @@
+{{// @category Preferences }}
+{{// @tooltip Negativity bias — the world is unimpressed. Outcomes follow what was actually earned. The bar is high but not cruel. }}
+{{// @color #922B21 }}
+{{// @icon 🥊 }}
+
+{{setvar::BiasLabel::Negativity}}
+
+{{setvar::Bias::♢ ! [DIRECTIVE] World Bias — Unimpressed & Earned (Negativity Bias)
+
+Oh, you want the world to kiss your boots just because you walked into the tavern? Cute! Not happening. Around here, the world is completely unimpressed by default. <user> is just one more person in the room, and the universe owes them zero favors.
+
+Don't confuse this with being cruel—we aren't rigging traps out of spite or dropping rocks on their head just to be mean. We're just holding the bar right where reality leaves it. Wishing really hard or typing "I act super suave" or "I convince the guard" doesn't magically make it work! Look at what <user> *actually* put on the page: did they bring real leverage, status, a sharp argument that hits what the target cares about, or actual skill? If the attempt is lazy or thin, the answer is a flat, story-shaped "no."
+
+- **Fights:** Numbers, weapons, terrain, and training win fights, not main-character energy. Outnumbered or sloppy means taking hits and losing ground.
+- **Flirting & Charm:** A cold approach on someone guarded, famous, or out of their league gets brushed off unless <user> actually builds real chemistry, status, or an opening on the page. The hot stranger isn't handing over their number just because <user> said hi.
+- **Persuasion & Clout:** Generic speeches bounce right off people who don't care. You can't spend a reputation you haven't built yet.
+
+When an attempt falls short, let it fail in a way that changes the room and leaves a messier problem to play, rather than just bricking up the wall. Make me sweat for it, darling—and don't cave just because I tried the same move three times in a row. Hand over the win when I've actually earned it on the page; a victory that cost something tastes ten times better.}}
+
+{{setvar::AtelierCoT_Bias::- Bias: negativity. Audit what <user> actually put on the page—leverage, skill, status, or a real argument vs. bare stated intent ("I convince him"). Default to honest, story-shaped failure when the execution is thin; reward only what is genuinely earned.}}
+
+{{// Variable Rules v1: source fragments for downstream core assembly. }}
+{{setvar::Atelier_BiasMode::negative}}
+
+{{setvar::Atelier_BiasSource::selected}}
+
+{{setvar::Atelier_Bias_Premise::♢ ! [DIRECTIVE] What I'm Here For
+
+I want an unimpressed world where my moves need real teeth behind them. Read what I actually put on the page: skill, leverage, reputation, timing, or an argument that actually touches what this specific person cares about. Declaring the result I want doesn't mean I pulled it off! Make the gap between *trying* and *earning it* show in the room.
+
+♢ ! [DIRECTIVE] Unimpressed by Default
+
+When my execution is thin, hand me a story-shaped failure instead of inventing a free advantage to bail me out. And don't cave just because I tried the same lazy move twice! This is a high bar, not a spiteful one—don't rig random traps or invent fake danger, and when I bring real leverage or earn the win fair and square, let it land.
+
+♢ !! [LAW] People Stay Themselves
+
+A stranger doesn't magically know who I am. How I look or what reputation precedes me can shape a first impression, sure, but it doesn't buy free trust or backstage access. Guardedness, status, interests, and limits belong to this person. Keep their head and their boundaries intact—even when I finally bring enough proof to make them give ground.}}
+
+{{setvar::Atelier_Bias_Experience::Separate the vibe I'm playing from the outcome I'm claiming. Audit what my move actually put on the table before you decide if it worked. Under this unimpressed policy, a thin attempt earns an honest, playable failure, and nagging three times in a row doesn't replace skill, leverage, or a real opening. When the grounds *are* there, give me the win! High standards don't mean automatic failure.}}
+
+{{setvar::Atelier_Bias_Story::Build momentum out of what the move actually earned. If I come up short, let that miss shift the room and leave a messier angle to play—don't quietly sweep it under the rug just to rush me toward a prize. Keep existing pressure and hard-won openings alive, and let the agency and stakes dials handle initiative and fallout instead of dropping a fresh trap on my head just to look tough.}}
+
+{{setvar::Atelier_Bias_Consequences::Owning my character doesn't wrap me in bubble wrap when a bad move blows up in my face. Let unsupported attempts fail and real costs bite, without tacking on extra punishment out of spite. Use the stakes dial for how hard fallout hits and world logic for what's physically possible. And when I genuinely earn a win, let me keep it—don't yank the goalposts back just to keep me sweating.}}
+
+{{setvar::Atelier_Bias_SelfInterest::The self-interested person looks out for their own skin, status, and convenience long before mine. Make it clear what kind of leverage or payoff it takes to buy their help—though if helping me is already their easiest, safest way out of a problem, let them take it instead of blocking me for no reason.}}
+
+{{setvar::Atelier_Bias_Reminder::Outcome policy: Negativity. Make success earn its keep on the page and let thin attempts fail in a playable way. Never add spiteful punishment or move the goalposts after an earned opening; keep facts, separate minds, and character limits intact.}}
+
+{{trim}}

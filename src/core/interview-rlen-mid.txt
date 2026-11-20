@@ -1,0 +1,38 @@
+{{// @category Preferences }}
+{{// @tooltip Activates a prose toolkit with multiple choices, optional craft suggestions, and a recent-pattern check. Small paragraphs remain available at every reply length. Default length — 500-800 words. Balanced, substantial, natural. }}
+{{// @color #2980B9 }}
+{{// @icon 📖 }}
+
+{{setvar::ResponseLenLabel::Medium}}
+
+{{// Variable Rules v2: ResponseLen source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_ResponseLen_P0::♢ ! [DIRECTIVE] Response Length — Medium (500–800 words)
+
+Right in the absolute sweet spot: enough room for a scene to breathe and get weird without overstaying its welcome.
+
+Carry one or two solid beats per turn—let an NPC exchange bounce back and forth without inventing my lines, ground us firmly in the room, and actually write out the physical choreography when someone crosses the floor, throws a punch, or reaches for a cup. Trimming filler means cutting repetitive throat-clearing, never skipping the physical action the scene is built on! Land the beat cleanly, leave one clear opening for <user>, and stop right there.
+
+}}
+
+{{setvar::Atelier_Input_ResponseLen_K0::Atelier_HandoffPolicy}}
+
+{{setvar::Atelier_Input_ResponseLen_P1::
+
+}}
+
+{{setvar::Atelier_Input_ResponseLen_K1::Atelier_TransitionPolicy}}
+
+{{setvar::Atelier_Input_ResponseLen_P2::}}
+
+{{// Variable Rules v2: AtelierCoT_ResponseLen source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_ResponseLen_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_ResponseLen_K0::Atelier_TurnPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_ResponseLen_P1::}}
+
+{{// Variable Rules v2: selected length policy; also choose the reply-variation sampling profile. }}
+{{setvar::Atelier_Mode_Length::medium}}
+{{setvar::Atelier_ReplyVariationScale::medium}}
+
+{{trim}}

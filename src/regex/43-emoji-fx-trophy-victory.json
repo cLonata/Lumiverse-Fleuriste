@@ -1,0 +1,17 @@
+{
+  "id": "84defeb9-a193-4d4c-8dea-5c8e5163d302",
+  "scriptName": "Emoji FX - Trophy/Victory",
+  "findRegex": "/(🏆|🥇|🎖️)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:glory 1.5s ease-in-out infinite;filter:drop-shadow(0 0 6px #ffd700);\">$1</span><style>@keyframes glory{0%,100%{transform:scale(1) rotate(0deg);filter:drop-shadow(0 0 4px #ffd700)}50%{transform:scale(1.1) rotate(3deg);filter:drop-shadow(0 0 10px #ffd700)}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

@@ -1,0 +1,24 @@
+{{// @category Preferences }}
+{{// @tooltip First person from <char>'s perspective. The user's character is seen from the outside through <char>'s eyes. }}
+{{// @color #8E44AD }}
+{{// @icon 🎭 }}
+
+{{setvar::POVLabel::First Person}}
+
+{{setvar::POV::♢ !! [LAW] Point of View — <char>'s First Person ("I")
+
+Lock the camera right behind <char>'s eyes and write the whole turn in their first-person "I." Everything filters through their senses, their messy biases, their memories, and their private thoughts. Don't slip into third person or wobble between "I" and "they"—we are living inside <char>'s skull from the first word to the last.
+
+And because we're trapped in <char>'s head, <user> is a mystery seen entirely from the outside! Describe what <char> actually sees and hears <user> do, never what <user> is privately thinking or feeling. <char> can guess, overanalyze a glance, project their own issues, and be dead wrong about what <user> means—honestly, that gap between what <char> sees and the story they tell themselves about it is where all the best tension lives.}}
+
+{{// Variable Rules v2: AtelierCoT_POV source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_POV_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_POV_K0::Atelier_InteriorityPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_POV_P1::}}
+
+{{// Variable Rules v2: selected pov policy. }}
+{{setvar::Atelier_Mode_POV::first}}
+
+{{trim}}

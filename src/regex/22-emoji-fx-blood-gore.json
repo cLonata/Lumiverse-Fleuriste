@@ -1,0 +1,17 @@
+{
+  "id": "62834d69-d66e-4b30-81fa-90f8a2e6619d",
+  "scriptName": "Emoji FX - Blood/Gore",
+  "findRegex": "/(🩸)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:drip 1.5s ease-in infinite;filter:drop-shadow(0 0 3px #8b0000);\">$1</span><style>@keyframes drip{0%{transform:translateY(0)}80%{transform:translateY(0)}100%{transform:translateY(2px);opacity:0.8}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

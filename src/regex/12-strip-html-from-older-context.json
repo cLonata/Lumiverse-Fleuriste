@@ -1,0 +1,17 @@
+{
+  "id": "6c3ebe82-9db4-423b-bfa6-40ce5832eada",
+  "scriptName": "Strip HTML from older context",
+  "findRegex": "/<!-- HTML_START -->[\\s\\S]*?<!-- HTML_END -->/gs",
+  "replaceString": "",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": false,
+  "promptOnly": true,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": 5,
+  "maxDepth": null
+}

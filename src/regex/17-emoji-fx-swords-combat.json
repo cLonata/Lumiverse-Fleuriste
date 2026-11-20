@@ -1,0 +1,17 @@
+{
+  "id": "264f5e11-64cd-4788-bfe0-5fe17ec92cc8",
+  "scriptName": "Emoji FX - Swords/Combat",
+  "findRegex": "/(⚔️|🗡️|🔱)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:clash 0.3s ease-in-out;filter:drop-shadow(0 0 3px #c0c0c0);\">$1</span><style>@keyframes clash{0%{transform:rotate(0deg)}25%{transform:rotate(-5deg)}75%{transform:rotate(5deg)}100%{transform:rotate(0deg)}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

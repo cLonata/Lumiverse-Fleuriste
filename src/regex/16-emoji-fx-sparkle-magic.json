@@ -1,0 +1,17 @@
+{
+  "id": "defac35d-d821-4a15-99b4-d0cc1efd9e01",
+  "scriptName": "Emoji FX - Sparkle/Magic",
+  "findRegex": "/(✨|🌟|💫)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:sparkle 1s ease-in-out infinite;filter:drop-shadow(0 0 6px #ffd700);\">$1</span><style>@keyframes sparkle{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.2);opacity:0.7}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

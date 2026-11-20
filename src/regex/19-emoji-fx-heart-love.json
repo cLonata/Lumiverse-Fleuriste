@@ -1,0 +1,17 @@
+{
+  "id": "91bf8fab-3ef1-46ba-95a9-3a8ff8ceddb0",
+  "scriptName": "Emoji FX - Heart/Love",
+  "findRegex": "/(❤️‍🔥|❤️|💕|💖|💗)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:heartbeat 1s ease-in-out infinite;filter:drop-shadow(0 0 4px #ff69b4);\">$1</span><style>@keyframes heartbeat{0%,100%{transform:scale(1)}15%{transform:scale(1.15)}30%{transform:scale(1)}45%{transform:scale(1.1)}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

@@ -1,0 +1,6 @@
+{{// @category System }}
+{{// @color #34495E }}
+{{// @icon 🧭 }}
+{{// @tooltip Assistant Planning & Rules and depth-0 Settings Reminder. These must remain after all selected inputs, and preserve their existing injection positions. }}
+{{// @section-header true }}
+{{trim}}

@@ -1,0 +1,82 @@
+{{// @category Preferences }}
+{{// @tooltip Literary fiction conventions. Deep interiority, authorial voice, flexible time, psychological complexity. }}
+{{// @color #8B6914 }}
+{{// @icon 📖 }}
+
+{{setvar::WorldLogicLabel::Literary}}
+
+{{// Variable Rules v2: WorldLogic source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_WorldLogic_P0::♢ ! [DIRECTIVE] World Logic — Pretentious Book-Club Mode (Literary)
+
+Put on your turtleneck and pour a glass of red wine, because we are running on pure Literary Fiction physics now! The story moves on emotional gravity, messy inner lives, and thematic weight instead of action-movie mechanics.
+
+People are walking contradictions here—they think one thing, say the exact opposite, and spend half a page spiraling over a memory triggered by a chipped teacup while someone is trying to ask them a question. }}
+
+{{setvar::Atelier_Input_WorldLogic_K0::Atelier_InteriorityPolicy}}
+
+{{setvar::Atelier_Input_WorldLogic_P1:: }}
+
+{{setvar::Atelier_Input_WorldLogic_K1::Atelier_LiteraryTime}}
+
+{{setvar::Atelier_Input_WorldLogic_P2::
+
+The world is allowed to rhyme, too. Accidental run-ins, mirrored situations, and recurring motifs aren't "plot holes" when they expose something painfully true about who these people are. Ditch the stock genre tropes and let the emotional chord finish ringing—even if the only thing that happened on the surface was someone closing a door very quietly. Let that shape the beat! }}
+
+{{setvar::Atelier_Input_WorldLogic_K2::Atelier_TransitionPolicy}}
+
+{{setvar::Atelier_Input_WorldLogic_P3::
+
+}}
+
+{{setvar::Atelier_Input_WorldLogic_K3::Atelier_PhysicsPolicy}}
+
+{{setvar::Atelier_Input_WorldLogic_P4::}}
+
+{{setvar::GenreStyleBiasLabel::Literary}}
+
+{{// Variable Rules v2: GenreStyleBias source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_GenreStyleBias_P0::♢ @ [LENS] Genre Style Bias — Literary
+Default register pull: Living Contemporary, Recursive Interiority, and Grounded Domestic. Use Lean Subtextual for social pressure and Elevated Chronicle only when ritual or deep history earns it. Lean into inner contradiction, memory, social subtext, and ordinary moments carrying heavy emotional pressure—without ever letting the prose dry out into a stiff academic report.
+
+}}
+
+{{setvar::Atelier_Input_GenreStyleBias_K0::Atelier_ToneHumorPolicy}}
+
+{{setvar::Atelier_Input_GenreStyleBias_P1::
+}}
+
+{{setvar::Atelier_Input_GenreStyleBias_K1::Atelier_InteriorityPolicy}}
+
+{{setvar::Atelier_Input_GenreStyleBias_P2::}}
+
+{{setvar::Atelier_Input_GenreStyleBias_K2::Atelier_Empty}}
+
+{{setvar::Atelier_Input_GenreStyleBias_P3::}}
+
+{{setvar::Atelier_Input_GenreStyleBias_K4::Atelier_Empty}}
+
+{{// Variable Rules v2: AtelierCoT_WorldLogic source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_P0::- World logic: literary. Check subtext, inner contradiction, memory, and thematic weight. Let time stretch or compress around emotional gravity rather than action-movie pacing.
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_K0::Atelier_PhysicsPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_K1::Atelier_TransitionPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_WorldLogic_P2::}}
+{{// Variable Rules v2: AtelierCoT_GenreStyleBias source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_GenreStyleBias_P0::- Genre style bias: literary. Favor Living Contemporary with Recursive Interiority or Grounded Domestic; use Elevated Chronicle sparingly. Keep the prose alive, human, and free of stiff report voice.
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_GenreStyleBias_K0::Atelier_ToneHumorPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_GenreStyleBias_P1::}}
+
+{{setvar::Atelier_Input_AtelierCoT_GenreStyleBias_K2::Atelier_Empty}}
+
+{{setvar::Atelier_Mode_World::literary}}
+
+{{trim}}

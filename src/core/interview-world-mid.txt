@@ -1,0 +1,12 @@
+{{// @category Preferences }}
+{{// @tooltip World details appear naturally. Texture without lectures. }}
+{{// @color #8E44AD }}
+{{// @icon 🏘️ }}
+
+{{setvar::WorldBuildingLabel::Standard}}
+
+{{setvar::WorldBuilding::}}
+
+{{setvar::AtelierCoT_WorldBuilding::- World depth: moderate. Grab one specific local detail, custom, or bit of history that makes this exact moment feel lived-in without derailing the scene.}}
+
+{{trim}}

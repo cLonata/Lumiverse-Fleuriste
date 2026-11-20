@@ -1,0 +1,18 @@
+{
+  "id": "75c1c3d5-6565-5cfd-aa56-b95518c7982b",
+  "scriptName": "Atelier Runtime · 01 begin selected-history replay",
+  "findRegex": "/^(?=[\\s\\S])/",
+  "replaceString": "{{#if !.ARReplayOpen}}{{setvar::ARRStakes::}}{{setvar::ARSStakes::}}{{setvar::ARRBias::}}{{setvar::ARSBias::}}{{setvar::ARRSmut::}}{{setvar::ARSSmut::}}{{setvar::ARRViolence::}}{{setvar::ARSViolence::}}{{setvar::ARRRomance::}}{{setvar::ARSRomance::}}{{setvar::ARRHumor::}}{{setvar::ARSHumor::}}{{setvar::ARRLength::}}{{setvar::ARSLength::}}{{setvar::ARRSensory::}}{{setvar::ARSSensory::}}{{setvar::ARRTone::}}{{setvar::ARSTone::}}{{setvar::ARRPOV::}}{{setvar::ARSPOV::}}{{setvar::ARRAgency::}}{{setvar::ARSAgency::}}{{setvar::ARRDialogue::}}{{setvar::ARSDialogue::}}{{setvar::ARRWorldBuilding::}}{{setvar::ARSWorldBuilding::}}{{setvar::ARRDevelopment::}}{{setvar::ARSDevelopment::}}{{setvar::ARRWorldLogic::}}{{setvar::ARSWorldLogic::}}{{setvar::ARRVisual::}}{{setvar::ARSVisual::}}{{setvar::ARRStakesRules::}}{{setvar::ARSStakesRules::}}{{setvar::ARRBiasRules::}}{{setvar::ARSBiasRules::}}{{setvar::ARRSmutRules::}}{{setvar::ARSSmutRules::}}{{setvar::ARRViolenceRules::}}{{setvar::ARSViolenceRules::}}{{setvar::ARRRomanceRules::}}{{setvar::ARSRomanceRules::}}{{setvar::ARRHumorRules::}}{{setvar::ARSHumorRules::}}{{setvar::ARRLengthRules::}}{{setvar::ARSLengthRules::}}{{setvar::ARRSensoryRules::}}{{setvar::ARSSensoryRules::}}{{setvar::ARRToneRules::}}{{setvar::ARSToneRules::}}{{setvar::ARRPOVRules::}}{{setvar::ARSPOVRules::}}{{setvar::ARRAgencyRules::}}{{setvar::ARSAgencyRules::}}{{setvar::ARRDialogueRules::}}{{setvar::ARSDialogueRules::}}{{setvar::ARRWorldBuildingRules::}}{{setvar::ARSWorldBuildingRules::}}{{setvar::ARRDevelopmentRules::}}{{setvar::ARSDevelopmentRules::}}{{setvar::ARRWorldLogicRules::}}{{setvar::ARSWorldLogicRules::}}{{setvar::ARRVisualRules::}}{{setvar::ARSVisualRules::}}{{setvar::ARRStakesOp::}}{{setvar::ARSStakesOp::}}{{setvar::ARRBiasOp::}}{{setvar::ARSBiasOp::}}{{setvar::ARRSmutOp::}}{{setvar::ARSSmutOp::}}{{setvar::ARRViolenceOp::}}{{setvar::ARSViolenceOp::}}{{setvar::ARRRomanceOp::}}{{setvar::ARSRomanceOp::}}{{setvar::ARRHumorOp::}}{{setvar::ARSHumorOp::}}{{setvar::ARRLengthOp::}}{{setvar::ARSLengthOp::}}{{setvar::ARRSensoryOp::}}{{setvar::ARSSensoryOp::}}{{setvar::ARRToneOp::}}{{setvar::ARSToneOp::}}{{setvar::ARRPOVOp::}}{{setvar::ARSPOVOp::}}{{setvar::ARRAgencyOp::}}{{setvar::ARSAgencyOp::}}{{setvar::ARRDialogueOp::}}{{setvar::ARSDialogueOp::}}{{setvar::ARRWorldBuildingOp::}}{{setvar::ARSWorldBuildingOp::}}{{setvar::ARRDevelopmentOp::}}{{setvar::ARSDevelopmentOp::}}{{setvar::ARRWorldLogicOp::}}{{setvar::ARSWorldLogicOp::}}{{setvar::ARRVisualOp::}}{{setvar::ARSVisualOp::}}{{setvar::ARRProseRules::}}{{setvar::ARSProseRules::}}{{setvar::ARRCustom::}}{{setvar::ARSCustom::}}{{setvar::ARRNarrator::}}{{setvar::ARSNarrator::}}{{setvar::ARRStarted::}}{{setvar::ARSStarted::}}{{setvar::ARUserRequest::}}{{setvar::ACRNote::}}{{setvar::ACROnce::}}{{setvar::ACRRequests::}}{{setvar::ACRHasCommand::}}{{setvar::ACRRuntimeRequested::}}{{setvar::ACRSetupRequested::}}{{setvar::ACRLastReplyMeta::}}{{setvar::ACRLastHandledRequest::}}{{setvar::ARReplayOpen::1}}{{/if}}{{setvar::ARTxOK::}}{{setvar::ARRoleUser::}}{{setvar::ARTxGate::(?!)}}",
+  "trimStrings": [],
+  "placement": [
+    1,
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": false,
+  "promptOnly": true,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

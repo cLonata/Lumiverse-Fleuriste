@@ -1,0 +1,5 @@
+{{// @category Preferences }}
+{{// @color #16A085 }}
+{{// @icon 🖥️ }}
+{{// @section-header true }}
+{{trim}}

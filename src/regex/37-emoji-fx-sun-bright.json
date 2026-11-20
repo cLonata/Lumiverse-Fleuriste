@@ -1,0 +1,17 @@
+{
+  "id": "85e55117-8ffc-410a-b560-f413afae7274",
+  "scriptName": "Emoji FX - Sun/Bright",
+  "findRegex": "/(☀️|🌞|🌅)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:radiate 2s ease-in-out infinite;filter:drop-shadow(0 0 6px #ffa500);\">$1</span><style>@keyframes radiate{0%,100%{transform:scale(1);filter:drop-shadow(0 0 4px #ffa500)}50%{transform:scale(1.08);filter:drop-shadow(0 0 10px #ffcc00)}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

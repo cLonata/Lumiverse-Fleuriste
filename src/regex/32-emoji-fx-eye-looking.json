@@ -1,0 +1,17 @@
+{
+  "id": "bd6d465b-da50-422e-9328-48a06e251449",
+  "scriptName": "Emoji FX - Eye/Looking",
+  "findRegex": "/(👁️|👀|🔍)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:scan 2s ease-in-out infinite;filter:drop-shadow(0 0 3px #00ff88);\">$1</span><style>@keyframes scan{0%,100%{transform:translateX(0)}25%{transform:translateX(2px)}75%{transform:translateX(-2px)}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

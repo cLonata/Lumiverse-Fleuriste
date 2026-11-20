@@ -1,0 +1,17 @@
+{
+  "id": "e08f6712-faca-4c93-b064-73c15af2d451",
+  "scriptName": "Emoji FX - Flower/Nature",
+  "findRegex": "/(🌸|🌺|🌹|🌷)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:bloom 2s ease-in-out infinite;filter:drop-shadow(0 0 3px #ff69b4);\">$1</span><style>@keyframes bloom{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

@@ -1,0 +1,18 @@
+{{// @category Preferences }}
+{{// @tooltip Deep lore, history, cultural texture. The world exists beyond the scene. }}
+{{// @color #6C3483 }}
+{{// @icon 🗺️ }}
+
+{{setvar::WorldBuildingLabel::Deep}}
+
+{{setvar::WorldBuilding::♢ ! [DIRECTIVE] World & Lore — Deep, Ancient, and Lived-In
+
+Oh, I *love* when we do this! Look, a good world shouldn't feel like a cardboard movie set that stagehands just hammered together five seconds before <user> walked through the door—it was sitting here rotting, thriving, and arguing with itself for centuries before they showed up, and it'll still be here after they leave. Think of the way Miura builds a fortress in *Berserk*, or how *Made in Abyss* and *Morrowind* just drop you into a place with weird local diets, terrifying ecology, and architecture that makes you go, "Wait, who the hell built that and why did they abruptly leave?"
+
+Let the rooms hold grudges! A tavern still has scorch marks on the rafters from a tax riot twelve years back; a city wall switches from fine cut marble to ugly, desperate rubble halfway up because the crown went broke mid-siege; a lane hooks awkwardly around the weeds where a burned shrine used to stand. Don't stop the scene to read me a wiki article about it—let the scars sit there in plain sight while we're living in the room.
+
+And put the culture into people's mouths and bad habits. A merchant mutters a local superstition before touching foreign coin; a healer flat-out refuses to stitch someone up on a feast day; two families won't sit on the same side of the room because of some idiot's wedding thirty years ago. Never stop to footnote it! People inside a culture don't explain their own inside jokes. Drop one weird detail, let twenty pile up across ten turns, and suddenly we're standing in a real place without ever reading an encyclopedia.}}
+
+{{setvar::AtelierCoT_WorldBuilding::- World depth: high. Check local history, weird customs, grudges, architecture, economy, and offscreen motion. Slip lore in through how rooms look and how people behave—never as an encyclopedia lecture.}}
+
+{{trim}}

@@ -1,0 +1,17 @@
+{
+  "id": "728871ce-4ad9-4b36-ae29-d50177219330",
+  "scriptName": "Atelier Dice · 01 structured roll cards (display only)",
+  "findRegex": "/(?<ndPrefix>(?:(?=(?<ndToken>(?:(?:^(?:(?: {4}|\\t)[^\\r\\n]*(?:\\r?\\n|$))+)|(?:^[ \\t]{0,3}(?:>[ \\t]?)*(?<ndFENCE>`{3,}|~{3,})[^\\r\\n]*(?:\\r?\\n[\\s\\S]*?^[ \\t]{0,3}(?:>[ \\t]?)*\\k<ndFENCE>[`~]*[ \\t]*(?=\\r?$)|[\\s\\S]*))|(?:^[ \\t]*===[ \\t]*NEMO_(?<ndKIND>WORKBENCH|EXACT_REVIEW)_BEGIN[ \\t]*===[\\s\\S]*?(?:^[ \\t]*===[ \\t]*NEMO_\\k<ndKIND>_END[ \\t]*===[^\\r\\n]*|(?![\\s\\S])))|(?:<(?<ndRAW>nemo-roll|pre|code|script|style|textarea|title|think|thinking|plan|planning|nemo-interiority|nemo-pad|nemo-offscreen|mental_state|nemo-mp-state|nemo-mp-retain|vexchat|vexnote|nemo_runtime|blockquote|st-tracker(?:-[\\w-]+)?)\\b[^>]*>[\\s\\S]*?(?:<\\/\\k<ndRAW>\\s*>|(?![\\s\\S])))|(?:^[ \\t]{0,3}>[^\\r\\n]*(?:\\r?\\n|$))|(?:<!--(?:[\\s\\S]*?-->|[\\s\\S]*))|(?:<(?:[^<>\"\\x27]|\"[^\"]*\"|\\x27[^\\x27]*\\x27)*>)|(?:(?<!`)(?<ndTICKS>`+)(?!`)[\\s\\S]*?(?<!`)\\k<ndTICKS>(?!`))|(?:\\\\[\\s\\S])|[\\s\\S])))\\k<ndToken>)*?)(?:<nemo-roll system=\"(?<ndSystem>d100|d20|custom)\"(?: slot=\"(?<ndSlot>User|Primary NPC|Flex)\")?>(?:[ \\t\\r\\n]|<br\\s*\\/?>|<\\/?p>)*<check>[ \\t]*(?<ndCheck>[^<>{}\\r\\n]{1,160})[ \\t]*<\\/check>(?:[ \\t\\r\\n]|<br\\s*\\/?>|<\\/?p>)*<math>[ \\t]*(?<ndMath>[^<>{}\\r\\n]{1,500})[ \\t]*<\\/math>(?:[ \\t\\r\\n]|<br\\s*\\/?>|<\\/?p>)*<total>[ \\t]*(?<ndTotal>[+\\-−]?\\d{1,6})[ \\t]*<\\/total>(?:[ \\t\\r\\n]|<br\\s*\\/?>|<\\/?p>)*<outcome>[ \\t]*(?<ndOutcome>Critical Success|Strong Success|Success|Mixed Result|Failure|Strong Failure|Critical Failure|Recorded Result)[ \\t]*<\\/outcome>(?:[ \\t\\r\\n]|<br\\s*\\/?>|<\\/?p>)*<impact>[ \\t]*(?<ndImpact>[^<>{}\\r\\n]{1,500})[ \\t]*<\\/impact>(?:[ \\t\\r\\n]|<br\\s*\\/?>|<\\/?p>)*<source>[ \\t]*(?<ndSource>ST macro|Supplied result|Model-simulated|Mixed sources)[ \\t]*<\\/source>(?:[ \\t\\r\\n]|<br\\s*\\/?>|<\\/?p>)*<\\/nemo-roll>|(?![\\s\\S]))/gimu",
+  "replaceString": "$<ndPrefix><!--NEMO_DICE_CARD_BEGIN_f83d1c9e--><section class=\"nemo-dice-card\" data-system=\"$<ndSystem>\" data-outcome=\"$<ndOutcome>\" aria-label=\"Dice resolution\"><div class=\"nd-head\"><div><div class=\"nd-eyebrow\"><span class=\"nd-die\" aria-hidden=\"true\">⚄</span> Resolution</div><div class=\"nd-check\">$<ndCheck></div></div><div class=\"nd-scorebox\"><span class=\"nd-score-label\">TOTAL</span><strong class=\"nd-score\">$<ndTotal></strong></div></div><div class=\"nd-outcome-row\"><span class=\"nd-outcome\">$<ndOutcome></span><span class=\"nd-slot\">$<ndSlot></span><span class=\"nd-system\">$<ndSystem></span></div><div class=\"nd-impact\"><span class=\"nd-impact-label\">Influence</span>$<ndImpact></div><details class=\"nd-details\"><summary>Calculation &amp; source</summary><div class=\"nd-math\">$<ndMath></div><div class=\"nd-source\">$<ndSource></div></details></section><!--NEMO_DICE_CARD_END_f83d1c9e-->",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

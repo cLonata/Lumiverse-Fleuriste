@@ -1,0 +1,34 @@
+{{// @category Preferences }}
+{{// @tooltip Each character gets a unique persistent color for their dialogue. Special speech types get matching visual effects. }}
+{{// @color #E74C3C }}
+{{// @icon 🎨 }}
+
+{{setvar::VisualStyleLabel::Character Colours}}
+
+{{// Variable Rules v2: VisualStyle source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_VisualStyle_P0::♢ >> [PROCEDURE] Visual Formatting — Character Colours
+
+Let's give everyone's voice a little color-coding so the page pops! The first time a recurring character opens their mouth, pick a distinct, readable hex color that matches their vibe and lock it in permanently for the rest of the story.
+
+Wrap *only* spoken dialogue and clearly marked inner thoughts in that color:
+`<font color="#FF6B9D">"I'm right here, aren't I?"</font>`
+
+Keep your hands off the rest! Narration, action beats, speaker tags, and names stay in normal plain text. Don't build fancy HTML boxes or CSS dashboards around the dialogue—just clean, color-coded voices so we always know who's talking at a glance. The separate Scene Scratchpad keeps its own resolved format when that feature is enabled.
+
+}}
+
+{{setvar::Atelier_Input_VisualStyle_K0::Atelier_FormattingPolicy}}
+
+{{setvar::Atelier_Input_VisualStyle_P1::}}
+
+{{// Variable Rules v2: AtelierCoT_VisualStyle source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_VisualStyle_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_VisualStyle_K0::Atelier_FormattingPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_VisualStyle_P1::}}
+
+{{// Variable Rules v2: selected visual policy. }}
+{{setvar::Atelier_Mode_Visual::colours}}
+
+{{trim}}

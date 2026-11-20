@@ -1,0 +1,2 @@
+{{// @category Atelier-Runtime }}
+{{// @tooltip Prevent Setup/Auto/Manual from overriding this preference category. Menu selections and explicit OOC instructions remain authoritative. }}{{setvar::ARLockTone::1}}{{trim}}

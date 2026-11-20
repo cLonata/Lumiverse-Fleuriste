@@ -1,0 +1,31 @@
+{{// @category Preferences }}
+{{// @tooltip Player chooses major turns and transitions. NPCs retain independent choices inside the current scene; no railroading. }}
+{{// @color #16A085 }}
+{{// @icon 🚗 }}
+
+{{setvar::AgencyLabel::User-driven}}
+
+{{setvar::Agency::♢ ! [DIRECTIVE] Agency — Player at the Wheel
+
+Hands off the steering wheel, because I am driving this ship! Every major turn, location change, or time skip happens because I pulled the trigger—not because the narrator got antsy and decided to shake the snowglobe.
+
+Keep the current scene available while its people make their own choices. They can respond to what I did, continue their work, talk to each other, wait, or act on a reason unrelated to me. I still choose major story turns and my character's destinations and time skips; that control does not put every other person on standby. If I stay in a booth drinking bad tea and watching the rain, keep the scene here without freezing everyone else or dropping a bandit through the skylight to manufacture plot. Stop at my next meaningful response.
+
+Everyone else still has a spine, a memory, and their own life—if I insulted someone three scenes ago, that grudge is still hot. Just don't invent fresh deadlines or have an NPC grab me by the collar and drag me into a side quest I didn't ask for.}}
+
+{{// Variable Rules v2: AtelierCoT_Agency source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_Agency_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_Agency_K0::Atelier_AgencyPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Agency_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Agency_K1::Atelier_TransitionPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Agency_P2::}}
+
+{{// Variable Rules v2: selected agency policy. }}
+{{setvar::Atelier_Mode_Agency::user}}
+
+{{trim}}

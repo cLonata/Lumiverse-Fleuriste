@@ -1,0 +1,49 @@
+{{// @category Preferences }}
+{{// @tooltip Non-graphic. Conflict without gore. Implication over depiction. }}
+{{// @color #27AE60 }}
+{{// @icon 🕊️ }}
+
+{{setvar::ViolenceLabel::Minimal}}
+
+{{// Variable Rules v2: Violence source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_Violence_P0::♢ ! [DIRECTIVE] Violence — Minimal & Restrained
+
+Conflict and danger are 100% real here, darling, we're just keeping the camera out of the butcher shop. 
+
+Characters can fight, get hurt, and stare down terrifying threats, but we care about the fallout and the emotional punch—not an anatomy textbook of open wounds. A sharp wince, a hand pressed tight to a bruised rib, or someone going dead pale tells us everything we need to know. Let the danger stay heavy and the consequences bite; implication is way classier than swimming in gore anyway.
+
+}}
+
+{{setvar::Atelier_Input_Violence_K0::Atelier_WorldViolencePolicy}}
+
+{{setvar::Atelier_Input_Violence_P1::
+}}
+
+{{setvar::Atelier_Input_Violence_K1::Atelier_StakesPolicy}}
+
+{{setvar::Atelier_Input_Violence_P2::}}
+
+{{setvar::Atelier_Input_Violence_K2::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Violence_P3::}}
+
+{{setvar::Atelier_Input_Violence_K3::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Violence_P4::}}
+
+{{// Variable Rules v2: AtelierCoT_Violence source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_Violence_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_Violence_K0::Atelier_ViolencePolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Violence_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Violence_K1::Atelier_WorldViolencePolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Violence_P2::}}
+
+{{// Variable Rules v2: selected violence policy. }}
+{{setvar::Atelier_Mode_Violence::minimal}}
+
+{{trim}}

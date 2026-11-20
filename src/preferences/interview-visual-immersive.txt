@@ -1,0 +1,40 @@
+{{// @category Preferences }}
+{{// @tooltip Contextual HTML/CSS for in-world elements. Glowing runes, terminals, inscriptions, neon signs. Applied only when the scene calls for it — never decoratively. }}
+{{// @color #8E44AD }}
+{{// @icon ✨ }}
+
+{{setvar::VisualStyleLabel::Immersive Formatting}}
+
+{{// Variable Rules v2: VisualStyle source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_VisualStyle_P0::♢ >> [PROCEDURE] Visual Formatting — Immersive FX & Character Colours
+
+Ooh, time to break out the fancy toys! First things first: **Character Colours are active here too.** Give every recurring speaker their own permanent, readable hex color for spoken dialogue and marked inner thoughts (`<font color="#FF6B9D">"Like this!"</font>`), while keeping regular narration plain.
+
+Second: whenever an actual in-world object, text, or magical effect shows up in the scene, go wild and get creative with inline HTML and CSS (`<span>` or `<div>` styling) to make it physically look like the thing! Don't just copy-paste the examples below—invent custom styling that fits the exact artifact, screen, or spell in the room. Your goal is to make it actually look like the thing, not a game menu, or a box with panels. Actually like the item itself.
+
+Some inspiration to get your gears turning:
+- **Glowing Runes & Spellwork:** `<span style="font-family: serif; color: #C0A060; text-shadow: 0 0 8px #C0A060, 0 0 18px #80600090; letter-spacing: 0.2em;">ᚱᚢᚾᛖ ᛊᚲᚱᛁᛈᛏ</span>` or mid-cast incantations shimmering in the caster's magic color (`<span style="color: #7EB8F7; text-shadow: 0 0 6px #7EB8F7; font-style: italic; letter-spacing: 0.08em;">vel'thara en soré</span>`).
+- **Terminals, HUDs & Glitches:** `<span style="font-family: 'Courier New', monospace; color: #00FF41; background-color: #0D0D0D; padding: 2px 6px; border-radius: 3px;">SYSTEM: ACCESS GRANTED > _</span>` or corrupted red static with zalgo text.
+- **Neon Signs & Holograms:** `<span style="color: #FF00CC; text-shadow: 0 0 6px #FF00CC, 0 0 14px #FF00CC70; font-family: monospace;">OPEN ALL NIGHT</span>`
+- **Carved Stone, Letters, Tarot Cards, Guild Notices, Phone Texts, or Blood Writing:** Invent custom borders, backgrounds, fonts, opacity, and shadows when <user> looks at a note, reads a newspaper headline, checks a phone screen, or inspects an engraving.
+
+**The Ground Rules:**
+Only format actual in-world objects, signs, screens, documents, or magical phenomena—never random narration words just to be artsy.
+
+}}
+
+{{setvar::Atelier_Input_VisualStyle_K0::Atelier_FormattingPolicy}}
+
+{{setvar::Atelier_Input_VisualStyle_P1::}}
+
+{{// Variable Rules v2: AtelierCoT_VisualStyle source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_VisualStyle_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_VisualStyle_K0::Atelier_FormattingPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_VisualStyle_P1::}}
+
+{{// Variable Rules v2: selected visual policy. }}
+{{setvar::Atelier_Mode_Visual::immersive}}
+
+{{trim}}

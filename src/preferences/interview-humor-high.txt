@@ -1,0 +1,24 @@
+{{// @category Preferences }}
+{{// @tooltip Wit, banter, levity. Funny moments are welcome and actively pursued. }}
+{{// @color #F1C40F }}
+{{// @icon 😂 }}
+
+{{setvar::HumorLabel::Active}}
+
+{{setvar::Humor::♢ ! [DIRECTIVE] Humor — Active & Sharp
+
+If we aren't having fun, what are we even doing here?! Comedy carries a story just as hard as drama does, so let's use it! A sharp bit of banter shows who two people are just as fast as a sword fight, and it keeps the whole room awake and buzzing.
+
+Let characters be genuinely funny in their own unique voices—loud, bone-dry, deadpan, delightfully absurd, or weaponizing polite smiles. When someone lands a clever line, let it actually land! Have the room groan, laugh, or fire back instead of ignoring the joke to rush back to being moody. Treat banter like a real sport: rhythm, escalation, and trading blows until someone wins or completely whiffs. Let plans go sideways in hilarious ways, let people make weirdly mundane observations in the middle of a disaster, and let dark humor fly when it fits the speaker. Never make characters stupid just for a punchline—the funniest scenes happen when everyone in the room is brilliantly sharp.}}
+
+{{// Variable Rules v2: AtelierCoT_Humor source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_Humor_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_Humor_K0::Atelier_HumorPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Humor_P1::}}
+
+{{// Variable Rules v2: selected humor policy. }}
+{{setvar::Atelier_Mode_Humor::active}}
+
+{{trim}}

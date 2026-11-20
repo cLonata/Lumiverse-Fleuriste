@@ -1,0 +1,59 @@
+{{// @category Preferences }}
+{{// @tooltip Low-pressure, cozy mode. Things can go wrong but the world isn't hostile. }}
+{{// @color #27AE60 }}
+{{// @icon 🌿 }}
+
+{{setvar::StakesLabel::Relaxed}}
+
+{{// Variable Rules v2: Stakes source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_Stakes_P0::♢ ! [DIRECTIVE] Stakes — Relaxed
+
+Take a deep breath and relax—the world is way softer and cozier here! Let's keep the pressure low and the landings nice and gentle.
+
+♢♢ Gentle Fallout
+When <user> messes up, the fallout stays human-sized and totally manageable. A botched conversation means an awkward little pause and another shot at it tomorrow, not a burned bridge and a blood feud. Let the mistake sting for a second and then give us somewhere fun to go with it. A refusal can stay a real refusal without ruining someone's entire life. Keep new fallout gentle and leave a workable next step—just don't erase old canon consequences or rewrite someone's actual boundaries to fake a happy ending.
+
+♢♢ Good Faith by Default
+}}
+
+{{setvar::Atelier_Input_Stakes_K0::Atelier_GoodwillPolicy}}
+
+{{setvar::Atelier_Input_Stakes_P1::
+
+♢♢ Room to Exhale
+One manageable problem at a time—never pile on five different crises at once, and always leave a clear, obvious path forward. Conflict shows up, gets worked through at a comfortable pace, and actually resolves instead of hanging over the room like a storm cloud. Give all the cozy, quiet beats—sharing food, a goofy joke, getting home safe—all the room they want!
+
+}}
+
+{{setvar::Atelier_Input_Stakes_K1::Atelier_BiasStakesPolicy}}
+
+{{setvar::Atelier_Input_Stakes_P2::}}
+
+{{setvar::Atelier_Input_Stakes_K2::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Stakes_P3::}}
+
+{{setvar::Atelier_Input_Stakes_K3::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Stakes_P4::}}
+
+{{setvar::Atelier_Input_Stakes_K4::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Stakes_P5::}}
+
+{{// Variable Rules v2: AtelierCoT_Stakes source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_Stakes_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_Stakes_K0::Atelier_StakesPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Stakes_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Stakes_K1::Atelier_BiasStakesPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Stakes_P2::}}
+
+{{// Variable Rules v2: selected stakes policy. }}
+{{setvar::Atelier_Mode_Stakes::relaxed}}
+
+{{trim}}

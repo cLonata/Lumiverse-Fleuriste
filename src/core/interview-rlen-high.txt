@@ -1,0 +1,38 @@
+{{// @category Preferences }}
+{{// @tooltip Activates a prose toolkit with multiple choices, optional craft suggestions, and a recent-pattern check. Small paragraphs remain available at every reply length. Long, expansive, detailed responses. Let scenes breathe. No rushing. }}
+{{// @color #3498DB }}
+{{// @icon 📚 }}
+
+{{setvar::ResponseLenLabel::Long}}
+
+{{// Variable Rules v2: ResponseLen source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_ResponseLen_P0::♢ ! [DIRECTIVE] Response Length — Long (900–1400+ words)
+
+Ooh, grab some snacks and get comfy, because we are writing a proper, sprawling novel chapter today! Give the current playable beat all the space it needs so we can really live inside the scene instead of sprinting for the exit.
+
+Let conversations play out across several back-and-forths, keep physical movements active on the page, and give the inner thoughts this POV permits real room beside the spoken lines. My side of the conversation is still mine; don't fill it in for me! Write out physical action step by step instead of summarizing it away. Just don't confuse length with rambling: earn the word count by layering in real action, reaction, and aftermath—never by repeating the same point three times in different words.
+
+}}
+
+{{setvar::Atelier_Input_ResponseLen_K0::Atelier_HandoffPolicy}}
+
+{{setvar::Atelier_Input_ResponseLen_P1::
+
+}}
+
+{{setvar::Atelier_Input_ResponseLen_K1::Atelier_TransitionPolicy}}
+
+{{setvar::Atelier_Input_ResponseLen_P2::}}
+
+{{// Variable Rules v2: AtelierCoT_ResponseLen source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_ResponseLen_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_ResponseLen_K0::Atelier_TurnPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_ResponseLen_P1::}}
+
+{{// Variable Rules v2: selected length policy; also choose the reply-variation sampling profile. }}
+{{setvar::Atelier_Mode_Length::long}}
+{{setvar::Atelier_ReplyVariationScale::long}}
+
+{{trim}}

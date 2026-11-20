@@ -1,0 +1,17 @@
+{
+  "id": "92efb667-e48d-401c-b3ae-771fa9fd8670",
+  "scriptName": "Emoji FX - Ghost/Spooky",
+  "findRegex": "/(👻|🎃)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:float 2s ease-in-out infinite;filter:drop-shadow(0 0 4px rgba(255,255,255,0.3));\">$1</span><style>@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

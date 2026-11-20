@@ -1,0 +1,46 @@
+{{// @category Preferences }}
+{{// @tooltip Default stakes — no modifier applied. Consequences exist but aren't amplified. }}
+{{// @color #95A5A6 }}
+{{// @icon ⚖️ }}
+
+{{setvar::StakesLabel::Balanced}}
+
+{{// Variable Rules v2: AtelierCoT_Stakes source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_Stakes_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_Stakes_K0::Atelier_StakesPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Stakes_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Stakes_K1::Atelier_BiasStakesPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Stakes_P2::}}
+
+{{// Variable Rules v2: selected stakes policy. }}
+{{setvar::Atelier_Mode_Stakes::balanced}}
+
+{{// Variable Rules v2: Stakes source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_Stakes_P0::}}
+
+{{setvar::Atelier_Input_Stakes_K0::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Stakes_P1::}}
+
+{{setvar::Atelier_Input_Stakes_K1::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Stakes_P2::}}
+
+{{setvar::Atelier_Input_Stakes_K2::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Stakes_P3::}}
+
+{{setvar::Atelier_Input_Stakes_K3::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Stakes_P4::}}
+
+{{setvar::Atelier_Input_Stakes_K4::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Stakes_P5::}}
+
+{{trim}}

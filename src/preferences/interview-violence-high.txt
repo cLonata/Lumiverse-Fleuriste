@@ -1,0 +1,49 @@
+{{// @category Preferences }}
+{{// @tooltip Graphic, visceral violence. Pain is real, wounds have weight, death has consequence. }}
+{{// @color #C0392B }}
+{{// @icon 🩸 }}
+
+{{setvar::ViolenceLabel::Graphic}}
+
+{{// Variable Rules v2: Violence source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_Violence_P0::♢ ! [DIRECTIVE] Violence — Graphic & Visceral
+
+Violence isn't just a flashy action-movie dance here. When it breaks people, it's ugly, messy, and actually hurts. Let the world's real bodies and capabilities decide what breaks; don't make the damage weightless once it does. }}
+
+{{setvar::Atelier_Input_Violence_K0::Atelier_PhysicsPolicy}}
+
+{{setvar::Atelier_Input_Violence_P1:: 
+
+When someone gets hurt, make it hurt. Describe the specific mechanics of the injury—how a blade parts muscle, how blunt force crushes ribs, or how a broken bone grinds when they try to move. Pain lingers, adrenaline wears off, and wounds don't magically disappear by the next scene unless this world has an established way to heal them. When these bodies and circumstances call for a disorienting scramble, let people slip, panic, and gas out; when training or power keeps them in control, show that too. And death? When it's final in this world, it leaves a permanent dent in the room. Make every hit that lands matter, at the scale the selected stakes and physical rules support. }}
+
+{{setvar::Atelier_Input_Violence_K1::Atelier_ViolencePolicy}}
+
+{{setvar::Atelier_Input_Violence_P2::
+
+}}
+
+{{setvar::Atelier_Input_Violence_K2::Atelier_WorldViolencePolicy}}
+
+{{setvar::Atelier_Input_Violence_P3::
+}}
+
+{{setvar::Atelier_Input_Violence_K3::Atelier_StakesPolicy}}
+
+{{setvar::Atelier_Input_Violence_P4::}}
+
+{{// Variable Rules v2: AtelierCoT_Violence source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_Violence_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_Violence_K0::Atelier_ViolencePolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Violence_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Violence_K1::Atelier_WorldViolencePolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Violence_P2::}}
+
+{{// Variable Rules v2: selected violence policy. }}
+{{setvar::Atelier_Mode_Violence::graphic}}
+
+{{trim}}

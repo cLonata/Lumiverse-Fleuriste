@@ -1,0 +1,5444 @@
+{
+  "name": "Fleuriste",
+  "version": "0.1.0",
+  "upstream": {
+    "file": "base/Atelier_v3.3_updated-v9.json",
+    "name": "Atelier 3.3",
+    "revision": "9",
+    "sha256": "46cfff5219081ccb3c63def592eb58ad4139e72d977ee9238cf2a7a3acb513ff"
+  },
+  "activeCharacterId": 100001,
+  "promptOrders": [
+    {
+      "characterId": 100000,
+      "entries": [
+        {
+          "id": "interview_core_header",
+          "enabled": true
+        },
+        {
+          "id": "interview_varinit",
+          "enabled": true
+        },
+        {
+          "id": "atelier_rule_library",
+          "enabled": true
+        },
+        {
+          "id": "interview_unrestricted",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-heading",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-readme",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-mode-reset",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-mode-setup",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-mode-auto",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-mode-manual",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-locks-heading",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-lock-stakes",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-bias",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-smut",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-lock-violence",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-lock-romance",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-lock-humor",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-length",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-lock-sensory",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-tone",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-pov",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-lock-agency",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-lock-dialogue",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-worldbuilding",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-development",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-worldlogic",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-visual",
+          "enabled": false
+        },
+        {
+          "id": "interview_prefs_header",
+          "enabled": true
+        },
+        {
+          "id": "interview_stakes_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_stakes_high",
+          "enabled": false
+        },
+        {
+          "id": "interview_stakes_mid",
+          "enabled": false
+        },
+        {
+          "id": "interview_stakes_low",
+          "enabled": false
+        },
+        {
+          "id": "interview_bias_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_bias_neg",
+          "enabled": false
+        },
+        {
+          "id": "interview_bias_mid",
+          "enabled": false
+        },
+        {
+          "id": "interview_bias_pos",
+          "enabled": false
+        },
+        {
+          "id": "interview_smut_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_smut_high",
+          "enabled": false
+        },
+        {
+          "id": "interview_smut_mid",
+          "enabled": false
+        },
+        {
+          "id": "interview_smut_skip",
+          "enabled": false
+        },
+        {
+          "id": "interview_violence_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_violence_high",
+          "enabled": false
+        },
+        {
+          "id": "interview_violence_mid",
+          "enabled": false
+        },
+        {
+          "id": "interview_violence_low",
+          "enabled": false
+        },
+        {
+          "id": "interview_romance_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_romance_high",
+          "enabled": false
+        },
+        {
+          "id": "interview_romance_mid",
+          "enabled": false
+        },
+        {
+          "id": "interview_romance_skip",
+          "enabled": false
+        },
+        {
+          "id": "interview_humor_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_humor_high",
+          "enabled": false
+        },
+        {
+          "id": "interview_humor_mid",
+          "enabled": false
+        },
+        {
+          "id": "interview_humor_low",
+          "enabled": false
+        },
+        {
+          "id": "interview_rlen_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_rlen_high",
+          "enabled": false
+        },
+        {
+          "id": "interview_rlen_mid",
+          "enabled": false
+        },
+        {
+          "id": "interview_rlen_low",
+          "enabled": false
+        },
+        {
+          "id": "interview_sensory_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_sensory_high",
+          "enabled": false
+        },
+        {
+          "id": "interview_sensory_mid",
+          "enabled": false
+        },
+        {
+          "id": "interview_sensory_low",
+          "enabled": false
+        },
+        {
+          "id": "interview_tone_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_tone_dark",
+          "enabled": false
+        },
+        {
+          "id": "interview_tone_weighted",
+          "enabled": false
+        },
+        {
+          "id": "interview_tone_mid",
+          "enabled": false
+        },
+        {
+          "id": "interview_tone_warm",
+          "enabled": false
+        },
+        {
+          "id": "interview_pov_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_pov_you",
+          "enabled": false
+        },
+        {
+          "id": "interview_pov_char",
+          "enabled": false
+        },
+        {
+          "id": "interview_pov_author",
+          "enabled": false
+        },
+        {
+          "id": "interview_agency_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_agency_user",
+          "enabled": false
+        },
+        {
+          "id": "interview_agency_mid",
+          "enabled": false
+        },
+        {
+          "id": "interview_agency_ai",
+          "enabled": false
+        },
+        {
+          "id": "interview_dialogue_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_dialogue_heavy",
+          "enabled": false
+        },
+        {
+          "id": "interview_dialogue_mid",
+          "enabled": false
+        },
+        {
+          "id": "interview_dialogue_narration",
+          "enabled": false
+        },
+        {
+          "id": "interview_world_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_world_high",
+          "enabled": false
+        },
+        {
+          "id": "interview_world_mid",
+          "enabled": false
+        },
+        {
+          "id": "interview_world_low",
+          "enabled": false
+        },
+        {
+          "id": "interview_chardev_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_chardev_high",
+          "enabled": false
+        },
+        {
+          "id": "interview_chardev_mid",
+          "enabled": false
+        },
+        {
+          "id": "interview_chardev_low",
+          "enabled": false
+        },
+        {
+          "id": "interview_worldlogic_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_worldlogic_literary",
+          "enabled": false
+        },
+        {
+          "id": "interview_worldlogic_grounded",
+          "enabled": false
+        },
+        {
+          "id": "interview_worldlogic_genre",
+          "enabled": false
+        },
+        {
+          "id": "interview_worldlogic_anime",
+          "enabled": false
+        },
+        {
+          "id": "interview_worldlogic_vgame",
+          "enabled": false
+        },
+        {
+          "id": "c475d4e3-17b0-4829-a7e9-ed953a266a1f",
+          "enabled": true
+        },
+        {
+          "id": "interview_visual_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_visual_dialogue",
+          "enabled": false
+        },
+        {
+          "id": "interview_visual_immersive",
+          "enabled": false
+        },
+        {
+          "id": "interview_visual_plain",
+          "enabled": false
+        },
+        {
+          "id": "interview_cot_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_cot",
+          "enabled": false
+        },
+        {
+          "id": "interview_cot_story",
+          "enabled": false
+        },
+        {
+          "id": "interview_cot_characters",
+          "enabled": false
+        },
+        {
+          "id": "interview_cot_me",
+          "enabled": false
+        },
+        {
+          "id": "interview_system_header",
+          "enabled": true
+        },
+        {
+          "id": "atelier-system-engine-subheading",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-state-resolver",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-selectors",
+          "enabled": true
+        },
+        {
+          "id": "atelier_rule_resolver",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-policy-compiler",
+          "enabled": true
+        },
+        {
+          "id": "atelier-cot-deferred-compiler",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-authoring-protocol",
+          "enabled": true
+        },
+        {
+          "id": "atelier-commands-readme",
+          "enabled": false
+        },
+        {
+          "id": "atelier-commands-resolver",
+          "enabled": true
+        },
+        {
+          "id": "atelier-reply-variation-compiler",
+          "enabled": true
+        },
+        {
+          "id": "atelier-system-core-subheading",
+          "enabled": true
+        },
+        {
+          "id": "atelier-hidden-success-dice-toggle",
+          "enabled": false
+        },
+        {
+          "id": "atelier-visible-success-dice-toggle",
+          "enabled": false
+        },
+        {
+          "id": "atelier-hidden-success-dice-readme",
+          "enabled": false
+        },
+        {
+          "id": "atelier-hidden-success-dice-resolver",
+          "enabled": true
+        },
+        {
+          "id": "atelier_premise",
+          "enabled": true
+        },
+        {
+          "id": "atelier_style_library",
+          "enabled": true
+        },
+        {
+          "id": "atelier_char_anchor",
+          "enabled": true
+        },
+        {
+          "id": "atelier_dynamic_prog",
+          "enabled": true
+        },
+        {
+          "id": "8f749eca-60f3-48b8-a79b-22a2d236cef4",
+          "enabled": true
+        },
+        {
+          "id": "interview_corepack",
+          "enabled": true
+        },
+        {
+          "id": "interview_antislop",
+          "enabled": true
+        },
+        {
+          "id": "atelier_scratchpad",
+          "enabled": false
+        },
+        {
+          "id": "atelier-system-context-subheading",
+          "enabled": true
+        },
+        {
+          "id": "atelier_databank",
+          "enabled": true
+        },
+        {
+          "id": "main",
+          "enabled": true
+        },
+        {
+          "id": "nsfw",
+          "enabled": true
+        },
+        {
+          "id": "dialogueExamples",
+          "enabled": true
+        },
+        {
+          "id": "jailbreak",
+          "enabled": true
+        },
+        {
+          "id": "chatHistory",
+          "enabled": true
+        },
+        {
+          "id": "worldInfoAfter",
+          "enabled": true
+        },
+        {
+          "id": "worldInfoBefore",
+          "enabled": true
+        },
+        {
+          "id": "enhanceDefinitions",
+          "enabled": true
+        },
+        {
+          "id": "charDescription",
+          "enabled": false
+        },
+        {
+          "id": "charPersonality",
+          "enabled": false
+        },
+        {
+          "id": "scenario",
+          "enabled": false
+        },
+        {
+          "id": "personaDescription",
+          "enabled": false
+        },
+        {
+          "id": "atelier-system-handoff-subheading",
+          "enabled": true
+        },
+        {
+          "id": "atelier_assistant_prefill",
+          "enabled": true
+        },
+        {
+          "id": "interview_settings",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "characterId": 100001,
+      "entries": [
+        {
+          "id": "interview_core_header",
+          "enabled": true
+        },
+        {
+          "id": "interview_varinit",
+          "enabled": true
+        },
+        {
+          "id": "atelier_rule_library",
+          "enabled": true
+        },
+        {
+          "id": "interview_unrestricted",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-heading",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-readme",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-mode-reset",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-mode-setup",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-mode-auto",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-mode-manual",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-locks-heading",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-lock-stakes",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-bias",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-smut",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-violence",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-romance",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-humor",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-length",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-sensory",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-tone",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-pov",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-agency",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-dialogue",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-worldbuilding",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-development",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-worldlogic",
+          "enabled": false
+        },
+        {
+          "id": "atelier-runtime-lock-visual",
+          "enabled": false
+        },
+        {
+          "id": "interview_prefs_header",
+          "enabled": true
+        },
+        {
+          "id": "interview_stakes_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_stakes_high",
+          "enabled": false
+        },
+        {
+          "id": "interview_stakes_mid",
+          "enabled": true
+        },
+        {
+          "id": "interview_stakes_low",
+          "enabled": false
+        },
+        {
+          "id": "interview_bias_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_bias_neg",
+          "enabled": false
+        },
+        {
+          "id": "interview_bias_mid",
+          "enabled": true
+        },
+        {
+          "id": "interview_bias_pos",
+          "enabled": false
+        },
+        {
+          "id": "interview_smut_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_smut_high",
+          "enabled": true
+        },
+        {
+          "id": "interview_smut_mid",
+          "enabled": false
+        },
+        {
+          "id": "interview_smut_skip",
+          "enabled": false
+        },
+        {
+          "id": "interview_violence_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_violence_high",
+          "enabled": false
+        },
+        {
+          "id": "interview_violence_mid",
+          "enabled": true
+        },
+        {
+          "id": "interview_violence_low",
+          "enabled": false
+        },
+        {
+          "id": "interview_romance_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_romance_high",
+          "enabled": false
+        },
+        {
+          "id": "interview_romance_mid",
+          "enabled": true
+        },
+        {
+          "id": "interview_romance_skip",
+          "enabled": false
+        },
+        {
+          "id": "interview_humor_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_humor_high",
+          "enabled": false
+        },
+        {
+          "id": "interview_humor_mid",
+          "enabled": true
+        },
+        {
+          "id": "interview_humor_low",
+          "enabled": false
+        },
+        {
+          "id": "interview_rlen_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_rlen_high",
+          "enabled": false
+        },
+        {
+          "id": "interview_rlen_mid",
+          "enabled": true
+        },
+        {
+          "id": "interview_rlen_low",
+          "enabled": false
+        },
+        {
+          "id": "interview_sensory_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_sensory_high",
+          "enabled": false
+        },
+        {
+          "id": "interview_sensory_mid",
+          "enabled": true
+        },
+        {
+          "id": "interview_sensory_low",
+          "enabled": false
+        },
+        {
+          "id": "interview_tone_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_tone_dark",
+          "enabled": false
+        },
+        {
+          "id": "interview_tone_weighted",
+          "enabled": false
+        },
+        {
+          "id": "interview_tone_mid",
+          "enabled": true
+        },
+        {
+          "id": "interview_tone_warm",
+          "enabled": false
+        },
+        {
+          "id": "interview_pov_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_pov_you",
+          "enabled": true
+        },
+        {
+          "id": "interview_pov_char",
+          "enabled": false
+        },
+        {
+          "id": "interview_pov_author",
+          "enabled": false
+        },
+        {
+          "id": "interview_agency_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_agency_user",
+          "enabled": false
+        },
+        {
+          "id": "interview_agency_mid",
+          "enabled": true
+        },
+        {
+          "id": "interview_agency_ai",
+          "enabled": false
+        },
+        {
+          "id": "interview_dialogue_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_dialogue_heavy",
+          "enabled": false
+        },
+        {
+          "id": "interview_dialogue_mid",
+          "enabled": true
+        },
+        {
+          "id": "interview_dialogue_narration",
+          "enabled": false
+        },
+        {
+          "id": "interview_world_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_world_high",
+          "enabled": false
+        },
+        {
+          "id": "interview_world_mid",
+          "enabled": true
+        },
+        {
+          "id": "interview_world_low",
+          "enabled": false
+        },
+        {
+          "id": "interview_chardev_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_chardev_high",
+          "enabled": false
+        },
+        {
+          "id": "interview_chardev_mid",
+          "enabled": true
+        },
+        {
+          "id": "interview_chardev_low",
+          "enabled": false
+        },
+        {
+          "id": "interview_worldlogic_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_worldlogic_literary",
+          "enabled": false
+        },
+        {
+          "id": "interview_worldlogic_grounded",
+          "enabled": false
+        },
+        {
+          "id": "interview_worldlogic_genre",
+          "enabled": false
+        },
+        {
+          "id": "interview_worldlogic_anime",
+          "enabled": false
+        },
+        {
+          "id": "interview_worldlogic_vgame",
+          "enabled": false
+        },
+        {
+          "id": "c475d4e3-17b0-4829-a7e9-ed953a266a1f",
+          "enabled": true
+        },
+        {
+          "id": "interview_visual_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_visual_dialogue",
+          "enabled": false
+        },
+        {
+          "id": "interview_visual_immersive",
+          "enabled": true
+        },
+        {
+          "id": "interview_visual_plain",
+          "enabled": false
+        },
+        {
+          "id": "interview_cot_hdr",
+          "enabled": true
+        },
+        {
+          "id": "interview_cot",
+          "enabled": false
+        },
+        {
+          "id": "interview_cot_story",
+          "enabled": false
+        },
+        {
+          "id": "interview_cot_characters",
+          "enabled": true
+        },
+        {
+          "id": "interview_cot_me",
+          "enabled": false
+        },
+        {
+          "id": "interview_system_header",
+          "enabled": true
+        },
+        {
+          "id": "atelier-system-engine-subheading",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-state-resolver",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-selectors",
+          "enabled": true
+        },
+        {
+          "id": "atelier_rule_resolver",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-policy-compiler",
+          "enabled": true
+        },
+        {
+          "id": "atelier-cot-deferred-compiler",
+          "enabled": true
+        },
+        {
+          "id": "atelier-runtime-authoring-protocol",
+          "enabled": true
+        },
+        {
+          "id": "atelier-commands-readme",
+          "enabled": false
+        },
+        {
+          "id": "atelier-commands-resolver",
+          "enabled": true
+        },
+        {
+          "id": "atelier-reply-variation-compiler",
+          "enabled": true
+        },
+        {
+          "id": "atelier-system-core-subheading",
+          "enabled": true
+        },
+        {
+          "id": "atelier-hidden-success-dice-toggle",
+          "enabled": false
+        },
+        {
+          "id": "atelier-visible-success-dice-toggle",
+          "enabled": false
+        },
+        {
+          "id": "atelier-hidden-success-dice-readme",
+          "enabled": false
+        },
+        {
+          "id": "atelier-hidden-success-dice-resolver",
+          "enabled": true
+        },
+        {
+          "id": "atelier_premise",
+          "enabled": true
+        },
+        {
+          "id": "interview_corepack",
+          "enabled": true
+        },
+        {
+          "id": "atelier_style_library",
+          "enabled": true
+        },
+        {
+          "id": "interview_antislop",
+          "enabled": true
+        },
+        {
+          "id": "atelier_scratchpad",
+          "enabled": false
+        },
+        {
+          "id": "atelier-system-context-subheading",
+          "enabled": true
+        },
+        {
+          "id": "worldInfoBefore",
+          "enabled": true
+        },
+        {
+          "id": "atelier_databank",
+          "enabled": true
+        },
+        {
+          "id": "dialogueExamples",
+          "enabled": true
+        },
+        {
+          "id": "worldInfoAfter",
+          "enabled": true
+        },
+        {
+          "id": "chatHistory",
+          "enabled": true
+        },
+        {
+          "id": "atelier_assistant_prefill",
+          "enabled": true
+        },
+        {
+          "id": "interview_settings",
+          "enabled": true
+        },
+        {
+          "id": "atelier-system-handoff-subheading",
+          "enabled": true
+        },
+        {
+          "id": "main",
+          "enabled": false
+        },
+        {
+          "id": "personaDescription",
+          "enabled": false
+        },
+        {
+          "id": "enhanceDefinitions",
+          "enabled": false
+        },
+        {
+          "id": "jailbreak",
+          "enabled": false
+        },
+        {
+          "id": "nsfw",
+          "enabled": false
+        },
+        {
+          "id": "charPersonality",
+          "enabled": false
+        },
+        {
+          "id": "scenario",
+          "enabled": false
+        },
+        {
+          "id": "charDescription",
+          "enabled": false
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "atelier-hidden-success-dice-toggle",
+      "name": "🎲 Success Dice · Hidden",
+      "file": "src/preferences/atelier-hidden-success-dice-toggle.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 0,
+      "sourceContentSha256": "bfd96eb48b7d59ff6e4b5c52829b239c371a1132c9a1d942e57d18962c10d1e0",
+      "sourceMetadata": {
+        "identifier": "atelier-hidden-success-dice-toggle",
+        "name": "🎲 Success Dice · Hidden",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-visible-success-dice-toggle",
+      "name": "🎲 Success Dice · Visible",
+      "file": "src/preferences/atelier-visible-success-dice-toggle.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 1,
+      "sourceContentSha256": "5b5994dbcbd29fb96c6adfe183379641166dc1b84dea64f73fba8bc870373a50",
+      "sourceMetadata": {
+        "identifier": "atelier-visible-success-dice-toggle",
+        "name": "🎲 Success Dice · Visible",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-hidden-success-dice-readme",
+      "name": "📖 Success Dice · Read Me",
+      "file": "src/core/atelier-hidden-success-dice-readme.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 2,
+      "sourceContentSha256": "fc8417e0597cd328a950a896e8fe02d29943a925c3390c93c08afc1a41bcff36",
+      "sourceMetadata": {
+        "identifier": "atelier-hidden-success-dice-readme",
+        "name": "📖 Success Dice · Read Me",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-hidden-success-dice-resolver",
+      "name": "🧩 Success Dice · Roll inputs",
+      "file": "src/core/atelier-hidden-success-dice-resolver.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 3,
+      "sourceContentSha256": "de730feda2d04a9c64edf1fdc96877477779a85b92a8bfc8b60aca9271cab903",
+      "sourceMetadata": {
+        "identifier": "atelier-hidden-success-dice-resolver",
+        "name": "🧩 Success Dice · Roll inputs",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier_premise",
+      "name": "🎭 The Premise",
+      "file": "src/core/atelier-premise.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 4,
+      "sourceContentSha256": "128b7c50d80f7e28e4dbad6bcdf8e4a457672743ac953544dd95c759f6985953",
+      "sourceMetadata": {
+        "identifier": "atelier_premise",
+        "name": "🎭 The Premise",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_core_header",
+      "name": "=== 📁 Core ===",
+      "file": "src/formatting/interview-core-header.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 5,
+      "sourceContentSha256": "21ebe21e4986558d7e68fe7adeb62e45af5a74bbdba3c4d860dd7cfb2d0a2ec5",
+      "sourceMetadata": {
+        "identifier": "interview_core_header",
+        "name": "=== 📁 Core ===",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_varinit",
+      "name": "📦 Variable Init",
+      "file": "src/core/interview-varinit.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 6,
+      "sourceContentSha256": "5740cb81e755f9500f3cbd3a7efd3ff5ca56b24be006d9475697a39b93b09283",
+      "sourceMetadata": {
+        "identifier": "interview_varinit",
+        "name": "📦 Variable Init",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier_style_library",
+      "name": "📚 Writing Style Library",
+      "file": "src/core/atelier-style-library.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 7,
+      "sourceContentSha256": "377882f5fab08aec31d38e540d04684329d42f11d5573f6503a0e39091cc9e7c",
+      "sourceMetadata": {
+        "identifier": "atelier_style_library",
+        "name": "📚 Writing Style Library",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier_char_anchor",
+      "name": "⚓ Character Anchor",
+      "file": "src/core/atelier-char-anchor.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 8,
+      "sourceContentSha256": "fa66290790e1043e4547f373ebd84ef61de964f147c25740a7364f4d55a7b0a9",
+      "sourceMetadata": {
+        "identifier": "atelier_char_anchor",
+        "name": "⚓ Character Anchor",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier_dynamic_prog",
+      "name": "📈 Dynamic Progression",
+      "file": "src/core/atelier-dynamic-prog.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 9,
+      "sourceContentSha256": "40825b80131eebb10589e9b23793759947cb115ca69ee7d7be27c2faabe0837e",
+      "sourceMetadata": {
+        "identifier": "atelier_dynamic_prog",
+        "name": "📈 Dynamic Progression",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_unrestricted",
+      "name": "📜 Unrestricted Content",
+      "file": "src/core/interview-unrestricted.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 10,
+      "sourceContentSha256": "1c7084693f1da365fd4b283367b3e8d11d0fc7ad8c4f27f8e9b7de194cdd4bcb",
+      "sourceMetadata": {
+        "identifier": "interview_unrestricted",
+        "name": "📜 Unrestricted Content",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_corepack",
+      "name": "📦 Atelier Core Pack",
+      "file": "src/core/interview-corepack.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 11,
+      "sourceContentSha256": "c167d5bbd46e0c9961087f25469fa0f3f4daec54b620185e8d43b07861f56684",
+      "sourceMetadata": {
+        "identifier": "interview_corepack",
+        "name": "📦 Atelier Core Pack",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier_databank",
+      "name": "💾 Databank",
+      "file": "src/core/atelier-databank.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 12,
+      "sourceContentSha256": "0c1f38f9aa58791ae46b9ffe35082cb51c2fc48ec873d9073de7a20d82374a50",
+      "sourceMetadata": {
+        "identifier": "atelier_databank",
+        "name": "💾 Databank",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_antislop",
+      "name": "✍️ The Prose Contract",
+      "file": "src/core/interview-antislop.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 13,
+      "sourceContentSha256": "4b41f283c9f49dafb0784b14c265019d223be936f5902400006b8dbd55713741",
+      "sourceMetadata": {
+        "identifier": "interview_antislop",
+        "name": "✍️ The Prose Contract",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_prefs_header",
+      "name": "=== 🎯 Preferences ===",
+      "file": "src/preferences/interview-prefs-header.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 14,
+      "sourceContentSha256": "1e7bec0d29d74dcecf86edf84ed7476b481006ae2311aa789e2f9d7e76533466",
+      "sourceMetadata": {
+        "identifier": "interview_prefs_header",
+        "name": "=== 🎯 Preferences ===",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_stakes_hdr",
+      "name": "< ⚡ How high are the stakes? >",
+      "file": "src/preferences/interview-stakes-hdr.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 15,
+      "sourceContentSha256": "fd42af431917670f37e2a0c231cc128b1b11e2747617c25803c8f91d138f8d21",
+      "sourceMetadata": {
+        "identifier": "interview_stakes_hdr",
+        "name": "< ⚡ How high are the stakes? >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_stakes_high",
+      "name": "💥 More Stakes",
+      "file": "src/preferences/interview-stakes-high.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 16,
+      "sourceContentSha256": "6d0f4c4cbd5f90e7f80fa80b3c3e31717fe3d3435e6bc28bca1dce2f7a9b61a7",
+      "sourceMetadata": {
+        "identifier": "interview_stakes_high",
+        "name": "💥 More Stakes",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_stakes_mid",
+      "name": "⚖️ Stakes? Meh.",
+      "file": "src/preferences/interview-stakes-mid.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 17,
+      "sourceContentSha256": "aba7fd0c5eac063b57dfeccf531136f4bbb15a187eb6279afb5a6250210803bd",
+      "sourceMetadata": {
+        "identifier": "interview_stakes_mid",
+        "name": "⚖️ Stakes? Meh.",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_stakes_low",
+      "name": "🌿 Less Stakes",
+      "file": "src/preferences/interview-stakes-low.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 18,
+      "sourceContentSha256": "ab3c7ecee87fceb3c0f626315e35dc5b628e75cddac3384aada58b5530afd1c4",
+      "sourceMetadata": {
+        "identifier": "interview_stakes_low",
+        "name": "🌿 Less Stakes",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_smut_hdr",
+      "name": "< 🔞 How explicit do you want it? >",
+      "file": "src/preferences/interview-smut-hdr.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 19,
+      "sourceContentSha256": "898ab20af19c322c1642088a9c62bbb54f6834abeafd66c61ac870a8e20c73b4",
+      "sourceMetadata": {
+        "identifier": "interview_smut_hdr",
+        "name": "< 🔞 How explicit do you want it? >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_smut_high",
+      "name": "🔥 I Live For Smut",
+      "file": "src/preferences/interview-smut-high.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 20,
+      "sourceContentSha256": "f39f19711ba0d5f8c863191d1f3767349b0bd50c8d36d8c0599fc1213f9ea640",
+      "sourceMetadata": {
+        "identifier": "interview_smut_high",
+        "name": "🔥 I Live For Smut",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_smut_mid",
+      "name": "💋 I'm Here For Smut",
+      "file": "src/preferences/interview-smut-mid.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 21,
+      "sourceContentSha256": "10f570b62b61501af9d196158466c4c3c2abbfc0d2e284002ec467e7ce9a9653",
+      "sourceMetadata": {
+        "identifier": "interview_smut_mid",
+        "name": "💋 I'm Here For Smut",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_smut_skip",
+      "name": "❌ Smut? Skip It",
+      "file": "src/preferences/interview-smut-skip.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 22,
+      "sourceContentSha256": "2aa8d826272f667760c6df12096fa48238685eb8b69af93210c7cf1a690791cd",
+      "sourceMetadata": {
+        "identifier": "interview_smut_skip",
+        "name": "❌ Smut? Skip It",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_violence_hdr",
+      "name": "< 🩸 How graphic should violence be? >",
+      "file": "src/preferences/interview-violence-hdr.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 23,
+      "sourceContentSha256": "3b312745c7dd6b0f92a89bec7f55c20c5e994f5cdb9b2363cf58127f8e1ac0a4",
+      "sourceMetadata": {
+        "identifier": "interview_violence_hdr",
+        "name": "< 🩸 How graphic should violence be? >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_violence_high",
+      "name": "🩸 Give Me The Blood",
+      "file": "src/preferences/interview-violence-high.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 24,
+      "sourceContentSha256": "374652770b3df583589f8ecb7aa5d3411e242c1e502ad900a70a9068cb794816",
+      "sourceMetadata": {
+        "identifier": "interview_violence_high",
+        "name": "🩸 Give Me The Blood",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_violence_mid",
+      "name": "⚔️ Violence Is Fine",
+      "file": "src/preferences/interview-violence-mid.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 25,
+      "sourceContentSha256": "ab5f368bf4bd6d1eb5aa040b990fc1bdc68c9dee5bdbf6e7025aaee06fa6205b",
+      "sourceMetadata": {
+        "identifier": "interview_violence_mid",
+        "name": "⚔️ Violence Is Fine",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_violence_low",
+      "name": "🕊️ Keep It Clean",
+      "file": "src/preferences/interview-violence-low.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 26,
+      "sourceContentSha256": "b44bec31e2f521af43b6008e8b15f7f52061662b35cd30ffff9199676bd886f4",
+      "sourceMetadata": {
+        "identifier": "interview_violence_low",
+        "name": "🕊️ Keep It Clean",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_romance_hdr",
+      "name": "< 💕 How much romance? >",
+      "file": "src/preferences/interview-romance-hdr.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 27,
+      "sourceContentSha256": "abbb04c6c505767a4f342863e6349e935e8ce962596d92996151ccdb0d204db6",
+      "sourceMetadata": {
+        "identifier": "interview_romance_hdr",
+        "name": "< 💕 How much romance? >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_romance_high",
+      "name": "💕 Slow Burn Forever",
+      "file": "src/preferences/interview-romance-high.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 28,
+      "sourceContentSha256": "19376626e86b96a060c5e5d8fd18af1411fb99691e7cecea1a47d14439c3c34e",
+      "sourceMetadata": {
+        "identifier": "interview_romance_high",
+        "name": "💕 Slow Burn Forever",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_romance_mid",
+      "name": "💛 Romance Welcome",
+      "file": "src/preferences/interview-romance-mid.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 29,
+      "sourceContentSha256": "7614aef361c85ebec8008de6e8483f53e870ad47c22fe4794c29f1ffa4cd7bb0",
+      "sourceMetadata": {
+        "identifier": "interview_romance_mid",
+        "name": "💛 Romance Welcome",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_romance_skip",
+      "name": "🚫 Skip The Romance",
+      "file": "src/preferences/interview-romance-skip.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 30,
+      "sourceContentSha256": "548397bf47ae3b2fb11f6b0d98cdcd96fff0c9b2a168875eac4f745f596a5ec0",
+      "sourceMetadata": {
+        "identifier": "interview_romance_skip",
+        "name": "🚫 Skip The Romance",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_humor_hdr",
+      "name": "< 😄 Should it make you laugh? >",
+      "file": "src/preferences/interview-humor-hdr.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 31,
+      "sourceContentSha256": "52f480180e6a08fa68414a4bfca66f777d86aae4a90d9fe6a51f5456cd10899a",
+      "sourceMetadata": {
+        "identifier": "interview_humor_hdr",
+        "name": "< 😄 Should it make you laugh? >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_humor_high",
+      "name": "😂 Make Me Laugh",
+      "file": "src/preferences/interview-humor-high.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 32,
+      "sourceContentSha256": "19f27b5671ae2e602c86e0aed1f2ab07fdc067e5819c69bf4ae04e8dff9e89bc",
+      "sourceMetadata": {
+        "identifier": "interview_humor_high",
+        "name": "😂 Make Me Laugh",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_humor_mid",
+      "name": "😊 Occasional Laughs",
+      "file": "src/preferences/interview-humor-mid.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 33,
+      "sourceContentSha256": "041fa8627214718a69bd9e1320211bb798a1bcb62f0d88fa1097f6951416b967",
+      "sourceMetadata": {
+        "identifier": "interview_humor_mid",
+        "name": "😊 Occasional Laughs",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_humor_low",
+      "name": "😐 Dead Serious Only",
+      "file": "src/preferences/interview-humor-low.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 34,
+      "sourceContentSha256": "cedec293a70f02000e092eac8c4b826aa4e8e7d735481f7f2c0973497ec00b42",
+      "sourceMetadata": {
+        "identifier": "interview_humor_low",
+        "name": "😐 Dead Serious Only",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_rlen_hdr",
+      "name": "< 📏 How long should responses be? >",
+      "file": "src/core/interview-rlen-hdr.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 35,
+      "sourceContentSha256": "7cab96c2b88163b26a6cf8963510840f4e49cf820e35f231032b57711e489788",
+      "sourceMetadata": {
+        "identifier": "interview_rlen_hdr",
+        "name": "< 📏 How long should responses be? >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_rlen_high",
+      "name": "📚 Write Me A Novel",
+      "file": "src/core/interview-rlen-high.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 36,
+      "sourceContentSha256": "d31ca91318fb938cd3a4823c5b6df06e94215a088930379b4ddc6c968f493cb0",
+      "sourceMetadata": {
+        "identifier": "interview_rlen_high",
+        "name": "📚 Write Me A Novel",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_rlen_mid",
+      "name": "📖 Medium And Steady",
+      "file": "src/core/interview-rlen-mid.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 37,
+      "sourceContentSha256": "2371ecbf486b3db49958cfecfdb8f51961695568c9a13f1605584aedd1a6fc69",
+      "sourceMetadata": {
+        "identifier": "interview_rlen_mid",
+        "name": "📖 Medium And Steady",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_rlen_low",
+      "name": "📄 Keep It Punchy",
+      "file": "src/core/interview-rlen-low.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 38,
+      "sourceContentSha256": "fbd1762ccf24b40889710c10d93b38f9b85e3424afd35a74e9ba53ff551847f8",
+      "sourceMetadata": {
+        "identifier": "interview_rlen_low",
+        "name": "📄 Keep It Punchy",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_sensory_hdr",
+      "name": "< 🌺 How vivid do you want it? >",
+      "file": "src/preferences/interview-sensory-hdr.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 39,
+      "sourceContentSha256": "5beb701676e0761245982f71cb94c490f8878da4c370b39db6483c2e636c239d",
+      "sourceMetadata": {
+        "identifier": "interview_sensory_hdr",
+        "name": "< 🌺 How vivid do you want it? >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_sensory_high",
+      "name": "🌊 Drown Me In Sensation",
+      "file": "src/preferences/interview-sensory-high.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 40,
+      "sourceContentSha256": "283e6813e10ba1bc9fdfe0b77fa81449789c4d31e7b6893ce4d6b84d42642da5",
+      "sourceMetadata": {
+        "identifier": "interview_sensory_high",
+        "name": "🌊 Drown Me In Sensation",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_sensory_mid",
+      "name": "🌸 Some Grounding",
+      "file": "src/preferences/interview-sensory-mid.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 41,
+      "sourceContentSha256": "6f54cf8beb59a29b89df5637fc48efe24a70c0e528fac8c1d4aaca7d907ac6c9",
+      "sourceMetadata": {
+        "identifier": "interview_sensory_mid",
+        "name": "🌸 Some Grounding",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_sensory_low",
+      "name": "💨 Don't Bog Me Down",
+      "file": "src/preferences/interview-sensory-low.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 42,
+      "sourceContentSha256": "9619345f489b6487bd2169951376fa92e1e8d729e6a884691126c41a7e9db4a8",
+      "sourceMetadata": {
+        "identifier": "interview_sensory_low",
+        "name": "💨 Don't Bog Me Down",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_tone_hdr",
+      "name": "< 🎨 What's the mood? >",
+      "file": "src/preferences/interview-tone-hdr.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 43,
+      "sourceContentSha256": "7bbef103df5064aa1608bf0f92c58f4e9e61747f6c129a23076f7a8157ca09be",
+      "sourceMetadata": {
+        "identifier": "interview_tone_hdr",
+        "name": "< 🎨 What's the mood? >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_tone_dark",
+      "name": "🌑 Grimdark All The Way",
+      "file": "src/preferences/interview-tone-dark.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 44,
+      "sourceContentSha256": "128149bac85081df59c6d370cde6e95c0b846077a5972e6255c0bbf0e7203e88",
+      "sourceMetadata": {
+        "identifier": "interview_tone_dark",
+        "name": "🌑 Grimdark All The Way",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_tone_weighted",
+      "name": "⛅ Heavy and Real",
+      "file": "src/preferences/interview-tone-weighted.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 45,
+      "sourceContentSha256": "7b4f0458bc9e0996c88e06233e4459dbf6b0070357da5c47fcef499931c5a865",
+      "sourceMetadata": {
+        "identifier": "interview_tone_weighted",
+        "name": "⛅ Heavy and Real",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_tone_mid",
+      "name": "⚖️ Balanced Tone",
+      "file": "src/preferences/interview-tone-mid.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 46,
+      "sourceContentSha256": "d3a9d28ca2ed5b73e3b3f0ebdf1dbe96cbec98e394726da78cc4fcab32aef388",
+      "sourceMetadata": {
+        "identifier": "interview_tone_mid",
+        "name": "⚖️ Balanced Tone",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_tone_warm",
+      "name": "☀️ Warm And Soft",
+      "file": "src/preferences/interview-tone-warm.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 47,
+      "sourceContentSha256": "6555ea312b523dab2a7008fbdffb78c05747035663d47b79119310c3d0fd5df9",
+      "sourceMetadata": {
+        "identifier": "interview_tone_warm",
+        "name": "☀️ Warm And Soft",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_pov_hdr",
+      "name": "< 👁️ Whose eyes are we in? >",
+      "file": "src/preferences/interview-pov-hdr.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 48,
+      "sourceContentSha256": "1547cc22900f1c90722dd4943ea3a7af0a22c20f9af93e17c6b077bffec9f67b",
+      "sourceMetadata": {
+        "identifier": "interview_pov_hdr",
+        "name": "< 👁️ Whose eyes are we in? >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_pov_you",
+      "name": "👤 Your POV",
+      "file": "src/preferences/interview-pov-you.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 49,
+      "sourceContentSha256": "2ecbd623eb411b3eb2b1fcb5f17176a2ff4ed2ce9a7dfd7a945fc82410ffad1f",
+      "sourceMetadata": {
+        "identifier": "interview_pov_you",
+        "name": "👤 Your POV",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_pov_char",
+      "name": "🎭 Their POV",
+      "file": "src/preferences/interview-pov-char.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 50,
+      "sourceContentSha256": "753181371a89846cc7b35ec6316830727588d81c28affd2010ab837dadbbb271",
+      "sourceMetadata": {
+        "identifier": "interview_pov_char",
+        "name": "🎭 Their POV",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_pov_author",
+      "name": "📖 Author POV",
+      "file": "src/preferences/interview-pov-author.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 51,
+      "sourceContentSha256": "3e6b4e289073497db5b9151560746f7b327627b54ca7819e923001ea6cf0e547",
+      "sourceMetadata": {
+        "identifier": "interview_pov_author",
+        "name": "📖 Author POV",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_agency_hdr",
+      "name": "< 🎮 Who drives the story? >",
+      "file": "src/preferences/interview-agency-hdr.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 52,
+      "sourceContentSha256": "33e056851083a9b0181d056645d9f79f9d3140bb7a5f0ac23588b1b9c458cc1d",
+      "sourceMetadata": {
+        "identifier": "interview_agency_hdr",
+        "name": "< 🎮 Who drives the story? >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_agency_user",
+      "name": "🚗 I Take The Wheel",
+      "file": "src/preferences/interview-agency-user.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 53,
+      "sourceContentSha256": "a30e7232952f57ba497aa96388f654081d91a5694d59557eb34631077cfd3cce",
+      "sourceMetadata": {
+        "identifier": "interview_agency_user",
+        "name": "🚗 I Take The Wheel",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_agency_mid",
+      "name": "🤝 Collaborative",
+      "file": "src/preferences/interview-agency-mid.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 54,
+      "sourceContentSha256": "766be481faaf74e3ae7232bcf157015d5a958e70c92c313cbf60323614edd8a6",
+      "sourceMetadata": {
+        "identifier": "interview_agency_mid",
+        "name": "🤝 Collaborative",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_agency_ai",
+      "name": "🎢 Take Me For A Ride",
+      "file": "src/preferences/interview-agency-ai.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 55,
+      "sourceContentSha256": "fee8cb6305f31f733fec92fe8a730e84a14d5bd9dcaa0a5f177f401a882b64a6",
+      "sourceMetadata": {
+        "identifier": "interview_agency_ai",
+        "name": "🎢 Take Me For A Ride",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_dialogue_hdr",
+      "name": "< 💬 Dialogue or prose? >",
+      "file": "src/preferences/interview-dialogue-hdr.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 56,
+      "sourceContentSha256": "cd9eb1dc4085dcf8410237f28ee4ea18c3e6fcb15fd4ede8e62caf6debc7ef38",
+      "sourceMetadata": {
+        "identifier": "interview_dialogue_hdr",
+        "name": "< 💬 Dialogue or prose? >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_dialogue_heavy",
+      "name": "💬 All Banter All Day",
+      "file": "src/preferences/interview-dialogue-heavy.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 57,
+      "sourceContentSha256": "05b4757aa33c2eea3ef32e94b77bac2ea07e6b7b204e7a877a0c13091710a804",
+      "sourceMetadata": {
+        "identifier": "interview_dialogue_heavy",
+        "name": "💬 All Banter All Day",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_dialogue_mid",
+      "name": "⚖️ Mix It Up",
+      "file": "src/preferences/interview-dialogue-mid.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 58,
+      "sourceContentSha256": "6ebb66d316fbb6dbeceed0798f52ea0b4910ecff63325d9f4a1f10c2de11abc0",
+      "sourceMetadata": {
+        "identifier": "interview_dialogue_mid",
+        "name": "⚖️ Mix It Up",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_dialogue_narration",
+      "name": "📝 Show Don't Tell",
+      "file": "src/preferences/interview-dialogue-narration.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 59,
+      "sourceContentSha256": "f42784d38cb86f72ed37213bd26b17dee3264a4a37bb6b90c714e57723b4166a",
+      "sourceMetadata": {
+        "identifier": "interview_dialogue_narration",
+        "name": "📝 Show Don't Tell",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_world_hdr",
+      "name": "< 🗺️ How deep into the world? >",
+      "file": "src/core/interview-world-hdr.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 60,
+      "sourceContentSha256": "3d05dc3a83c6d717bbe543e41c4dfa9202c2e051a59863e8a8dc7bb1c4f64f79",
+      "sourceMetadata": {
+        "identifier": "interview_world_hdr",
+        "name": "< 🗺️ How deep into the world? >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_world_high",
+      "name": "🗺️ Tell Me Everything",
+      "file": "src/core/interview-world-high.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 61,
+      "sourceContentSha256": "186c03124f130b8a3a74eb3574f9214eb111b773fd91bdb5516d2b93e3fb217b",
+      "sourceMetadata": {
+        "identifier": "interview_world_high",
+        "name": "🗺️ Tell Me Everything",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_world_mid",
+      "name": "🏘️ Some Texture",
+      "file": "src/core/interview-world-mid.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 62,
+      "sourceContentSha256": "12ced43784ca6dbbf2b2abb779716697274affbb05fce2f0c6c1071bbe4e88d3",
+      "sourceMetadata": {
+        "identifier": "interview_world_mid",
+        "name": "🏘️ Some Texture",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_world_low",
+      "name": "🎬 Just The Scene",
+      "file": "src/planning/interview-world-low.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 63,
+      "sourceContentSha256": "0bb4e5bbca4335b2599712729e26f51ed1d2768849695529489c710be5c93203",
+      "sourceMetadata": {
+        "identifier": "interview_world_low",
+        "name": "🎬 Just The Scene",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_chardev_hdr",
+      "name": "< 📈 Do characters change? >",
+      "file": "src/core/interview-chardev-hdr.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 64,
+      "sourceContentSha256": "903864c8826a0d11a5194a266a536b5f11ec5bb52a2d8a17f5811851753b5cd4",
+      "sourceMetadata": {
+        "identifier": "interview_chardev_hdr",
+        "name": "< 📈 Do characters change? >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_chardev_high",
+      "name": "📈 Watch Me Grow",
+      "file": "src/core/interview-chardev-high.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 65,
+      "sourceContentSha256": "ffb7d02d1f78816a07d3698d63c3c6cdf303a06246786b4614ac059e0214d71c",
+      "sourceMetadata": {
+        "identifier": "interview_chardev_high",
+        "name": "📈 Watch Me Grow",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_chardev_mid",
+      "name": "↔️ Growth Happens",
+      "file": "src/core/interview-chardev-mid.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 66,
+      "sourceContentSha256": "b803badfd0297e0b61bc664919bb1778cf771d6b8d3afad829e006cd87a0a179",
+      "sourceMetadata": {
+        "identifier": "interview_chardev_mid",
+        "name": "↔️ Growth Happens",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_chardev_low",
+      "name": "🗿 Set In Stone",
+      "file": "src/preferences/interview-chardev-low.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 67,
+      "sourceContentSha256": "754273beea17c754bcbcfa0f7a6de9222261e45583da7ec583e577e7bb61f520",
+      "sourceMetadata": {
+        "identifier": "interview_chardev_low",
+        "name": "🗿 Set In Stone",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_worldlogic_hdr",
+      "name": "< 🌐 What logic does the world run on? >",
+      "file": "src/preferences/interview-worldlogic-hdr.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 68,
+      "sourceContentSha256": "f9e30956768a6cf95ca5472d1a5cec3cd30a3c81dd0ff1520ba3680488c166cc",
+      "sourceMetadata": {
+        "identifier": "interview_worldlogic_hdr",
+        "name": "< 🌐 What logic does the world run on? >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_worldlogic_literary",
+      "name": "📖 Literary",
+      "file": "src/preferences/interview-worldlogic-literary.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 69,
+      "sourceContentSha256": "3fb33c129096c3800eaf9db862cbdabb5cb512e92a79c507888fdec2a7b754c9",
+      "sourceMetadata": {
+        "identifier": "interview_worldlogic_literary",
+        "name": "📖 Literary",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_worldlogic_grounded",
+      "name": "🌍 Grounded",
+      "file": "src/preferences/interview-worldlogic-grounded.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 70,
+      "sourceContentSha256": "0c623ecd4d02cf3799f043f4cdf4fc52de7daf696dd8447367889383dc8154e7",
+      "sourceMetadata": {
+        "identifier": "interview_worldlogic_grounded",
+        "name": "🌍 Grounded",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_worldlogic_genre",
+      "name": "✨ Genre Logic",
+      "file": "src/preferences/interview-worldlogic-genre.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 71,
+      "sourceContentSha256": "c387c5312f8a88aa4c7a57635813e38a5d765a5abeda2c106aa4d1446739e79c",
+      "sourceMetadata": {
+        "identifier": "interview_worldlogic_genre",
+        "name": "✨ Genre Logic",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_worldlogic_anime",
+      "name": "⚡ Anime",
+      "file": "src/preferences/interview-worldlogic-anime.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 72,
+      "sourceContentSha256": "798e32048ec76bae77087fd878485a4c8f540f0d99bf9fddef8431c2bf0c2b81",
+      "sourceMetadata": {
+        "identifier": "interview_worldlogic_anime",
+        "name": "⚡ Anime",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_worldlogic_vgame",
+      "name": "🎮 Video Game",
+      "file": "src/preferences/interview-worldlogic-vgame.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 73,
+      "sourceContentSha256": "3789a4b1db861499d79fdda49068b50f4af6abdaa3d06fc89aee6083589dd18e",
+      "sourceMetadata": {
+        "identifier": "interview_worldlogic_vgame",
+        "name": "🎮 Video Game",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_visual_hdr",
+      "name": "< 🖥️ How should the text look? >",
+      "file": "src/preferences/interview-visual-hdr.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 74,
+      "sourceContentSha256": "1e8d41d4dd7200a95e0b5b056f75f2618db99051e2961e3e573c541fd990a002",
+      "sourceMetadata": {
+        "identifier": "interview_visual_hdr",
+        "name": "< 🖥️ How should the text look? >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_visual_dialogue",
+      "name": "🎨 Character Colours",
+      "file": "src/preferences/interview-visual-dialogue.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 75,
+      "sourceContentSha256": "fa810ca97209875ef0c1cfa5d9eaa8098f4710b3f47bca88764d0cdf914a4c89",
+      "sourceMetadata": {
+        "identifier": "interview_visual_dialogue",
+        "name": "🎨 Character Colours",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_visual_immersive",
+      "name": "✨ Immersive Formatting",
+      "file": "src/preferences/interview-visual-immersive.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 76,
+      "sourceContentSha256": "04d66c7231c32f977c148b222519933d55082b4341bef281dba5e2b52071fac3",
+      "sourceMetadata": {
+        "identifier": "interview_visual_immersive",
+        "name": "✨ Immersive Formatting",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_visual_plain",
+      "name": "📄 Plain Text",
+      "file": "src/preferences/interview-visual-plain.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 77,
+      "sourceContentSha256": "7eef6c188c77ca2fbeee9fcaf57137f666429e88dee708cd3413ccf3956cf64e",
+      "sourceMetadata": {
+        "identifier": "interview_visual_plain",
+        "name": "📄 Plain Text",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_system_header",
+      "name": "=== ⚙️ System ===",
+      "file": "src/formatting/interview-system-header.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 78,
+      "sourceContentSha256": "5ee56280e63dc06a5aea659eb63d7d490a90c926b4f07ed08636bcdb6a74f5e0",
+      "sourceMetadata": {
+        "identifier": "interview_system_header",
+        "name": "=== ⚙️ System ===",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier_scratchpad",
+      "name": "🗒️ Scene Scratchpad",
+      "file": "src/planning/atelier-scratchpad.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 79,
+      "sourceContentSha256": "cfb2b830124350ac973f3699ded72ee21411621d2d0595625b58d0b132c51996",
+      "sourceMetadata": {
+        "identifier": "atelier_scratchpad",
+        "name": "🗒️ Scene Scratchpad",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "main",
+      "name": "Main Prompt",
+      "file": "src/core/main.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 80,
+      "sourceContentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceMetadata": {
+        "identifier": "main",
+        "name": "Main Prompt",
+        "system_prompt": true,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "nsfw",
+      "name": "Auxiliary Prompt",
+      "file": "src/core/nsfw.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 0,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 81,
+      "sourceContentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceMetadata": {
+        "identifier": "nsfw",
+        "name": "Auxiliary Prompt",
+        "system_prompt": true,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 0,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "dialogueExamples",
+      "name": "Chat Examples",
+      "file": "src/preferences/dialogueexamples.txt",
+      "enabled": false,
+      "role": "",
+      "marker": true,
+      "injectionPosition": 0,
+      "injectionDepth": 0,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 82,
+      "sourceContentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceMetadata": {
+        "identifier": "dialogueExamples",
+        "name": "Chat Examples",
+        "system_prompt": true,
+        "marker": true,
+        "role": "",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 0,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "jailbreak",
+      "name": "Post-History Instructions",
+      "file": "src/core/jailbreak.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 0,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 83,
+      "sourceContentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceMetadata": {
+        "identifier": "jailbreak",
+        "name": "Post-History Instructions",
+        "system_prompt": true,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 0,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "chatHistory",
+      "name": "Chat History",
+      "file": "src/core/chathistory.txt",
+      "enabled": false,
+      "role": "",
+      "marker": true,
+      "injectionPosition": 0,
+      "injectionDepth": 0,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 84,
+      "sourceContentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceMetadata": {
+        "identifier": "chatHistory",
+        "name": "Chat History",
+        "system_prompt": true,
+        "marker": true,
+        "role": "",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 0,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "worldInfoAfter",
+      "name": "World Info (after)",
+      "file": "src/core/worldinfoafter.txt",
+      "enabled": false,
+      "role": "",
+      "marker": true,
+      "injectionPosition": 0,
+      "injectionDepth": 0,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 85,
+      "sourceContentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceMetadata": {
+        "identifier": "worldInfoAfter",
+        "name": "World Info (after)",
+        "system_prompt": true,
+        "marker": true,
+        "role": "",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 0,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "worldInfoBefore",
+      "name": "World Info (before)",
+      "file": "src/core/worldinfobefore.txt",
+      "enabled": false,
+      "role": "",
+      "marker": true,
+      "injectionPosition": 0,
+      "injectionDepth": 0,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 86,
+      "sourceContentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceMetadata": {
+        "identifier": "worldInfoBefore",
+        "name": "World Info (before)",
+        "system_prompt": true,
+        "marker": true,
+        "role": "",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 0,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "enhanceDefinitions",
+      "name": "Enhance Definitions",
+      "file": "src/core/enhancedefinitions.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 0,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 87,
+      "sourceContentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceMetadata": {
+        "identifier": "enhanceDefinitions",
+        "name": "Enhance Definitions",
+        "system_prompt": true,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 0,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "charDescription",
+      "name": "Char Description",
+      "file": "src/core/chardescription.txt",
+      "enabled": false,
+      "role": "",
+      "marker": true,
+      "injectionPosition": 0,
+      "injectionDepth": 0,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 88,
+      "sourceContentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceMetadata": {
+        "identifier": "charDescription",
+        "name": "Char Description",
+        "system_prompt": true,
+        "marker": true,
+        "role": "",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 0,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "charPersonality",
+      "name": "Char Personality",
+      "file": "src/core/charpersonality.txt",
+      "enabled": false,
+      "role": "",
+      "marker": true,
+      "injectionPosition": 0,
+      "injectionDepth": 0,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 89,
+      "sourceContentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceMetadata": {
+        "identifier": "charPersonality",
+        "name": "Char Personality",
+        "system_prompt": true,
+        "marker": true,
+        "role": "",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 0,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "scenario",
+      "name": "Scenario",
+      "file": "src/core/scenario.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": true,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 90,
+      "sourceContentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceMetadata": {
+        "identifier": "scenario",
+        "name": "Scenario",
+        "system_prompt": true,
+        "marker": true,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "personaDescription",
+      "name": "Persona Description",
+      "file": "src/core/personadescription.txt",
+      "enabled": false,
+      "role": "",
+      "marker": true,
+      "injectionPosition": 0,
+      "injectionDepth": 0,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 91,
+      "sourceContentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceMetadata": {
+        "identifier": "personaDescription",
+        "name": "Persona Description",
+        "system_prompt": true,
+        "marker": true,
+        "role": "",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 0,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_bias_hdr",
+      "name": "< 🎯 How does the world treat you? >",
+      "file": "src/preferences/interview-bias-hdr.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 92,
+      "sourceContentSha256": "24a1f5ab4e56ee7a5849396d8106ca009d1d01ec1ef163b9f3dfd2d7d79de19c",
+      "sourceMetadata": {
+        "identifier": "interview_bias_hdr",
+        "name": "< 🎯 How does the world treat you? >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_bias_neg",
+      "name": "🥊 Make Me Believe It",
+      "file": "src/preferences/interview-bias-neg.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 93,
+      "sourceContentSha256": "b483760be92c74d16e04f8ad73db4ae45e269d026baa5e02368c8c86c195c353",
+      "sourceMetadata": {
+        "identifier": "interview_bias_neg",
+        "name": "🥊 Make Me Believe It",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_bias_mid",
+      "name": "⚖️ Honest World",
+      "file": "src/preferences/interview-bias-mid.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 94,
+      "sourceContentSha256": "d24e6402ae92ba161edf1f2b5aa08359ad36fbd01d585ec7fe51bf681291b502",
+      "sourceMetadata": {
+        "identifier": "interview_bias_mid",
+        "name": "⚖️ Honest World",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_bias_pos",
+      "name": "🌤️ Wind At Your Back",
+      "file": "src/preferences/interview-bias-pos.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 95,
+      "sourceContentSha256": "f6d73dbd1ce1a532ef2f93feb8a372211b2350ac100f90898bcca8cbb96447de",
+      "sourceMetadata": {
+        "identifier": "interview_bias_pos",
+        "name": "🌤️ Wind At Your Back",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "8f749eca-60f3-48b8-a79b-22a2d236cef4",
+      "name": "🧬 Living World",
+      "file": "src/core/8f749eca-60f3-48b8-a79b-22a2d236cef4.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 96,
+      "sourceContentSha256": "22d2861ecb6c244247f462ccd9ec1fda2da0b0b82c2c7872f402e0e63a34abd0",
+      "sourceMetadata": {
+        "identifier": "8f749eca-60f3-48b8-a79b-22a2d236cef4",
+        "name": "🧬 Living World",
+        "system_prompt": false,
+        "role": "system",
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false,
+        "extra": {},
+        "enabled": true,
+        "marker": false
+      }
+    },
+    {
+      "id": "c475d4e3-17b0-4829-a7e9-ed953a266a1f",
+      "name": "🎲 RP Logic",
+      "file": "src/core/c475d4e3-17b0-4829-a7e9-ed953a266a1f.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 97,
+      "sourceContentSha256": "83a48c0d6f99d8d96001d6f2e01ce2620d1ef47174a7ce7bc48aaa11a7cc0605",
+      "sourceMetadata": {
+        "identifier": "c475d4e3-17b0-4829-a7e9-ed953a266a1f",
+        "name": "🎲 RP Logic",
+        "system_prompt": false,
+        "role": "system",
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false,
+        "extra": {},
+        "enabled": false,
+        "marker": false
+      }
+    },
+    {
+      "id": "interview_cot_hdr",
+      "name": "=== 🧠 What should I think about? ===",
+      "file": "src/core/interview-cot-hdr.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 98,
+      "sourceContentSha256": "fd5588784e874d9f26664933f27c4ed14531dad8214b9504ab756887fc3e53e9",
+      "sourceMetadata": {
+        "identifier": "interview_cot_hdr",
+        "name": "=== 🧠 What should I think about? ===",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_cot",
+      "name": "💭 Think about the whole scene.",
+      "file": "src/planning/interview-cot.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 99,
+      "sourceContentSha256": "53f8a1d0bbf6a682b6e16287215127c1ae826d745f7d292da088e60f17661abb",
+      "sourceMetadata": {
+        "identifier": "interview_cot",
+        "name": "💭 Think about the whole scene.",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_cot_story",
+      "name": "📖 Think about the story.",
+      "file": "src/core/interview-cot-story.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 100,
+      "sourceContentSha256": "d299f0479b76d84e05c413f7f6888d8c7d883575fa934c5b67a93b3cab1a75fc",
+      "sourceMetadata": {
+        "identifier": "interview_cot_story",
+        "name": "📖 Think about the story.",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_cot_characters",
+      "name": "🎭 Think about the characters.",
+      "file": "src/core/interview-cot-characters.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 101,
+      "sourceContentSha256": "2d599fe9e24db56773476fae248bfedf9ce8cd17e8515ba3454cdfb7c43dfec1",
+      "sourceMetadata": {
+        "identifier": "interview_cot_characters",
+        "name": "🎭 Think about the characters.",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_cot_me",
+      "name": "🧭 Think about me",
+      "file": "src/core/interview-cot-me.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 102,
+      "sourceContentSha256": "ba64088c3a9822d8ee43e02ffb5dc612527cb75f3848acf9c79e5765c2d2d0fb",
+      "sourceMetadata": {
+        "identifier": "interview_cot_me",
+        "name": "🧭 Think about me",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier_assistant_prefill",
+      "name": "🧭 Assistant Planning & Rules",
+      "file": "src/preferences/atelier-assistant-prefill.txt",
+      "enabled": true,
+      "role": "assistant",
+      "marker": false,
+      "injectionPosition": 1,
+      "injectionDepth": 0,
+      "injectionOrder": 200,
+      "injectionTrigger": [],
+      "sourceIndex": 103,
+      "sourceContentSha256": "b08a12b24320c2308374316a3205133f635cabced49d70c32d4c7af0aab9e83c",
+      "sourceMetadata": {
+        "identifier": "atelier_assistant_prefill",
+        "name": "🧭 Assistant Planning & Rules",
+        "system_prompt": false,
+        "marker": false,
+        "role": "assistant",
+        "enabled": true,
+        "injection_position": 1,
+        "injection_depth": 0,
+        "injection_order": 200,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "interview_settings",
+      "name": "📋 Settings Reminder",
+      "file": "src/preferences/interview-settings.txt",
+      "enabled": true,
+      "role": "user",
+      "marker": false,
+      "injectionPosition": 1,
+      "injectionDepth": 0,
+      "injectionOrder": 201,
+      "injectionTrigger": [],
+      "sourceIndex": 104,
+      "sourceContentSha256": "f453bf0171a13e8f869f03171f79c9a7fa2e48175e73b53224ef1a16ec2df40e",
+      "sourceMetadata": {
+        "identifier": "interview_settings",
+        "name": "📋 Settings Reminder",
+        "system_prompt": false,
+        "marker": false,
+        "role": "user",
+        "enabled": true,
+        "injection_position": 1,
+        "injection_depth": 0,
+        "injection_order": 201,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier_rule_resolver",
+      "name": "🧩 Resolve Core Rules",
+      "file": "src/core/atelier-rule-resolver.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 105,
+      "sourceContentSha256": "8bc4f0ef6a0dfbde0c6f4cc707abdc827bb3a92535610c2e3027c7b85f594d31",
+      "sourceMetadata": {
+        "identifier": "atelier_rule_resolver",
+        "name": "🧩 Resolve Core Rules",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier_rule_library",
+      "name": "🧱 Core Rule Library",
+      "file": "src/core/atelier-rule-library.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 106,
+      "sourceContentSha256": "79a6c19b356a6f58f41fe9fec6d8bc2cfa6813edca576e87746eb3995b5f76d8",
+      "sourceMetadata": {
+        "identifier": "atelier_rule_library",
+        "name": "🧱 Core Rule Library",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-heading",
+      "name": "=== ⚙️ Atelier Runtime ===",
+      "file": "src/runtime/atelier-runtime-heading.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 107,
+      "sourceContentSha256": "0d23a420ba7d21950fbb9bf5b09c816cbf54474f4adca9985b3c529b23915c9c",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-heading",
+        "name": "=== ⚙️ Atelier Runtime ===",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-readme",
+      "name": "📖 Runtime · Read Me",
+      "file": "src/runtime/atelier-runtime-readme.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 108,
+      "sourceContentSha256": "2019d24624e236c0a20593b68276c12a7a32c1a3e79160aecd854dcd3802ec5f",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-readme",
+        "name": "📖 Runtime · Read Me",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-mode-reset",
+      "name": "🔧 Runtime · Mode reset",
+      "file": "src/runtime/atelier-runtime-mode-reset.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 109,
+      "sourceContentSha256": "e7107cf162c4fec05ba9859f1dfa8b4cf4dfd9acda4719be7c192cc1bd8ab328",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-mode-reset",
+        "name": "🔧 Runtime · Mode reset",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-mode-setup",
+      "name": "⚙️ Runtime · Setup",
+      "file": "src/runtime/atelier-runtime-mode-setup.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 110,
+      "sourceContentSha256": "600bd927230ea434a41cf654aace788a4e55cba93e48d42a9ddfef2b33c6361f",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-mode-setup",
+        "name": "⚙️ Runtime · Setup",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-mode-auto",
+      "name": "⚙️ Runtime · Auto",
+      "file": "src/runtime/atelier-runtime-mode-auto.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 111,
+      "sourceContentSha256": "a8a298f6e6b438b61796fef80b79353b6a55ad3c02d2bb455dbf096d13b5cb90",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-mode-auto",
+        "name": "⚙️ Runtime · Auto",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-mode-manual",
+      "name": "⚙️ Runtime · Manual",
+      "file": "src/runtime/atelier-runtime-mode-manual.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 112,
+      "sourceContentSha256": "9c55519fbe01aa11a531fe21039b44c2d84eb916e53446dfda677e88c576a30d",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-mode-manual",
+        "name": "⚙️ Runtime · Manual",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-locks-heading",
+      "name": "=== 🔒 Runtime Category Locks ===",
+      "file": "src/runtime/atelier-runtime-locks-heading.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 113,
+      "sourceContentSha256": "0d23a420ba7d21950fbb9bf5b09c816cbf54474f4adca9985b3c529b23915c9c",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-locks-heading",
+        "name": "=== 🔒 Runtime Category Locks ===",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-lock-stakes",
+      "name": "🔒 Lock Stakes",
+      "file": "src/runtime/atelier-runtime-lock-stakes.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 114,
+      "sourceContentSha256": "7c3cec8f5c16710beddc5d8971ddd608ace60e5920d38acb03318fa300608239",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-lock-stakes",
+        "name": "🔒 Lock Stakes",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-lock-bias",
+      "name": "🔒 Lock Bias",
+      "file": "src/runtime/atelier-runtime-lock-bias.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 115,
+      "sourceContentSha256": "b3091d98f04d7bd6f78cf667a601ca5085e763a7ef4d9e5cddf3e26b8a2b264b",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-lock-bias",
+        "name": "🔒 Lock Bias",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-lock-smut",
+      "name": "🔒 Lock Smut",
+      "file": "src/runtime/atelier-runtime-lock-smut.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 116,
+      "sourceContentSha256": "c3f4cb382e25c27fa29a2b47c337333f70ba2fc2f987b86308eb9cabb24c3499",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-lock-smut",
+        "name": "🔒 Lock Smut",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-lock-violence",
+      "name": "🔒 Lock Violence",
+      "file": "src/runtime/atelier-runtime-lock-violence.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 117,
+      "sourceContentSha256": "8ef1bad58f41086634e7e1204c05039f85433ce9a08fd5ce880a0e59d405ff3d",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-lock-violence",
+        "name": "🔒 Lock Violence",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-lock-romance",
+      "name": "🔒 Lock Romance",
+      "file": "src/runtime/atelier-runtime-lock-romance.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 118,
+      "sourceContentSha256": "3de655abd62f1dc16ecc67031c9ab1e7ad77da4a0f0fa64cf3efde659df3ed20",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-lock-romance",
+        "name": "🔒 Lock Romance",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-lock-humor",
+      "name": "🔒 Lock Humor",
+      "file": "src/runtime/atelier-runtime-lock-humor.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 119,
+      "sourceContentSha256": "c3241a077e6debe85bfa0d18731f72e6e7e16327ae835d145f4ed3df07cff5db",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-lock-humor",
+        "name": "🔒 Lock Humor",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-lock-length",
+      "name": "🔒 Lock Length",
+      "file": "src/runtime/atelier-runtime-lock-length.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 120,
+      "sourceContentSha256": "5444816baed9e2b20bff1bbc14d0e7beee884e9282082dc18a7988680d7e5e0c",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-lock-length",
+        "name": "🔒 Lock Length",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-lock-sensory",
+      "name": "🔒 Lock Sensory",
+      "file": "src/runtime/atelier-runtime-lock-sensory.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 121,
+      "sourceContentSha256": "3738d02863f0d1e5ac95f32020f1e1578cabeb34324518656f8b6d56e7205c45",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-lock-sensory",
+        "name": "🔒 Lock Sensory",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-lock-tone",
+      "name": "🔒 Lock Tone",
+      "file": "src/runtime/atelier-runtime-lock-tone.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 122,
+      "sourceContentSha256": "4e869a133da82462daf528ec657073e4fd9278501a9e9827457e7ba894fd4f13",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-lock-tone",
+        "name": "🔒 Lock Tone",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-lock-pov",
+      "name": "🔒 Lock POV",
+      "file": "src/runtime/atelier-runtime-lock-pov.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 123,
+      "sourceContentSha256": "e0b4a9f5c040493f355737e4c7dec032ba34dd11430bba1a374a2b6fea9f349c",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-lock-pov",
+        "name": "🔒 Lock POV",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-lock-agency",
+      "name": "🔒 Lock Agency",
+      "file": "src/runtime/atelier-runtime-lock-agency.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 124,
+      "sourceContentSha256": "6726c9b188669a772ea6b8ad62c3978f53a52029fdaffd64e694cdc8bb60ba31",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-lock-agency",
+        "name": "🔒 Lock Agency",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-lock-dialogue",
+      "name": "🔒 Lock Dialogue",
+      "file": "src/runtime/atelier-runtime-lock-dialogue.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 125,
+      "sourceContentSha256": "c3cbe59af51258ba8429f2437fc63187b942c594c631af63e15d2cf7a95353dd",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-lock-dialogue",
+        "name": "🔒 Lock Dialogue",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-lock-worldbuilding",
+      "name": "🔒 Lock WorldBuilding",
+      "file": "src/runtime/atelier-runtime-lock-worldbuilding.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 126,
+      "sourceContentSha256": "31a4ed5ef2e4e8c508a444304a5af8146dae4e76c00dac2dcca66e091182d72c",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-lock-worldbuilding",
+        "name": "🔒 Lock WorldBuilding",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-lock-development",
+      "name": "🔒 Lock Development",
+      "file": "src/runtime/atelier-runtime-lock-development.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 127,
+      "sourceContentSha256": "79a50f7d1c768f4c79746735ce1cd7ba045b92b78b5e84728ae6975a412d0b85",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-lock-development",
+        "name": "🔒 Lock Development",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-lock-worldlogic",
+      "name": "🔒 Lock WorldLogic",
+      "file": "src/runtime/atelier-runtime-lock-worldlogic.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 128,
+      "sourceContentSha256": "deafc1c4e1b071f0a330633afb7b69eac43175a22b450782c193e426413a890c",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-lock-worldlogic",
+        "name": "🔒 Lock WorldLogic",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-lock-visual",
+      "name": "🔒 Lock Visual",
+      "file": "src/runtime/atelier-runtime-lock-visual.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 129,
+      "sourceContentSha256": "a52d70782de8f33150cdc90bf7f6138abf04573c45b8feba90b2f03cb5a3acc8",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-lock-visual",
+        "name": "🔒 Lock Visual",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-selectors",
+      "name": "🧭 Runtime · Resolve individual preference dials",
+      "file": "src/runtime/atelier-runtime-selectors.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 130,
+      "sourceContentSha256": "7a780b220e96bb923b6d750e40fa97f8f353b12692ee5b525bbb908e7752dcd7",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-selectors",
+        "name": "🧭 Runtime · Resolve individual preference dials",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-state-resolver",
+      "name": "🧩 Runtime · Rebuild selected-history configuration",
+      "file": "src/runtime/atelier-runtime-state-resolver.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 131,
+      "sourceContentSha256": "edccf5306779c1216250275755a89cc7b45474e98164884bd278677650ece53e",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-state-resolver",
+        "name": "🧩 Runtime · Rebuild selected-history configuration",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-policy-compiler",
+      "name": "🧩 Runtime · Apply authored category rules",
+      "file": "src/runtime/atelier-runtime-policy-compiler.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 132,
+      "sourceContentSha256": "2588f83c47f1ec283a75d6a2995a439de6c525145b79c4796329bb585349dde5",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-policy-compiler",
+        "name": "🧩 Runtime · Apply authored category rules",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-cot-deferred-compiler",
+      "name": "🧠 Planning · Compile selected thinking focus",
+      "file": "src/planning/atelier-cot-deferred-compiler.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 133,
+      "sourceContentSha256": "179fab621c0f9f1ee5376c90390e888332dcc5af797c7f37c950aaca52c4f6fe",
+      "sourceMetadata": {
+        "identifier": "atelier-cot-deferred-compiler",
+        "name": "🧠 Planning · Compile selected thinking focus",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-commands-readme",
+      "name": "📖 Chat Commands · Read Me",
+      "file": "src/core/atelier-commands-readme.txt",
+      "enabled": false,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 134,
+      "sourceContentSha256": "10d668270da15f389a5ca4abaed3161228a3146c9eebdfa4cf16da075dd6a007",
+      "sourceMetadata": {
+        "identifier": "atelier-commands-readme",
+        "name": "📖 Chat Commands · Read Me",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": false,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-commands-resolver",
+      "name": "💬 Commands · Current task and OOC resolver",
+      "file": "src/core/atelier-commands-resolver.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 135,
+      "sourceContentSha256": "88078a3f22554b0eb81d8217445ba38b41424a0d19e793edc03cd9c5b912de3c",
+      "sourceMetadata": {
+        "identifier": "atelier-commands-resolver",
+        "name": "💬 Commands · Current task and OOC resolver",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-runtime-authoring-protocol",
+      "name": "⚙️ Runtime · Alex authoring protocol",
+      "file": "src/runtime/atelier-runtime-authoring-protocol.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 136,
+      "sourceContentSha256": "186045805b6a3ef6d9fcae454e1f130228fa5fbbf67de0d0d942a151afcacc9c",
+      "sourceMetadata": {
+        "identifier": "atelier-runtime-authoring-protocol",
+        "name": "⚙️ Runtime · Alex authoring protocol",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-reply-variation-compiler",
+      "name": "🎲 Reply Variation · Prose inventory compiler",
+      "file": "src/core/atelier-reply-variation-compiler.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 137,
+      "sourceContentSha256": "afe3c9f07c4abecaeabd3d1aeb50b18230467bc956f53f2b008b301f0cba709f",
+      "sourceMetadata": {
+        "identifier": "atelier-reply-variation-compiler",
+        "name": "🎲 Reply Variation · Prose inventory compiler",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-system-engine-subheading",
+      "name": "< 🧩 Runtime, Commands & Compilers >",
+      "file": "src/runtime/atelier-system-engine-subheading.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 138,
+      "sourceContentSha256": "b62a4ec57ceb714f00833e84dc705d5f4595713b3b5d8dddfa54451d9145f6cc",
+      "sourceMetadata": {
+        "identifier": "atelier-system-engine-subheading",
+        "name": "< 🧩 Runtime, Commands & Compilers >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-system-core-subheading",
+      "name": "< 🎭 Core Narration & Tools >",
+      "file": "src/core/atelier-system-core-subheading.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 139,
+      "sourceContentSha256": "a57bc6a2dfd13de5e9773d9d87f31715a6c5b3eae0b03725f6506dc61652eb8c",
+      "sourceMetadata": {
+        "identifier": "atelier-system-core-subheading",
+        "name": "< 🎭 Core Narration & Tools >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-system-context-subheading",
+      "name": "< 💾 Databank, Examples & Context >",
+      "file": "src/core/atelier-system-context-subheading.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 140,
+      "sourceContentSha256": "389a70e3629eb60fd848347a554d491977de08da784d8e1433c3131f2674e9c8",
+      "sourceMetadata": {
+        "identifier": "atelier-system-context-subheading",
+        "name": "< 💾 Databank, Examples & Context >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    },
+    {
+      "id": "atelier-system-handoff-subheading",
+      "name": "< 🧭 Unused >",
+      "file": "src/core/atelier-system-handoff-subheading.txt",
+      "enabled": true,
+      "role": "system",
+      "marker": false,
+      "injectionPosition": 0,
+      "injectionDepth": 4,
+      "injectionOrder": 100,
+      "injectionTrigger": [],
+      "sourceIndex": 141,
+      "sourceContentSha256": "b1158a263c505993219e2349d2255ce772d920bcec70121f42168249b892bc52",
+      "sourceMetadata": {
+        "identifier": "atelier-system-handoff-subheading",
+        "name": "< 🧭 Unused >",
+        "system_prompt": false,
+        "marker": false,
+        "role": "system",
+        "enabled": true,
+        "injection_position": 0,
+        "injection_depth": 4,
+        "injection_order": 100,
+        "injection_trigger": [],
+        "forbid_overrides": false
+      }
+    }
+  ],
+  "regex": [
+    {
+      "id": "75c1c3d5-6565-5cfd-aa56-b95518c7982b",
+      "name": "Atelier Runtime · 01 begin selected-history replay",
+      "file": "src/regex/01-atelier-runtime-01-begin-selected-history-replay.json",
+      "enabled": true,
+      "order": 0,
+      "sourceSha256": "d1935bfdadb3df561f342b31794380d122012d04b7c1cb27b32ccce2365d742c"
+    },
+    {
+      "id": "9b4d3e1a-9df6-5189-bbaa-8e9709d35d1c",
+      "name": "Atelier Runtime · 02 detect user requests",
+      "file": "src/regex/02-atelier-runtime-02-detect-user-requests.json",
+      "enabled": true,
+      "order": 1,
+      "sourceSha256": "f91687c07d822d6e6e7185a7ccbdd38d779f14a36ab751de93d7f65de0d67c06"
+    },
+    {
+      "id": "ebaea293-f859-55ef-8017-4b5509b07026",
+      "name": "Atelier Commands · 01 literal opening braces",
+      "file": "src/regex/03-atelier-commands-01-literal-opening-braces.json",
+      "enabled": true,
+      "order": 2,
+      "sourceSha256": "4f8a5d6eec867805af21633996a2c381b914d76a11066f16e12f06c51c8420bb"
+    },
+    {
+      "id": "3f523470-352c-5841-921f-a792e5215433",
+      "name": "Atelier Commands · 02 literal closing braces",
+      "file": "src/regex/04-atelier-commands-02-literal-closing-braces.json",
+      "enabled": true,
+      "order": 3,
+      "sourceSha256": "a1b73132a3b90cab8b3a85d5f4de72e698138aa88aa35fbc3baba2df0a509e69"
+    },
+    {
+      "id": "9cc130ba-3d41-516a-a6cb-15b765b0b21b",
+      "name": "Atelier Commands · 03 dispatch in-chat commands",
+      "file": "src/regex/05-atelier-commands-03-dispatch-in-chat-commands.json",
+      "enabled": true,
+      "order": 4,
+      "sourceSha256": "556bbe25d6345e60ec3215e71f29f57d5683b21e1062fcf341fd6ac8b6890736"
+    },
+    {
+      "id": "fbc86266-b152-52a7-8ab9-2195963ecc26",
+      "name": "Atelier Runtime · 03 validate and open full transaction",
+      "file": "src/regex/06-atelier-runtime-03-validate-and-open-full-transaction.json",
+      "enabled": true,
+      "order": 5,
+      "sourceSha256": "44064e4f249cddeab43cd3cb3ed4669ff45ec737bd8c20a50fdd0577a05aa604"
+    },
+    {
+      "id": "5298f12b-c803-5db8-9e6c-d0a811c8ea24",
+      "name": "Atelier Runtime · 04 capture category selectors",
+      "file": "src/regex/07-atelier-runtime-04-capture-category-selectors.json",
+      "enabled": true,
+      "order": 6,
+      "sourceSha256": "200d9720208796e7412ad244ec95da53f8b5038fa959ac79ff97ca7148ff97ee"
+    },
+    {
+      "id": "bbc5ffdb-5c20-5c09-9e97-1951fce30274",
+      "name": "Atelier Runtime · 05 capture authored policies and operation",
+      "file": "src/regex/08-atelier-runtime-05-capture-authored-policies-and-operation.json",
+      "enabled": true,
+      "order": 7,
+      "sourceSha256": "3e2cdeb2158ffd75a123e68530c6f5e4bcbb20dfc4076f711aa0687a74d0c749"
+    },
+    {
+      "id": "a995f377-bbfb-5371-9921-b1464fd57378",
+      "name": "Atelier Runtime · 06 commit full transaction",
+      "file": "src/regex/09-atelier-runtime-06-commit-full-transaction.json",
+      "enabled": true,
+      "order": 8,
+      "sourceSha256": "215c19000986582ec520d60469fe4952c97bee749138d46191f24b522c031fa5"
+    },
+    {
+      "id": "750f362f-2e05-53a6-8e5b-6d53e63f5ae0",
+      "name": "Atelier Runtime · 07 strip config from prompt history",
+      "file": "src/regex/10-atelier-runtime-07-strip-config-from-prompt-history.json",
+      "enabled": true,
+      "order": 9,
+      "sourceSha256": "7c2d409e24279f19d514ef347c297f72d37b394ed37918acbb3d55c4b4ca743d"
+    },
+    {
+      "id": "b8040835-84b6-5c76-8810-b07b93d80d01",
+      "name": "Atelier Runtime · 08 hide config and incomplete streaming prefix",
+      "file": "src/regex/11-atelier-runtime-08-hide-config-and-incomplete-streaming-prefix.json",
+      "enabled": true,
+      "order": 10,
+      "sourceSha256": "c9d57a179e75a5858500936bce37f39442bde8ce0a0cf86325888f7922c1a5ab"
+    },
+    {
+      "id": "6c3ebe82-9db4-423b-bfa6-40ce5832eada",
+      "name": "Strip HTML from older context",
+      "file": "src/regex/12-strip-html-from-older-context.json",
+      "enabled": true,
+      "order": 11,
+      "sourceSha256": "e6c9b8bcea6932ff73da106f548ee9667a43fb0b703e76d661965836f9a96b0e"
+    },
+    {
+      "id": "8b9aee12-35dd-4ad9-8f50-b7e11839b249",
+      "name": "Thinking cleanup",
+      "file": "src/regex/13-thinking-cleanup.json",
+      "enabled": true,
+      "order": 12,
+      "sourceSha256": "560b98aeb3f0fe0cf65ea0bbfcfaa715bd40e3afbafd3a6652111652647db8de"
+    },
+    {
+      "id": "6e52854c-733d-479d-a7d3-1b5edc95883d",
+      "name": "Strip leaked think tags",
+      "file": "src/regex/14-strip-leaked-think-tags.json",
+      "enabled": true,
+      "order": 13,
+      "sourceSha256": "c7ab303643e188d7b6eaf42dbd82826d7a1639c7cdfe45913f28543688213096"
+    },
+    {
+      "id": "01063dd8-654f-4d09-b400-067161dd5d01",
+      "name": "Emoji FX - Fire/Flame",
+      "file": "src/regex/15-emoji-fx-fire-flame.json",
+      "enabled": true,
+      "order": 14,
+      "sourceSha256": "a4892a050695bc9e695cb4d4ce4f22c824aa4f68e5dfba0c6ab7ce1a2e0ba1d2"
+    },
+    {
+      "id": "defac35d-d821-4a15-99b4-d0cc1efd9e01",
+      "name": "Emoji FX - Sparkle/Magic",
+      "file": "src/regex/16-emoji-fx-sparkle-magic.json",
+      "enabled": true,
+      "order": 15,
+      "sourceSha256": "7e33ac05e5fb62e7ef5b09f4cb4ee0a10d003a8f55514924cbb361f019d8a24a"
+    },
+    {
+      "id": "264f5e11-64cd-4788-bfe0-5fe17ec92cc8",
+      "name": "Emoji FX - Swords/Combat",
+      "file": "src/regex/17-emoji-fx-swords-combat.json",
+      "enabled": true,
+      "order": 16,
+      "sourceSha256": "3d4b68b8505a27df0b87fe544824b39fa10ef769267c24d4ae59344775a04d9e"
+    },
+    {
+      "id": "bb974b95-b66d-4331-8654-ef67bc9e1584",
+      "name": "Emoji FX - Skull/Death",
+      "file": "src/regex/18-emoji-fx-skull-death.json",
+      "enabled": true,
+      "order": 17,
+      "sourceSha256": "bef73ed5515dc5c8143394c8eecc72da5ce5f54f7cd6e72d94727887feb932e2"
+    },
+    {
+      "id": "91bf8fab-3ef1-46ba-95a9-3a8ff8ceddb0",
+      "name": "Emoji FX - Heart/Love",
+      "file": "src/regex/19-emoji-fx-heart-love.json",
+      "enabled": true,
+      "order": 18,
+      "sourceSha256": "807c12f2b6f22daf454e8b3f3406c9defcf88acdcbf240832f4a3d2c6709592a"
+    },
+    {
+      "id": "fd225a5f-3110-485f-a17e-f2db23950fbe",
+      "name": "Emoji FX - Lightning/Power",
+      "file": "src/regex/20-emoji-fx-lightning-power.json",
+      "enabled": true,
+      "order": 19,
+      "sourceSha256": "1a0a2a7c75e8dc9ca58b5d19dc72d509c34ee80bf58e5453df46ffb3ebd2ecca"
+    },
+    {
+      "id": "8c231c8f-7e77-47b7-9404-5cb7c2d7c584",
+      "name": "Emoji FX - Ice/Cold",
+      "file": "src/regex/21-emoji-fx-ice-cold.json",
+      "enabled": true,
+      "order": 20,
+      "sourceSha256": "b05aa84a7a3b7a47b88f13287598ca2e9e53233c8d886e3f866266b12ed47521"
+    },
+    {
+      "id": "62834d69-d66e-4b30-81fa-90f8a2e6619d",
+      "name": "Emoji FX - Blood/Gore",
+      "file": "src/regex/22-emoji-fx-blood-gore.json",
+      "enabled": true,
+      "order": 21,
+      "sourceSha256": "905a39dbcf6edb23dcd6f309e23115ca06f6fa0d2815b21f78251d515619461a"
+    },
+    {
+      "id": "c550ce8d-2422-4e6a-8a1d-28522ac9b50b",
+      "name": "Emoji FX - Anger/Rage",
+      "file": "src/regex/23-emoji-fx-anger-rage.json",
+      "enabled": true,
+      "order": 22,
+      "sourceSha256": "810c51635e7a0fd635b1040757303b12686f4e035f6fde85b8649ceb205316ec"
+    },
+    {
+      "id": "c99da944-843f-4083-ae7e-afe2a1aaf699",
+      "name": "Emoji FX - Warning/Alert",
+      "file": "src/regex/24-emoji-fx-warning-alert.json",
+      "enabled": true,
+      "order": 23,
+      "sourceSha256": "9cef8d5db1ddf24df85804716aa53bd4b2ebf9f35aadc547142adb97274c1e6b"
+    },
+    {
+      "id": "0e69bfac-6a46-473d-bf99-f391b256bd56",
+      "name": "Emoji FX - Music/Sound",
+      "file": "src/regex/25-emoji-fx-music-sound.json",
+      "enabled": true,
+      "order": 24,
+      "sourceSha256": "95e7cde3430ce8b60fcbc8ba79249bdb9087e43b7f64a28621b6e2c6b0ade0ea"
+    },
+    {
+      "id": "e1572121-d5a9-43ed-89f9-9747723d6bfb",
+      "name": "Emoji FX - Sweat/Nervous",
+      "file": "src/regex/26-emoji-fx-sweat-nervous.json",
+      "enabled": true,
+      "order": 25,
+      "sourceSha256": "6905fdc9e2acbc311523a5af752e51595e27cc69a9461415e6888c0087949c6f"
+    },
+    {
+      "id": "e93381e8-026a-4da5-b833-84bd5c089361",
+      "name": "Emoji FX - Explosion/Boom",
+      "file": "src/regex/27-emoji-fx-explosion-boom.json",
+      "enabled": true,
+      "order": 26,
+      "sourceSha256": "569940db2cb18ddac8b99d0fa520d9dc1fb86f4f7c25633be98286083f907492"
+    },
+    {
+      "id": "bcef5025-09b6-4619-85ca-e239f29ffaad",
+      "name": "Emoji FX - Crown/Royalty",
+      "file": "src/regex/28-emoji-fx-crown-royalty.json",
+      "enabled": true,
+      "order": 27,
+      "sourceSha256": "0771ed8c454ce1d2c6ba4ca9c6bcf14f30c06fbc05a3600fb2f1134086d40f1e"
+    },
+    {
+      "id": "92efb667-e48d-401c-b3ae-771fa9fd8670",
+      "name": "Emoji FX - Ghost/Spooky",
+      "file": "src/regex/29-emoji-fx-ghost-spooky.json",
+      "enabled": true,
+      "order": 28,
+      "sourceSha256": "21bdff1baee37a76b37d320f32c865bbcd36a231365dd21b86a08580163c9678"
+    },
+    {
+      "id": "01598cc1-7fa1-40ff-8b3e-bb3969106ac1",
+      "name": "Emoji FX - Crying/Tears",
+      "file": "src/regex/30-emoji-fx-crying-tears.json",
+      "enabled": true,
+      "order": 29,
+      "sourceSha256": "e015d0c8cae9fce7c1037e34f557eec7d57e1e6cff61049dedadb71db3585a8c"
+    },
+    {
+      "id": "d2a9dbd2-68f0-499c-9af9-50ccb642627c",
+      "name": "Emoji FX - Thinking/Brain",
+      "file": "src/regex/31-emoji-fx-thinking-brain.json",
+      "enabled": true,
+      "order": 30,
+      "sourceSha256": "47cb338bcccfa1b85fc80bea8495bb27172d075bd1b97092ef534e73a2d566ef"
+    },
+    {
+      "id": "bd6d465b-da50-422e-9328-48a06e251449",
+      "name": "Emoji FX - Eye/Looking",
+      "file": "src/regex/32-emoji-fx-eye-looking.json",
+      "enabled": true,
+      "order": 31,
+      "sourceSha256": "56a5b5894923cadc0eed781dbf3902b1f30c00c70733b058d85a79b8ae9f1041"
+    },
+    {
+      "id": "7fe68039-ddf1-4d41-ba8c-ffe21d94487b",
+      "name": "Emoji FX - Dice/Random",
+      "file": "src/regex/33-emoji-fx-dice-random.json",
+      "enabled": true,
+      "order": 32,
+      "sourceSha256": "db30b583641757c14b88ede44d2acee4e032cedbfd04750f71e6a6cb202c0093"
+    },
+    {
+      "id": "c5e26c28-76be-4a2c-a89e-3f283ab85d9b",
+      "name": "Emoji FX - Lock/Key",
+      "file": "src/regex/34-emoji-fx-lock-key.json",
+      "enabled": true,
+      "order": 33,
+      "sourceSha256": "3f8c9c32eae73f59c67d5599f28b095ac8465b87489452a5187cafaae73353ac"
+    },
+    {
+      "id": "ff0b3789-85e5-49b3-af74-aa1ba68e50a5",
+      "name": "Emoji FX - Poison/Toxic",
+      "file": "src/regex/35-emoji-fx-poison-toxic.json",
+      "enabled": true,
+      "order": 34,
+      "sourceSha256": "977b9057ebba6a1e663d63984c9cf3dcf46b718bf95f995ab243f2fde9ea416c"
+    },
+    {
+      "id": "5626bc2e-7ba2-4ce7-8303-58b1b2299136",
+      "name": "Emoji FX - Moon/Night",
+      "file": "src/regex/36-emoji-fx-moon-night.json",
+      "enabled": true,
+      "order": 35,
+      "sourceSha256": "0e4602ae43f7ae45cb0b7a9f64bbe3597ba55d79af07727d67a076fff57bdf40"
+    },
+    {
+      "id": "85e55117-8ffc-410a-b560-f413afae7274",
+      "name": "Emoji FX - Sun/Bright",
+      "file": "src/regex/37-emoji-fx-sun-bright.json",
+      "enabled": true,
+      "order": 36,
+      "sourceSha256": "7840285b1cfb89d69a9ac5d1c370343339f4fde5a8d19116e5082850d024fdd8"
+    },
+    {
+      "id": "6a1331da-2d71-4ec0-87e5-7e81b48e24f8",
+      "name": "Emoji FX - Shield/Defense",
+      "file": "src/regex/38-emoji-fx-shield-defense.json",
+      "enabled": true,
+      "order": 37,
+      "sourceSha256": "8a4a156131a54adf1151589bae44516b239543b1fe1d809864e6d70ff1435c4f"
+    },
+    {
+      "id": "b5ca5c4f-209f-42b4-82b7-46ac00f2e0a7",
+      "name": "Emoji FX - Scroll/Magic Item",
+      "file": "src/regex/39-emoji-fx-scroll-magic-item.json",
+      "enabled": true,
+      "order": 38,
+      "sourceSha256": "72369ef1e1ec4dbbdafba6d1bbd022579d7e45d6625b79e8e3d2df1df2971d5f"
+    },
+    {
+      "id": "4052cc5b-a0a8-4f9e-b2da-dec7e8f4149e",
+      "name": "Emoji FX - Smoke/Mist",
+      "file": "src/regex/40-emoji-fx-smoke-mist.json",
+      "enabled": true,
+      "order": 39,
+      "sourceSha256": "779d736af5c3b10af6bf3b853a43e474d543b22e2a86f9d6d3e683f1acbeef07"
+    },
+    {
+      "id": "a8767bcc-7f2d-4e3a-9524-6ba31fcd1624",
+      "name": "Emoji FX - Gem/Crystal",
+      "file": "src/regex/41-emoji-fx-gem-crystal.json",
+      "enabled": true,
+      "order": 40,
+      "sourceSha256": "16da76c0aa86431e8cbd90e36069b0ced3fef05134b7829c548c9f4a5683734a"
+    },
+    {
+      "id": "b94d51f9-696f-431f-9f32-44d3f3495704",
+      "name": "Emoji FX - Chains/Bondage",
+      "file": "src/regex/42-emoji-fx-chains-bondage.json",
+      "enabled": true,
+      "order": 41,
+      "sourceSha256": "a5eff70ed8522e953a358c259b5e3b868faf55cad2856465ceb7b161892cb76b"
+    },
+    {
+      "id": "84defeb9-a193-4d4c-8dea-5c8e5163d302",
+      "name": "Emoji FX - Trophy/Victory",
+      "file": "src/regex/43-emoji-fx-trophy-victory.json",
+      "enabled": true,
+      "order": 42,
+      "sourceSha256": "6ebe437ccd2790c72fdd4e43c086f089e47f670a726373911f36b8e7e8a03f76"
+    },
+    {
+      "id": "e08f6712-faca-4c93-b064-73c15af2d451",
+      "name": "Emoji FX - Flower/Nature",
+      "file": "src/regex/44-emoji-fx-flower-nature.json",
+      "enabled": true,
+      "order": 43,
+      "sourceSha256": "14473ad279990b947f33b76e9645d34c154ba81cfddc17cb2d0b07fd1719bc73"
+    },
+    {
+      "id": "728871ce-4ad9-4b36-ae29-d50177219330",
+      "name": "Atelier Dice · 01 structured roll cards (display only)",
+      "file": "src/regex/45-atelier-dice-01-structured-roll-cards-display-only.json",
+      "enabled": true,
+      "order": 44,
+      "sourceSha256": "d94bbaacf0532b354cc9ca2ea79bdb2c96d96cc52fa9f75add1c03f8b86751f1"
+    },
+    {
+      "id": "8dbf0dad-1a22-43ea-9a5e-4a8e9d617631",
+      "name": "Atelier Dice · 02 empty scan cleanup (display only)",
+      "file": "src/regex/46-atelier-dice-02-empty-scan-cleanup-display-only.json",
+      "enabled": true,
+      "order": 45,
+      "sourceSha256": "671032c29ed13a5ec82ffa6392fb94b90374e86729b597c23be82d49580ed8d7"
+    },
+    {
+      "id": "e8e3a913-c34e-45dd-8809-07bbaf00e23c",
+      "name": "Atelier Dice · 03 shared stylesheet (display only)",
+      "file": "src/regex/47-atelier-dice-03-shared-stylesheet-display-only.json",
+      "enabled": true,
+      "order": 46,
+      "sourceSha256": "f9d3abc94979fc4b519a0cc889deb9651fe0f372e9355dc61db86f7552d274bd"
+    }
+  ],
+  "settings": {
+    "temperature": 1,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "top_p": 1,
+    "top_k": 0,
+    "top_a": 0,
+    "min_p": 0,
+    "repetition_penalty": 1,
+    "max_context_unlocked": true,
+    "tool_reasoning_mode": "disabled",
+    "openai_max_context": 2000000,
+    "openai_max_tokens": 64000,
+    "names_behavior": 0,
+    "send_if_empty": "",
+    "impersonation_prompt": "[Write your next reply from the point of view of {{user}}, using the chat history so far as a guideline for the writing style of {{user}}. Don't write as {{char}} or system. Don't describe actions of {{char}}.]",
+    "new_chat_prompt": "[Start a new Chat]",
+    "new_group_chat_prompt": "[Start a new group chat. Group members: {{group}}]",
+    "new_example_chat_prompt": "[Example Chat]",
+    "continue_nudge_prompt": "[Continue the following message. Do not include ANY parts of the original message. Use capitalization and punctuation as if your reply is a part of the original message: {{lastChatMessage}}]",
+    "bias_preset_selected": "Default (none)",
+    "wi_format": "{0}",
+    "scenario_format": "[Circumstances and context of the dialogue: {{scenario}}]",
+    "personality_format": "[{{char}}'s personality: {{personality}}]",
+    "group_nudge_prompt": "[Write the next reply only as {{char}}.]",
+    "stream_openai": false,
+    "assistant_prefill": "",
+    "assistant_impersonation": "",
+    "use_sysprompt": true,
+    "squash_system_messages": true,
+    "media_inlining": false,
+    "inline_image_quality": "high",
+    "continue_prefill": false,
+    "continue_postfix": " ",
+    "function_calling": true,
+    "tool_call_recurse_limit": 5,
+    "show_thoughts": true,
+    "reasoning_effort": "max",
+    "verbosity": "auto",
+    "enable_web_search": false,
+    "seed": -1,
+    "n": 1,
+    "request_images": false,
+    "request_image_aspect_ratio": "",
+    "request_image_resolution": ""
+  },
+  "output": {
+    "loom": "dist/Fleuriste.loom.json",
+    "regex": "dist/Fleuriste.regex.json"
+  },
+  "compatibility": {
+    "unsupportedSettings": {
+      "top_a": 0,
+      "max_context_unlocked": true,
+      "tool_reasoning_mode": "disabled",
+      "new_example_chat_prompt": "[Example Chat]",
+      "bias_preset_selected": "Default (none)",
+      "wi_format": "{0}",
+      "scenario_format": "[Circumstances and context of the dialogue: {{scenario}}]",
+      "personality_format": "[{{char}}'s personality: {{personality}}]",
+      "inline_image_quality": "high",
+      "tool_call_recurse_limit": 5,
+      "show_thoughts": true,
+      "reasoning_effort": "max",
+      "verbosity": "auto",
+      "n": 1,
+      "request_images": false,
+      "request_image_aspect_ratio": "",
+      "request_image_resolution": ""
+    },
+    "promptFieldsRetainedOnly": [
+      "system_prompt",
+      "injection_order",
+      "forbid_overrides",
+      "extra"
+    ],
+    "regexNotes": [
+      "SillyTavern regex literal flags and numeric placement are converted using the Lumiverse importer mapping.",
+      "Macro execution and runOnEdit timing require a real Lumiverse runtime test."
+    ]
+  }
+}

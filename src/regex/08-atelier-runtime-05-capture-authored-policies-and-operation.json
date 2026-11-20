@@ -1,0 +1,18 @@
+{
+  "id": "bbc5ffdb-5c20-5c09-9e97-1951fce30274",
+  "scriptName": "Atelier Runtime · 05 capture authored policies and operation",
+  "findRegex": "/(?=<(?:StakesRules|BiasRules|SmutRules|ViolenceRules|RomanceRules|HumorRules|LengthRules|SensoryRules|ToneRules|POVRules|AgencyRules|DialogueRules|WorldBuildingRules|DevelopmentRules|WorldLogicRules|VisualRules|StakesOp|BiasOp|SmutOp|ViolenceOp|RomanceOp|HumorOp|LengthOp|SensoryOp|ToneOp|POVOp|AgencyOp|DialogueOp|WorldBuildingOp|DevelopmentOp|WorldLogicOp|VisualOp|ProseRules|Custom|Narrator)>)(?<=(?<![\\s\\S])[\\t \\r\\n]*<atelier_runtime>(?:(?!<\\/atelier_runtime>)[\\s\\S])*?)<(?<field>StakesRules|BiasRules|SmutRules|ViolenceRules|RomanceRules|HumorRules|LengthRules|SensoryRules|ToneRules|POVRules|AgencyRules|DialogueRules|WorldBuildingRules|DevelopmentRules|WorldLogicRules|VisualRules|StakesOp|BiasOp|SmutOp|ViolenceOp|RomanceOp|HumorOp|LengthOp|SensoryOp|ToneOp|POVOp|AgencyOp|DialogueOp|WorldBuildingOp|DevelopmentOp|WorldLogicOp|VisualOp|ProseRules|Custom|Narrator)>(?<body>[^<{}]{0,12000})<\\/\\k<field>>/g",
+  "replaceString": "{{#if .ARTxOK}}{{setvar::ARTxSeen$<field>::1}}{{#setvar::ARTx$<field>}}$<body>{{/setvar}}{{/if}}$0",
+  "trimStrings": [],
+  "placement": [
+    1,
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": false,
+  "promptOnly": true,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

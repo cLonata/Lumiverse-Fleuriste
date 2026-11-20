@@ -1,0 +1,17 @@
+{
+  "id": "bcef5025-09b6-4619-85ca-e239f29ffaad",
+  "scriptName": "Emoji FX - Crown/Royalty",
+  "findRegex": "/(👑|⚜️)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:shimmer 2s ease-in-out infinite;filter:drop-shadow(0 0 5px #ffd700);\">$1</span><style>@keyframes shimmer{0%,100%{filter:drop-shadow(0 0 3px #ffd700) brightness(1)}50%{filter:drop-shadow(0 0 8px #ffd700) brightness(1.3)}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

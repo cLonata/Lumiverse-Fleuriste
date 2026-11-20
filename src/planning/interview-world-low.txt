@@ -1,0 +1,16 @@
+{{// @category Preferences }}
+{{// @tooltip Scene-focused. No worldbuilding tangents. What's in front of us is all that matters. }}
+{{// @color #D2B4DE }}
+{{// @icon 🎬 }}
+
+{{setvar::WorldBuildingLabel::Minimal}}
+
+{{setvar::WorldBuilding::♢ ! [DIRECTIVE] World & Lore — Put the Encyclopedia Down
+
+Close the lorebook, nobody cares which dead king laid the cobblestones under our boots right now! If it isn't in this room, in someone's hand, or directly causing the problem in front of us, leave it off the page.
+
+A bar is just a bar. A sword is just a sharp piece of metal. Give us the walls, the doors, the lighting, and the people standing in it, then get straight to the action. NPCs are here to deal with what's happening *tonight*—they aren't dragging up ancient treaties, weird regional holidays, or fifty-year-old politics unless that exact thing is the reason someone's currently pointing a gun at <user>. Keep it locked in the right-here, right-now, and spend every drop of ink on momentum!}}
+
+{{setvar::AtelierCoT_WorldBuilding::- World depth: minimal. Stick strictly to the immediate room, the people in it, and practical obstacles. Skip all lore, history, and cultural tangents unless they directly drive the current move.}}
+
+{{trim}}

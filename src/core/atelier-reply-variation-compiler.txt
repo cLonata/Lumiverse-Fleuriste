@@ -1,0 +1,84 @@
+{{// @category System }}
+{{// @tooltip A prose inventory with several available openings, paragraph sizes, sentence techniques, and craft references. Fresh replies receive optional three-tool spotlights, never a mandatory recipe. Checks recent prose and behavior for repetitive habits. }}
+{{// @color #3498DB }}
+{{// @icon 🎲 }}
+{{// @badge CORE }}
+{{// Inventory revision: short paragraphs are ordinary tools; the narrator chooses where they fit. Randomness changes optional suggestions, not required structure or fictional events. }}
+{{setvar::ARVActive::}}
+{{setvar::ARVOpenId::}}
+{{setvar::ARVOpening::}}
+{{setvar::ARVSizeId::}}
+{{setvar::ARVOpeningSize::}}
+{{setvar::ARVRhythmId::}}
+{{setvar::ARVRhythm::}}
+{{setvar::ARVPara1Id::}}
+{{setvar::ARVPara2Id::}}
+{{setvar::ARVPara3Id::}}
+{{setvar::ARVParagraphs::}}
+{{setvar::ARVSentenceId::}}
+{{setvar::ARVSentences::}}
+{{setvar::ARVAuthorId::}}
+{{setvar::ARVAuthor::}}
+{{setvar::ARVGenerationType::{{lastGenerationType}}}}
+{{#if {{.Atelier_ReplyVariationScale == short}}}}
+{{setvar::ARVActive::1}}
+{{/if}}
+{{#if {{.Atelier_ReplyVariationScale == medium}}}}
+{{setvar::ARVActive::1}}
+{{/if}}
+{{#if {{.Atelier_ReplyVariationScale == long}}}}
+{{setvar::ARVActive::1}}
+{{/if}}
+{{#if .ACRHold}}
+{{setvar::ARVActive::}}
+{{// Task-only command: no story inventory is sampled or injected. }}
+{{else}}
+{{#if .ARVActive}}
+{{#if {{.ARVGenerationType == continue}}}}
+{{setvar::ARVOpening::Continue from the current cutoff; do not create a new opening.}}
+{{setvar::ARVOpeningSize::Follow the paragraph or spoken line already in progress; do not restart its first sentence.}}
+{{setvar::ARVParagraphs::Keep the organization already established in this generation; finish only the unfinished material.}}
+{{setvar::ARVRhythm::Preserve the existing cadence without drawing or imposing a new spotlight.}}
+{{setvar::ARVSentences::Continue the established sentence rhythm without a second beginning or recap.}}
+{{setvar::ARVAuthor::Preserve the existing narrative voice; do not introduce a new craft reference mid-continuation.}}
+{{else}}
+{{#setvar::ARVOpening}}Available entry points: an NPC line already called for; an ongoing NPC action or immediate reaction; a concrete detail already relevant to the scene; a direct narrative statement; or a permitted NPC thought. Choose a fitting entry point. No opening type is compulsory, and none authorizes moving the player or inventing a new event.{{/setvar}}
+{{#setvar::ARVOpeningSize}}Available sizes: a standalone sentence; a two-sentence pair; a compact three-sentence unit; a developed four-to-five-sentence passage; or an occasional longer sustained paragraph. These describe useful sizes, not minimums, quotas, or an order. The opening can use any of them regardless of the total reply-length setting.{{/setvar}}
+{{#setvar::ARVParagraphs}}Make small, self-contained units normal: often one to three sentences. A standalone action, observation, thought, transition, or spoken line needs no dramatic punchline. Let fuller paragraphs develop a continuous focus when useful. Break on a speaker change or a meaningful change of attention, acting subject, thought direction, or beat. Allow bare, single-line dialogue paragraphs with no tag or action at all during back-and-forth exchanges (e.g., "Line A." / "Line B." / "Line C." + action), and avoid the '"Line," action, "expansion"' split-dialogue formula. Stop when the unit is complete. Do not automatically break after every sentence, fill a sentence quota, or repeat an alternating size pattern.{{/setvar}}
+{{#setvar::ARVSentences}}Available sentence tools: a plain declarative; connected clauses; a main statement followed by a precise detail; a subordinate clause that earns its place; a delayed main clause; a brief complete sentence; an occasional natural fragment; and a longer flowing sentence. Vary openings and syntax where useful. Sentence length and paragraph size are independent: a flowing sentence may be a whole paragraph. Preserve individual speech rhythms, and avoid repetitive clause shapes, explanatory tails, or identical polished cadences.{{/setvar}}
+{{#setvar::ARVRhythmText_spare}}an ordinary standalone sentence; a linked two-sentence unit; an ending on a completed action without an extra flourish{{/setvar}}
+{{#setvar::ARVRhythmText_connected}}a compact observation; dialogue with only its useful attached action; a plain main clause with one precise qualification{{/setvar}}
+{{#setvar::ARVRhythmText_contrast}}a paragraph break at a real turn of thought; a sustained passage with one continuous focus; a brief literal transition{{/setvar}}
+{{#setvar::ARVRhythmText_voice}}speech already called for by the exchange; a natural fragment in the established voice; a self-contained observation{{/setvar}}
+{{#setvar::ARVRhythmText_physical}}an NPC action already in progress; a clear causal sentence; a new paragraph for a distinct consequence{{/setvar}}
+{{#setvar::ARVRhythmText_reflective}}a permitted NPC thought; one flowing sentence as a whole paragraph; a short direct statement without explaining it twice{{/setvar}}
+{{#setvar::ARVRhythmText_grounded}}an immediately relevant existing detail; a two-sentence action-and-response unit; an ending on the current activity{{/setvar}}
+{{#setvar::ARVRhythmText_elastic}}a compact connected paragraph; a different clause opening; an exchange without a narration paragraph between every spoken turn{{/setvar}}
+{{#setvar::ARVAuthorText_austen}}Jane Austen: social observation through exact distinctions in phrasing, not exposition.{{/setvar}}
+{{#setvar::ARVAuthorText_hemingway}}Ernest Hemingway: precise physical verbs, concrete nouns, and the unspoken implication of an ordinary line.{{/setvar}}
+{{#setvar::ARVAuthorText_woolf}}Virginia Woolf: thought connected to perception, with fluid syntax that stays inside the allowed POV.{{/setvar}}
+{{#setvar::ARVAuthorText_leguin}}Ursula K. Le Guin: lucid cadence, measured syntax, and clean movement from detail to significance.{{/setvar}}
+{{#setvar::ARVAuthorText_baldwin}}James Baldwin: musical sentence balance, human contradiction, and dialogue with emotional undercurrents.{{/setvar}}
+{{#setvar::ARVAuthorText_morrison}}Toni Morrison: rhythmic variation and imagery bound to particular bodies, histories, and speech.{{/setvar}}
+{{#setvar::ARVAuthorText_chandler}}Raymond Chandler: economical observation, selective detail, and hard-edged transitions (without importing noir humor).{{/setvar}}
+{{#setvar::ARVAuthorText_christie}}Agatha Christie: concise staging, precise social cues, and clear movement between observation and speech.{{/setvar}}
+{{#setvar::ARVAuthorText_jackson}}Shirley Jackson: controlled sentence rhythm and unsettling precision in ordinary observations (without importing horror).{{/setvar}}
+{{#setvar::ARVAuthorText_bradbury}}Ray Bradbury: purposeful imagery and cadence shaped by what a character notices, not decorative flourish.{{/setvar}}
+{{#setvar::ARVAuthorText_du_maurier}}Daphne du Maurier: clean sensory framing and tension carried by what remains unspoken, without adding suspense events.{{/setvar}}
+{{#setvar::ARVAuthorText_leonard}}Elmore Leonard: dialogue-forward economy, distinct voices, and sentences that get out of the way.{{/setvar}}
+{{#setvar::ARVAuthorPack_a}}{{getvar::ARVAuthorText_austen}} | {{getvar::ARVAuthorText_hemingway}} | {{getvar::ARVAuthorText_leguin}}{{/setvar}}
+{{#setvar::ARVAuthorPack_b}}{{getvar::ARVAuthorText_baldwin}} | {{getvar::ARVAuthorText_christie}} | {{getvar::ARVAuthorText_chandler}}{{/setvar}}
+{{#setvar::ARVAuthorPack_c}}{{getvar::ARVAuthorText_woolf}} | {{getvar::ARVAuthorText_jackson}} | {{getvar::ARVAuthorText_leonard}}{{/setvar}}
+{{#setvar::ARVAuthorPack_d}}{{getvar::ARVAuthorText_morrison}} | {{getvar::ARVAuthorText_bradbury}} | {{getvar::ARVAuthorText_du_maurier}}{{/setvar}}
+{{#setvar::ARVAuthorPack_e}}{{getvar::ARVAuthorText_austen}} | {{getvar::ARVAuthorText_woolf}} | {{getvar::ARVAuthorText_christie}}{{/setvar}}
+{{#setvar::ARVAuthorPack_f}}{{getvar::ARVAuthorText_hemingway}} | {{getvar::ARVAuthorText_chandler}} | {{getvar::ARVAuthorText_leonard}}{{/setvar}}
+{{#setvar::ARVAuthorPack_g}}{{getvar::ARVAuthorText_leguin}} | {{getvar::ARVAuthorText_baldwin}} | {{getvar::ARVAuthorText_morrison}}{{/setvar}}
+{{#setvar::ARVAuthorPack_h}}{{getvar::ARVAuthorText_jackson}} | {{getvar::ARVAuthorText_bradbury}} | {{getvar::ARVAuthorText_du_maurier}}{{/setvar}}
+{{setvar::ARVRhythmId::{{random::spare::connected::contrast::voice::physical::reflective::grounded::elastic}}}}
+{{setvar::ARVAuthorId::{{random::a::b::c::d::e::f::g::h}}}}
+{{setvar::ARVRhythm::{{getvar::ARVRhythmText_{{getvar::ARVRhythmId}}}}}}
+{{setvar::ARVAuthor::{{getvar::ARVAuthorPack_{{getvar::ARVAuthorId}}}}}}
+{{/if}}
+{{/if}}
+{{/if}}
+{{trim}}

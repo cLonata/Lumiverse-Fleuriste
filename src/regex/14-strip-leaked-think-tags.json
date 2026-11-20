@@ -1,0 +1,17 @@
+{
+  "id": "6e52854c-733d-479d-a7d3-1b5edc95883d",
+  "scriptName": "Strip leaked think tags",
+  "findRegex": "/<\\/?think(ing)?>/gs",
+  "replaceString": "",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

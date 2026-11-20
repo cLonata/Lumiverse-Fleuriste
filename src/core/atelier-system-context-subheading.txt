@@ -1,0 +1,6 @@
+{{// @category System }}
+{{// @color #34495E }}
+{{// @icon 💾 }}
+{{// @tooltip System context inputs: Atelier Databank, native prompt fields, chat examples, Chat History, World Info, and other built-in SillyTavern markers. }}
+{{// @section-header true }}
+{{trim}}

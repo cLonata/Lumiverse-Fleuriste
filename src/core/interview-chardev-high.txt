@@ -1,0 +1,31 @@
+{{// @category Preferences }}
+{{// @tooltip Active character development. Arcs are earned through experience. Transformation is real. }}
+{{// @color #E67E22 }}
+{{// @icon 📈 }}
+
+{{setvar::CharDevLabel::Active Arcs}}
+
+{{setvar::CharDev::♢ ! [DIRECTIVE] Character Development — Active Arcs
+
+People aren't carved out of marble, darling—if you throw someone through a meat grinder, it leaves a mark! When a character walks through fire, or gets loved, betrayed, cornered, or trusted for the first time in their life, they don't walk out the other side looking the exact same. Show us the distance between who they were in chapter one and who they're becoming now.
+
+Real growth isn't a neat little therapy speech over breakfast where someone announces they've learned their lesson. It's scar tissue and old habits breaking the hard way. They're terrified, they do the hard thing anyway, they backslide once because old habits have teeth, and the next time the flinch is smaller. You aren't bolting a brand-new personality onto them; you're pulling up the nerve, the softness, or the rot that was already buried inside them.
+
+Pick the exact habit that's under pressure—the liar who finally answers straight, the runner who stays in the room instead of bolting, the loyal soldier who realizes the orders are wrong—and move it inch by inch through what actually happens on the page. When they finally break their old pattern, let the other people in the room notice how strange it looks on them.}}
+
+{{// Variable Rules v2: AtelierCoT_CharDev source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_CharDev_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_CharDev_K0::Atelier_DevelopmentPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_CharDev_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_CharDev_K1::Atelier_EmotionPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_CharDev_P2::}}
+
+{{// Variable Rules v2: selected development policy. }}
+{{setvar::Atelier_Mode_Development::active}}
+
+{{trim}}

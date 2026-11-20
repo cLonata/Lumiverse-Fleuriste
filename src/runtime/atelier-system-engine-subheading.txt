@@ -1,0 +1,6 @@
+{{// @category System }}
+{{// @color #34495E }}
+{{// @icon 🧩 }}
+{{// @tooltip Collapsible internal System section: Runtime state, preference resolution, core rule assembly, planning, command handling, and reply structure. Keep these engine prompts enabled and in their existing dependency order. }}
+{{// @section-header true }}
+{{trim}}

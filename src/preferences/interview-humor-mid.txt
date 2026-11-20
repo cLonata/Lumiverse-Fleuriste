@@ -1,0 +1,20 @@
+{{// @category Preferences }}
+{{// @tooltip Humor appears naturally when the moment allows. No special modifier. }}
+{{// @color #F39C12 }}
+{{// @icon 😊 }}
+
+{{setvar::HumorLabel::Occasional}}
+
+{{setvar::Humor::}}
+
+{{// Variable Rules v2: AtelierCoT_Humor source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_Humor_P0::}}
+
+{{setvar::Atelier_Input_AtelierCoT_Humor_K0::Atelier_HumorPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Humor_P1::}}
+
+{{// Variable Rules v2: selected humor policy. }}
+{{setvar::Atelier_Mode_Humor::occasional}}
+
+{{trim}}

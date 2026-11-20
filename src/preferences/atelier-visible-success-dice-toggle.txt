@@ -1,0 +1,11 @@
+{{// @category System }}
+{{// @tooltip Show meaningful d100 results as compact roll cards alongside the story, including the affected check, outcome, influence, and expandable calculation. Uses exactly the same underlying dice rules as Hidden. Off by default. }}
+{{// @color #2E86AB }}
+{{// @icon 🎲 }}
+{{// @badge PICK-ONE }}
+{{// @mutual-exclusive-group Atelier-Success-Dice }}
+{{// @exclusive-with-message Enable either Hidden or Visible Success Dice, not both. }}
+{{setvar::ASDSelected::1}}
+{{setvar::ASDVisibility::visible}}
+{{addvar::ASDModeCount::1}}
+{{trim}}

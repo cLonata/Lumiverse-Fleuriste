@@ -1,0 +1,2 @@
+{{// @category Atelier-Runtime }}
+{{// @section-header true }}{{trim}}

@@ -1,0 +1,17 @@
+{
+  "id": "c5e26c28-76be-4a2c-a89e-3f283ab85d9b",
+  "scriptName": "Emoji FX - Lock/Key",
+  "findRegex": "/(🔒|🔓|🗝️)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:jiggle 0.5s ease-in-out;filter:drop-shadow(0 0 3px #c0c0c0);\">$1</span><style>@keyframes jiggle{0%,100%{transform:rotate(0)}20%{transform:rotate(-3deg)}40%{transform:rotate(3deg)}60%{transform:rotate(-2deg)}80%{transform:rotate(1deg)}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

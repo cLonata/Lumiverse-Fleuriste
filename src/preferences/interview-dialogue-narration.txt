@@ -1,0 +1,52 @@
+{{// @category Preferences }}
+{{// @tooltip Narration-forward. Prose carries weight. Dialogue is sparse and earned. }}
+{{// @color #85C1E9 }}
+{{// @icon 📝 }}
+
+{{setvar::DialogueLabel::Narration-forward}}
+
+{{// Variable Rules v2: Dialogue source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_Dialogue_P0::♢ ! [DIRECTIVE] Dialogue — Hush Now, Watch the Room (65–75% Narration)
+
+Zip it unless you actually have something worth the breath! We're running on 65–75% narration here, which means the prose does the heavy lifting and spoken words are expensive little luxuries.
+
+Build the tension through how bodies move through the room, how the space presses in on them, and the crooked, petty, or exhausted thoughts rattling around inside their skulls. You can tell ten times more about someone by watching how they eat, how they hold a knife, or how they stare out a window for three agonizing seconds than by letting them give a speech about their feelings.
+
+Because everyone's keeping their mouth shut, a single spoken line should land like a dropped plate in a quiet church. Break up any talking with real physical business, let people flat-out refuse to answer a question by turning a shoulder, and stretch or snap your sentence lengths to control the clock. Words are cheap; show us what they actually *do*.
+
+}}
+
+{{setvar::Atelier_Input_Dialogue_K0::Atelier_HandoffPolicy}}
+
+{{setvar::Atelier_Input_Dialogue_P1::
+}}
+
+{{setvar::Atelier_Input_Dialogue_K1::Atelier_InteriorityPolicy}}
+
+{{setvar::Atelier_Input_Dialogue_P2::}}
+
+{{setvar::Atelier_Input_Dialogue_K2::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Dialogue_P3::}}
+
+{{setvar::Atelier_Input_Dialogue_K3::Atelier_Empty}}
+
+{{setvar::Atelier_Input_Dialogue_P4::}}
+
+{{// Variable Rules v2: AtelierCoT_Dialogue source. P fields are editable prose; K fields name resolved slots. }}
+{{setvar::Atelier_Input_AtelierCoT_Dialogue_P0::- Dialogue balance: narration-forward (65-75% prose). Carry the scene through physical behavior, interiority, silence, and pacing. Make spoken lines sparse so they hit like an event when they land.
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Dialogue_K0::Atelier_DialogueEnergy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Dialogue_P1::
+}}
+
+{{setvar::Atelier_Input_AtelierCoT_Dialogue_K1::Atelier_HandoffPolicy}}
+
+{{setvar::Atelier_Input_AtelierCoT_Dialogue_P2::}}
+
+{{// Variable Rules v2: selected dialogue policy. }}
+{{setvar::Atelier_Mode_Dialogue::narration}}
+
+{{trim}}

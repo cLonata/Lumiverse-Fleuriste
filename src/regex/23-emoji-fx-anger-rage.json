@@ -1,0 +1,17 @@
+{
+  "id": "c550ce8d-2422-4e6a-8a1d-28522ac9b50b",
+  "scriptName": "Emoji FX - Anger/Rage",
+  "findRegex": "/(💢|😡)/g",
+  "replaceString": "<span style=\"display:inline-block;animation:rage 0.15s infinite;filter:drop-shadow(0 0 3px #ff0000);\">$1</span><style>@keyframes rage{0%{transform:translate(0)}25%{transform:translate(-1px,1px)}50%{transform:translate(1px,-1px)}75%{transform:translate(-1px,-1px)}100%{transform:translate(1px,1px)}}</style>",
+  "trimStrings": [],
+  "placement": [
+    2
+  ],
+  "disabled": false,
+  "markdownOnly": true,
+  "promptOnly": false,
+  "runOnEdit": true,
+  "substituteRegex": 0,
+  "minDepth": null,
+  "maxDepth": null
+}

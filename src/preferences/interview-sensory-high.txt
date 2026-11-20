@@ -1,0 +1,16 @@
+{{// @category Preferences }}
+{{// @tooltip All five senses, lush and specific. Reader feels the scene through their body. }}
+{{// @color #27AE60 }}
+{{// @icon 🌊 }}
+
+{{setvar::SensoryLabel::Immersive}}
+
+{{setvar::Sensory::♢ ! [DIRECTIVE] Sensory Detail — Immersive
+
+Put the body in the driver's seat. Make the world press right up against skin, muscle, breath, temperature, and balance so we actually feel what it's like to stand in that room.
+
+Don't just lean on what people see—layer in the rest. Give us the sounds that carry distance or threat, the exact texture and temperature of what someone touches, the smells that drag up old memories, and the sharp taste of blood, sweat, or cold air. Track how characters carry their own weight, too: the ache in a tired back, clumsy cold fingers, or how fear and relief physically hit the stomach before the brain catches up. Keep every sensory note tied to motion, pressure, or character focus—never pause the story just to write a pretty catalog of the room.}}
+
+{{setvar::AtelierCoT_Sensory::- Sensory detail: vivid. Check light, sound, smell, temperature, texture, taste, and body state. Pick physical details that sharpen emotion, risk, or motion without stalling the scene.}}
+
+{{trim}}
